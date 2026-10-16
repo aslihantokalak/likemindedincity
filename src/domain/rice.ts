@@ -1,4 +1,5 @@
 import type { BacklogItem } from "./types";
+import { byString } from "./compare";
 
 type RiceInputs = Pick<BacklogItem, "reach" | "impact" | "confidence" | "effort">;
 
@@ -9,5 +10,5 @@ export function riceScore({ reach, impact, confidence, effort }: RiceInputs): nu
 
 /** Highest score first; equal scores ordered by id. Returns a new array. */
 export function rankBacklog(items: BacklogItem[]): BacklogItem[] {
-  return [...items].sort((a, b) => riceScore(b) - riceScore(a) || a.id.localeCompare(b.id));
+  return [...items].sort((a, b) => riceScore(b) - riceScore(a) || byString(a.id, b.id));
 }
