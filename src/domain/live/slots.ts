@@ -31,3 +31,10 @@ export function nextOccurrence(slot: Slot, now: Date, minLeadHours = 48): Date {
   }
   throw new Error("unreachable");
 }
+
+/** The slot a local date-time falls in: before 12:00 morning, before 17:00 afternoon, else evening. */
+export function slotAt(d: Date): Slot {
+  const day = DAYS[(d.getDay() + 6) % 7]!;
+  const h = d.getHours();
+  return `${day}_${h < 12 ? "morning" : h < 17 ? "afternoon" : "evening"}`;
+}
