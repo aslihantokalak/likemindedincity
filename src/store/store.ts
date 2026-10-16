@@ -1,5 +1,6 @@
 import type { Feedback, MeetupEvent, Member, NewMember, Rsvp, SeedData } from "../domain/types";
 import { seedBase } from "../domain/live/seed-time";
+import { istanbulParts, istanbulTime } from "../domain/live/slots";
 
 /** Everything the app reads and writes. Swap LocalStore for a backend-backed implementation to go multi-user. */
 export interface Store {
@@ -23,11 +24,11 @@ export type StoreData = { members: Member[]; events: MeetupEvent[]; feedback: Fe
 /** Turns the relative seed into dates around `now` (see SeedData for the rules). */
 export function materializeSeed(seed: SeedData, now: Date): StoreData {
   const base = seedBase(now).getTime();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const today = istanbulParts(now);
   return {
     members: seed.members.map(({ createdDaysAgo, createdMinuteOfDay, ...m }) => ({
       ...m,
-      createdAt: new Date(today.getFullYear(), today.getMonth(), today.getDate() - createdDaysAgo, 0, createdMinuteOfDay).toISOString(),
+      createdAt: istanbulTime(today.year, today.month, today.day - createdDaysAgo, 0, createdMinuteOfDay).toISOString(),
     })),
     events: seed.events.map(({ startsOffsetMin, ...e }) => ({ ...e, startsAt: new Date(base + startsOffsetMin * 60_000).toISOString() })),
     feedback: seed.feedback.map(f => ({ ...f, meetAgain: [...f.meetAgain] })),

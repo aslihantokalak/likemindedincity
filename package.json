@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "TZ=Europe/Istanbul vitest run",
+    "test": "TZ=Europe/Istanbul vitest run && TZ=America/New_York vitest run tests/unit/live-slots.test.ts tests/unit/live-events.test.ts tests/unit/store.test.ts tests/unit/seed.test.ts",
     "e2e": "TZ=Europe/Istanbul playwright test",
     "gen:users": "tsx scripts/generate-users.ts",
     "typecheck": "tsc --noEmit",

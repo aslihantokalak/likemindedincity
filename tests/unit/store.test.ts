@@ -1,7 +1,7 @@
 import { LocalStore } from "../../src/store/local-store";
 import { materializeSeed } from "../../src/store/store";
 import { SEED } from "../../src/data/seed";
-import { slotAt } from "../../src/domain/live/slots";
+import { istanbulParts, slotAt } from "../../src/domain/live/slots";
 import type { NewMember } from "../../src/domain/types";
 
 class FakeStorage implements Storage {
@@ -41,11 +41,12 @@ test("materializeSeed keeps weekdays and times, keeps past in the past and upcom
 test("materializeSeed: members joined on earlier days at their minute of day", () => {
   const data = materializeSeed(SEED, now());
   const s = SEED.members[0]!;
-  const created = new Date(data.members[0]!.createdAt);
-  expect(created < now()).toBe(true);
-  expect(created.getHours() * 60 + created.getMinutes()).toBe(s.createdMinuteOfDay);
-  const today = new Date(now().getFullYear(), now().getMonth(), now().getDate());
-  expect(Math.round((today.getTime() - new Date(created.getFullYear(), created.getMonth(), created.getDate()).getTime()) / 86_400_000)).toBe(s.createdDaysAgo);
+  const created = istanbulParts(new Date(data.members[0]!.createdAt));
+  const today = istanbulParts(now());
+  expect(new Date(data.members[0]!.createdAt) < now()).toBe(true);
+  expect(created.hour * 60 + created.minute).toBe(s.createdMinuteOfDay);
+  const dayNumber = (p: { year: number; month: number; day: number }) => Date.UTC(p.year, p.month, p.day) / 86_400_000;
+  expect(dayNumber(today) - dayNumber(created)).toBe(s.createdDaysAgo);
 });
 
 test("first load materializes the seed", () => {

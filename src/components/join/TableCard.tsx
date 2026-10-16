@@ -1,4 +1,5 @@
 import type { MeetupEvent } from "../../domain/types";
+import { MEETUP_TIME_ZONE } from "../../domain/live/slots";
 
 const WORDS = ["", "One", "Two", "Three", "Four", "Five", "Six"];
 
@@ -11,8 +12,8 @@ export function asHint(reason: string): string {
 export function formatWhen(iso: string): { day: string; time: string } {
   const d = new Date(iso);
   return {
-    day: d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }),
-    time: d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }),
+    day: d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: MEETUP_TIME_ZONE }),
+    time: d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: MEETUP_TIME_ZONE }),
   };
 }
 

@@ -27,3 +27,8 @@ test("slotAt reads the slot back from a date", () => {
   expect(slotAt(new Date("2026-10-25T10:00:00+03:00"))).toBe("sun_morning");
   expect(slotAt(new Date("2026-10-24T14:00:00+03:00"))).toBe("sat_afternoon");
 });
+
+test("formatWhen shows İstanbul time whatever the visitor's zone", async () => {
+  const { formatWhen } = await import("../../src/components/join/TableCard");
+  expect(formatWhen(new Date("2026-10-22T19:30:00+03:00").toISOString())).toEqual({ day: "Thursday 22 October", time: "19:30" });
+});
