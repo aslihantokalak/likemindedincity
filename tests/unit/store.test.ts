@@ -93,6 +93,19 @@ test("corrupt JSON falls back to the seed and warns", () => {
   warn.mockRestore();
 });
 
+test.each([
+  ["an object instead of a list", "{}"],
+  ["a number", "5"],
+  ["a list of non-objects", "[1,2]"],
+])("stored events that are %s fall back to the seed", (_label, value) => {
+  const storage = new FakeStorage();
+  new LocalStore({ storage, now, newId });
+  storage.setItem("likeminded:v1:events", value);
+  const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+  expect(new LocalStore({ storage, now, newId }).listEvents()).toHaveLength(SEED.events.length);
+  warn.mockRestore();
+});
+
 test("data from another version is ignored and re-seeded", () => {
   const storage = new FakeStorage();
   storage.setItem("likeminded:v0:members", "[]");

@@ -95,9 +95,9 @@ export class LocalStore implements Store {
     if (s && s.getItem(KEYS.seededAt)) {
       try {
         this.data = {
-          members: JSON.parse(s.getItem(KEYS.members) ?? "null") ?? fail("members"),
-          events: JSON.parse(s.getItem(KEYS.events) ?? "null") ?? fail("events"),
-          feedback: JSON.parse(s.getItem(KEYS.feedback) ?? "null") ?? fail("feedback"),
+          members: readList(s, KEYS.members),
+          events: readList(s, KEYS.events),
+          feedback: readList(s, KEYS.feedback),
         };
         const current = s.getItem(KEYS.current);
         this.current = current === null ? null : JSON.parse(current);
@@ -141,8 +141,11 @@ export class LocalStore implements Store {
   }
 }
 
-function fail(part: string): never {
-  throw new Error(`missing ${part}`);
+/** Parses a stored list; anything that isn't a list of objects throws so the caller restores the seed. */
+function readList<T>(s: Storage, key: string): T[] {
+  const value: unknown = JSON.parse(s.getItem(key) ?? "null");
+  if (!Array.isArray(value) || value.some(v => typeof v !== "object" || v === null)) throw new Error(`${key} is not a list`);
+  return value as T[];
 }
 
 function defaultStorage(): Storage | null {
