@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MatchSimulator from "../components/MatchSimulator.tsx";
+import { MAX_AGE_GAP, MAX_DISTANCE_KM } from "../domain/matching";
+import { sourceLink } from "../lib/site";
+
+const engineLink = sourceLink("src/domain/matching");
+---
+<BaseLayout title="Technical Design" current="technical-design">
+  <h1 class="text-3xl font-semibold tracking-tight">Technical Design</h1>
+  <div class="prose-case mt-6 max-w-3xl">
+    <p>Match Quality v2 forms groups of 4–6 in three steps. Each step is a pure function, so it can be tested on its own and explained to users.</p>
+    <ol>
+      <li><strong>Hard filters</strong> remove pairs who can't meet: farther apart than {MAX_DISTANCE_KM} km, no shared time slot, no shared language, more than {MAX_AGE_GAP} years apart, or different intent (friendship, networking or hobby partner).</li>
+      <li><strong>Similarity score</strong> weighs shared interests, books and authors, profession and schools. The score keeps each signal's contribution so the app can say <em>why</em> people were grouped.</li>
+      <li><strong>Greedy grouping</strong> starts from the most compatible pair and adds the best-fitting person until the group is full. The diversity weight rewards people who bring new interests, so groups don't become echo chambers.</li>
+    </ol>
+    <p>
+      Political views, religion, ethnicity and health data are never used (see <a href="/decision-log/002-sensitive-attributes">ADR-002</a>).
+      The engine is in {engineLink ? <a href={engineLink}><code>src/domain/matching/</code></a> : <code>src/domain/matching/</code>}.
+    </p>
+  </div>
+  <div class="mt-8">
+    <MatchSimulator client:load />
+  </div>
+  <p class="mt-6 max-w-3xl text-sm text-muted">System, sequence and privacy data-flow diagrams and the API contract are coming in milestone M2.</p>
+</BaseLayout>
