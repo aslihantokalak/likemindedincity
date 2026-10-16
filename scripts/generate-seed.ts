@@ -13,8 +13,9 @@ import { VENUES } from "../src/data/venues";
 import { BOOKS, FIRST_NAMES, INTEREST_GROUPS, PROFESSIONS, SCHOOLS } from "../src/data/vocab";
 import { int, mulberry32, pick, sample, weighted, type Rng } from "./rng";
 
-/** Monday 00:00 in İstanbul. Event times are stored as minutes from here. */
-export const SEED_REFERENCE = "2026-10-19T00:00:00+03:00";
+import { SEED_REFERENCE } from "../src/domain/live/seed-time";
+
+export { SEED_REFERENCE };
 
 const DAY_MIN = 1440;
 const DAY_MS = 86_400_000;
