@@ -4,6 +4,16 @@ Likeminded is a fictional social app that puts people in Istanbul into groups of
 
 **Live site:** https://likemindedincity.vercel.app
 
+## Try the product
+
+[`/join`](https://likemindedincity.vercel.app/join) is a working prototype of the member side:
+
+1. Sign up with your city and district (any of Turkey's 81 provinces), what you're into, and when you're free.
+2. You're seated at a surprise table with like-minded strangers, or put on a waitlist if your city doesn't have enough people yet.
+3. Say "I'm coming", or "Not this time" to give your seat back. After a meetup you can rate it and say who you'd like to meet again.
+
+It runs entirely in your browser: answers are kept in `localStorage`, next to ~300 demo members and their past and upcoming meetups. Nothing is sent anywhere. "Start over as someone new" lets you try it as several people. Everything goes through the `Store` interface in [`src/store/store.ts`](src/store/store.ts), so a real backend can replace `LocalStore` without touching the UI.
+
 ## Start here
 
 - **The matching algorithm:** [`src/domain/matching/`](src/domain/matching/): hard filters → similarity score → greedy grouping, each a pure, tested function.
@@ -17,7 +27,9 @@ npm install
 npm run dev        # http://localhost:4321
 npm test           # unit tests (Vitest)
 npm run e2e        # end-to-end and accessibility tests (Playwright)
-npm run gen:users  # regenerate the 50 synthetic users (seed 42)
+npm run gen:users  # regenerate the Match Simulator's 50 users (seed 42)
+npm run gen:seed   # regenerate the live app's demo data (seed 2026)
+npm run typecheck  # TypeScript type check
 ```
 
 ## Status

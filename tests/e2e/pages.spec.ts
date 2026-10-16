@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { MODULES, moduleHref } from "../../src/lib/modules";
 
-const routes = [...MODULES.map(m => moduleHref(m.slug)), "/decision-log/001-data-portability", "/decision-log/002-sensitive-attributes"];
+const routes = [...MODULES.map(m => moduleHref(m.slug)), "/decision-log/001-data-portability", "/decision-log/002-sensitive-attributes", "/join"];
 
 for (const route of routes) {
   test(`${route} loads with a heading and no serious a11y violations`, async ({ page }) => {
