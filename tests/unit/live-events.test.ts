@@ -100,7 +100,7 @@ test("alone in Van → waitlist needs 3", () => {
 
 test("two compatible unplaced members → waitlist needs 1", () => {
   const members = [mkMember({ id: "me", province: "Van" }), mkMember({ province: "Van" }), mkMember({ province: "Van" })];
-  expect(waitlistNeeded("me", { members, events: [] })).toBe(1);
+  expect(waitlistNeeded("me", { members, events: [] }, now)).toBe(1);
 });
 
 test("decline backfills from the unplaced pool", () => {
@@ -129,7 +129,7 @@ test("decline with no candidate leaves an under-filled event and frees the decli
   const out = declineSeat(event.id, table[0]!.id, state, now, W);
   expect(out[0]!.memberIds).toHaveLength(3);
   expect(isUnderFilled(out[0]!)).toBe(true);
-  expect(unplacedMembers("İstanbul", { members: table, events: out }).map(m => m.id)).toEqual([table[0]!.id]);
+  expect(unplacedMembers("İstanbul", { members: table, events: out }, now).map(m => m.id)).toEqual([table[0]!.id]);
 });
 
 test("formTables creates one event per group and never mixes provinces", () => {
@@ -157,4 +157,36 @@ test("an upcoming event whose time has passed counts as past", () => {
   const ev = currentEventFor("me", { members: table, events: [stale] }, now);
   expect(ev?.id).toBe("stale");
   expect(new Date(ev!.startsAt) <= now).toBe(true);
+});
+
+describe("events whose time has passed", () => {
+  const later = new Date("2026-10-28T09:00:00+03:00"); // after mkEvent's Thursday 22 Oct 19:30
+
+  test("are not offered as open seats", () => {
+    const table = four();
+    const me = mkMember({ id: "me" });
+    const { result } = seatMember("me", { members: [...table, me], events: [mkEvent(table.map(m => m.id))] }, later, W, newId);
+    expect(result.kind).not.toBe("seated");
+  });
+
+  test("free their members for new tables", () => {
+    const table = four();
+    const state = { members: table, events: [mkEvent(table.map(m => m.id))] };
+    expect(unplacedMembers("İstanbul", state, later).map(m => m.id)).toEqual(table.map(m => m.id));
+    expect(unplacedMembers("İstanbul", state, now)).toEqual([]);
+  });
+
+  test("let a member whose table already happened find a new one", () => {
+    const table = [...four(), mkMember({ id: "me" })];
+    const { result } = seatMember("me", { members: table, events: [mkEvent(table.map(m => m.id))] }, later, W, newId);
+    expect(result.kind).toBe("new");
+  });
+});
+
+test("an open seat less than 48h away is not offered", () => {
+  const table = four();
+  const me = mkMember({ id: "me" });
+  const soon = new Date("2026-10-21T21:00:00+03:00"); // 22.5h before the Thursday 19:30 table
+  const { result } = seatMember("me", { members: [...table, me], events: [mkEvent(table.map(m => m.id))] }, soon, W, newId);
+  expect(result.kind).not.toBe("seated");
 });

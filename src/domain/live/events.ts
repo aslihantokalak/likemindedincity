@@ -13,6 +13,7 @@ export type SeatResult =
   | { kind: "waitlist"; needed: number };
 
 const MIN_TABLE = 4;
+const MIN_LEAD_MS = 48 * 3_600_000; // same lead time as new tables
 const RULE = "province" as const;
 
 const mean = (xs: number[]) => (xs.length === 0 ? 0 : xs.reduce((a, b) => a + b, 0) / xs.length);
@@ -26,13 +27,14 @@ function lookup(state: LiveState): (id: string) => Member {
   };
 }
 
-const isUpcoming = (e: MeetupEvent) => e.status === "upcoming";
+/** Upcoming means not cancelled or marked past, and not yet started. Stored data ages, so time decides. */
+export const isUpcoming = (e: MeetupEvent, now: Date) => e.status === "upcoming" && new Date(e.startsAt) > now;
 
-export const isUnderFilled = (e: MeetupEvent): boolean => isUpcoming(e) && e.memberIds.length < MIN_TABLE;
+export const isUnderFilled = (e: MeetupEvent): boolean => e.status === "upcoming" && e.memberIds.length < MIN_TABLE;
 
 /** Members of the province who are not seated at any upcoming event, by id. */
-export function unplacedMembers(province: string, state: LiveState): Member[] {
-  const seated = new Set(state.events.filter(isUpcoming).flatMap(e => e.memberIds));
+export function unplacedMembers(province: string, state: LiveState, now: Date): Member[] {
+  const seated = new Set(state.events.filter(e => isUpcoming(e, now)).flatMap(e => e.memberIds));
   return state.members
     .filter(m => m.province === province && !seated.has(m.id))
     .sort((a, b) => byString(a.id, b.id));
@@ -86,25 +88,25 @@ function newEvent(members: Member[], now: Date, w: MatchWeights, newId: () => st
 }
 
 /** Members of the province who could sit with `memberId`, excluding anyone already seated. */
-function compatibleUnplaced(member: Member, state: LiveState): Member[] {
+function compatibleUnplaced(member: Member, state: LiveState, now: Date): Member[] {
   const u = toMatchUser(member);
-  return unplacedMembers(member.province, state)
+  return unplacedMembers(member.province, state, now)
     .filter(o => o.id !== member.id && checkPair(u, toMatchUser(o), RULE).ok);
 }
 
-export function waitlistNeeded(memberId: string, state: LiveState): number {
+export function waitlistNeeded(memberId: string, state: LiveState, now: Date): number {
   const member = lookup(state)(memberId);
-  return Math.max(1, MIN_TABLE - 1 - compatibleUnplaced(member, state).length);
+  return Math.max(1, MIN_TABLE - 1 - compatibleUnplaced(member, state, now).length);
 }
 
 /**
  * Builds the best table that includes `member`: repeatedly adds the unplaced member of the province who fits
  * the table best, can sit with everyone, and keeps a shared free slot. Stops at 4 for a "small" seeker, else 6.
  */
-function growTableAround(member: Member, state: LiveState, w: MatchWeights): Member[] {
+function growTableAround(member: Member, state: LiveState, now: Date, w: MatchWeights): Member[] {
   const target = member.tableSize === "small" ? 4 : 6;
   const table: Member[] = [member];
-  const pool = unplacedMembers(member.province, state).filter(m => m.id !== member.id);
+  const pool = unplacedMembers(member.province, state, now).filter(m => m.id !== member.id);
   while (table.length < target) {
     const users = table.map(toMatchUser);
     const next = pool
@@ -130,11 +132,12 @@ export function seatMember(
   const member = get(memberId);
   const me = toMatchUser(member);
 
-  const already = state.events.find(e => isUpcoming(e) && e.memberIds.includes(memberId));
+  const already = state.events.find(e => isUpcoming(e, now) && e.memberIds.includes(memberId));
   if (already) return { result: { kind: "seated", event: already }, events: state.events };
 
   const open = state.events
-    .filter(e => isUpcoming(e) && e.province === member.province && e.memberIds.length < e.capacity)
+    .filter(e => isUpcoming(e, now) && new Date(e.startsAt).getTime() - now.getTime() >= MIN_LEAD_MS)
+    .filter(e => e.province === member.province && e.memberIds.length < e.capacity)
     .map(e => ({ e, table: e.memberIds.map(get).map(toMatchUser) }))
     .filter(({ e, table }) => canJoin(me, table, slotAt(new Date(e.startsAt))))
     .map(({ e, table }) => ({ e, score: fit(me, table, w) }))
@@ -145,18 +148,17 @@ export function seatMember(
     return { result: { kind: "seated", event: seated }, events: state.events.map(e => (e.id === seated.id ? seated : e)) };
   }
 
-  const table = growTableAround(member, state, w);
+  const table = growTableAround(member, state, now, w);
   if (table.length >= MIN_TABLE) {
     const event = newEvent(table, now, w, newId);
     return { result: { kind: "new", event }, events: [...state.events, event] };
   }
 
-  return { result: { kind: "waitlist", needed: waitlistNeeded(memberId, state) }, events: state.events };
+  return { result: { kind: "waitlist", needed: waitlistNeeded(memberId, state, now) }, events: state.events };
 }
 
 /** Releases a member's seat and tries to bring the table back to 4 from the province's unplaced pool. */
 export function declineSeat(eventId: string, memberId: string, state: LiveState, now: Date, w: MatchWeights): MeetupEvent[] {
-  void now;
   const get = lookup(state);
   const event = state.events.find(e => e.id === eventId);
   if (!event || !event.memberIds.includes(memberId)) return state.events;
@@ -168,7 +170,7 @@ export function declineSeat(eventId: string, memberId: string, state: LiveState,
   while (updated.memberIds.length < MIN_TABLE) {
     const current = { ...state, events: state.events.map(e => (e.id === eventId ? updated : e)) };
     const table = updated.memberIds.map(get).map(toMatchUser);
-    const candidate = unplacedMembers(event.province, current)
+    const candidate = unplacedMembers(event.province, current, now)
       .filter(m => m.id !== memberId)
       .map(toMatchUser)
       .filter(c => canJoin(c, table, slot))
@@ -185,14 +187,14 @@ export function declineSeat(eventId: string, memberId: string, state: LiveState,
 /** Forms new tables from every unplaced member of a province. Returns only the new events. */
 export function formTables(province: string, state: LiveState, now: Date, w: MatchWeights, newId: () => string): MeetupEvent[] {
   const get = lookup(state);
-  const pool = unplacedMembers(province, state);
+  const pool = unplacedMembers(province, state, now);
   return buildGroups(pool.map(toMatchUser), w, RULE).groups.map(g => newEvent(g.members.map(get), now, w, newId));
 }
 
 /** The member's upcoming event, else their most recent past one. */
 export function currentEventFor(memberId: string, state: LiveState, now: Date): MeetupEvent | undefined {
   const mine = state.events.filter(e => e.status !== "cancelled" && e.memberIds.includes(memberId));
-  const upcoming = mine.find(e => isUpcoming(e) && new Date(e.startsAt) > now);
+  const upcoming = mine.find(e => isUpcoming(e, now));
   if (upcoming) return upcoming;
   return mine
     .filter(e => new Date(e.startsAt) <= now)

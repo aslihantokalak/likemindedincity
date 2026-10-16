@@ -93,7 +93,7 @@ export default function JoinApp() {
       </article>
     );
   } else {
-    screen = <WaitlistCard province={me.province} needed={waitlistNeeded(me.id, state)} declined={declined} />;
+    screen = <WaitlistCard province={me.province} needed={waitlistNeeded(me.id, state, now)} declined={declined} />;
   }
 
   return (
