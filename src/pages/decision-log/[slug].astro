@@ -1,0 +1,20 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const adrs = await getCollection("adr");
+  return adrs.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const code = `ADR-${String(entry.data.number).padStart(3, "0")}`;
+---
+<BaseLayout title={`${code}: ${entry.data.title}`} current="decision-log">
+  <a href="/decision-log" class="text-sm text-muted hover:text-ink">← Decision Log</a>
+  <p class="mt-4 font-mono text-sm text-muted">{code} · {entry.data.status} · {entry.data.date.toISOString().slice(0, 10)}</p>
+  <h1 class="mt-1 text-3xl font-semibold tracking-tight">{entry.data.title}</h1>
+  <article class="prose-case mt-6 max-w-3xl">
+    <Content />
+  </article>
+</BaseLayout>

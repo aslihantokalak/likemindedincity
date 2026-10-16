@@ -1,0 +1,35 @@
+---
+number: 2
+title: Sensitive attributes are excluded from matching
+status: accepted
+date: 2026-10-16
+tags: [privacy, ethics, matching]
+---
+
+## Context
+
+In discovery interviews several users said they would like to meet people "who think like me". Taken literally, that points at political views and religion, and both are easy to infer from social media activity. Some users also asked to filter by ethnicity or nationality.
+
+These are special categories of personal data under GDPR Article 9 and KVKK Article 6. Processing them needs explicit consent and a strong justification, and a breach or misuse is far more harmful than for ordinary profile data. Matching on them would also make the product a tool for excluding people, which contradicts its purpose of helping people in a city find each other.
+
+## Options
+
+1. **Allow sensitive attributes with explicit consent.** Legally possible, but it adds heavy compliance work, and consent given in an onboarding flow is rarely meaningful.
+2. **Allow them only as soft preferences.** Still requires collecting and storing the data, so the risk stays the same.
+3. **Exclude them completely.** Never collect, infer or use political views, religion, ethnicity or health information.
+
+## Decision
+
+Option 3. "Like-minded" means shared curiosity, which is what books, interests and work express. It does not mean shared identity.
+
+The exclusion is enforced in code and in tests, not only in policy:
+
+- The `User` type has no field for any special category.
+- The `persona` field, which exists only for analytics segments, is never read by the matching engine. A unit test proves that changing a user's persona leaves every match score unchanged.
+- The archive importer (ADR-001) keeps only allow-listed fields, so sensitive data never enters the system even when it is present in an export.
+
+## Consequences
+
+- **A smaller legal and security surface:** no special-category data to protect or report.
+- **Some users will be disappointed** that they can't filter for "people like me" in these ways. Support needs a clear, friendly explanation.
+- **Proxy risk remains.** Books and interests can correlate with sensitive traits. The diversity weight and regular audits of group composition are the mitigation, and the audit is a backlog item in the Safety epic.

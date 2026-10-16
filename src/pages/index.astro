@@ -1,6 +1,60 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { storyMetrics, pct } from "../domain/metrics";
+import { ACTIVE_USERS, TARGET_SECOND_MEETUP_RATE } from "../data/analytics";
+import { MODULES, moduleHref } from "../lib/modules";
+
+const m = storyMetrics();
+const points = (r: number) => `${(r * 100).toFixed(1)} pts`;
+const problem = [
+  { value: pct(m.firstMeetupRate), label: "attend their first meetup" },
+  { value: pct(m.secondMeetupRateV1), label: "come back for a second one" },
+  { value: pct(m.nothingInCommonRate), label: "of survey answers: \"we had nothing in common\"" },
+];
+const tour = [
+  { slug: "technical-design", text: "Play with the matching algorithm in the Match Simulator." },
+  { slug: "decision-log", text: "Read why we didn't pull data from social media APIs, and why sensitive attributes are never used." },
+];
+const later = MODULES.filter(x => x.milestone !== "M1");
 ---
 <BaseLayout title="Overview" current="">
-  <h1 class="text-3xl font-semibold tracking-tight">Likeminded</h1>
+  <p class="text-sm font-medium uppercase tracking-wide text-accent">PM case study</p>
+  <h1 class="mt-2 text-3xl font-semibold tracking-tight md:text-4xl">Likeminded</h1>
+  <p class="mt-4 max-w-2xl text-lg text-muted">
+    A social app that puts people in Istanbul into groups of 4–6 based on what they read, love and do, then picks a time and place for them to meet.
+  </p>
+
+  <h2 class="mt-12 text-xl font-semibold">The problem</h2>
+  <p class="mt-2 max-w-3xl">
+    Likeminded v1 has about {ACTIVE_USERS.toLocaleString("en-US")} active users and matches on age, district and five broad interests. People show up once, and then most don't come back:
+  </p>
+  <dl class="mt-6 grid gap-4 sm:grid-cols-3">
+    {problem.map(p => (
+      <div class="rounded-xl border border-line bg-surface p-5">
+        <dt class="sr-only">{p.label}</dt>
+        <dd class="text-4xl font-semibold tabular-nums">{p.value}</dd>
+        <dd class="mt-1 text-sm text-muted">{p.label}</dd>
+      </div>
+    ))}
+  </dl>
+  <p class="mt-6 max-w-3xl">
+    The problem is <strong>match quality</strong>. Match Quality v2 adds richer profile signals (profession, books, schools and intent), explains every match ("why this group") and learns from post-meetup feedback.
+  </p>
+
+  <h2 class="mt-12 text-xl font-semibold">The outcome</h2>
+  <p class="mt-2 max-w-3xl">
+    In an A/B test, second-meetup attendance rose from <strong>{pct(m.abControlRate)}</strong> to <strong>{pct(m.abTreatmentRate)}</strong>{" "}
+    (+{points(m.abCI.diff)}, 95% CI {points(m.abCI.low)} to {points(m.abCI.high)}).
+    That is a real improvement, but it missed the {pct(TARGET_SECOND_MEETUP_RATE)} target, and onboarding completion fell
+    from {pct(m.onboardingControl)} to {pct(m.onboardingTreatment)}. The Retrospective covers what we'd do next.
+  </p>
+
+  <h2 class="mt-12 text-xl font-semibold">Five-minute tour</h2>
+  <ol class="mt-3 max-w-3xl list-decimal space-y-2 pl-5">
+    {tour.map(t => {
+      const mod = MODULES.find(x => x.slug === t.slug)!;
+      return <li><a class="font-medium text-accent underline underline-offset-2" href={moduleHref(t.slug)}>{mod.title}</a>: {t.text}</li>;
+    })}
+  </ol>
+  <p class="mt-4 max-w-3xl text-sm text-muted">Coming soon: {later.map(x => x.title).join(", ")}.</p>
 </BaseLayout>

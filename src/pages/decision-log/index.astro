@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const adrs = (await getCollection("adr")).sort((a, b) => a.data.number - b.data.number);
+const upcoming = [
+  { number: 3, title: "Groups of 4–6, not one-to-one" },
+  { number: 4, title: "Rule-based scoring before machine learning" },
+  { number: 5, title: "Availability is a hard filter, not a score" },
+  { number: 6, title: "Raw social data is never stored" },
+];
+const code = (n: number) => `ADR-${String(n).padStart(3, "0")}`;
+---
+<BaseLayout title="Decision Log" current="decision-log">
+  <h1 class="text-3xl font-semibold tracking-tight">Decision Log</h1>
+  <p class="mt-4 max-w-3xl text-muted">Architecture decision records: the context, the options we weighed, what we chose and what it costs us.</p>
+  <ol class="mt-8 max-w-3xl divide-y divide-line border-y border-line">
+    {adrs.map(a => (
+      <li>
+        <a href={`/decision-log/${a.id}`} class="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-4 hover:text-accent">
+          <span class="font-mono text-sm text-muted">{code(a.data.number)}</span>
+          <span class="font-medium">{a.data.title}</span>
+          <span class="rounded-full bg-accent-soft px-2 py-0.5 text-xs text-accent">{a.data.status}</span>
+        </a>
+      </li>
+    ))}
+    {upcoming.map(a => (
+      <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-4 text-muted">
+        <span class="font-mono text-sm">{code(a.number)}</span>
+        <span>{a.title}</span>
+        <span class="text-xs">coming in M2</span>
+      </li>
+    ))}
+  </ol>
+</BaseLayout>
