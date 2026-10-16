@@ -79,3 +79,15 @@ export type MeetupEvent = {
 };
 
 export type Feedback = { eventId: string; memberId: string; rating: 1 | 2 | 3 | 4 | 5; meetAgain: string[] };
+
+/**
+ * Demo data with relative times, so the demo always looks current.
+ * Members: created `createdDaysAgo` days before today at local `createdMinuteOfDay`.
+ * Events: `startsOffsetMin` minutes from SEED_REFERENCE moved forward by whole weeks to the first Monday ≥ now
+ * (keeps weekday and time of day; past events are ≥ 7 days before the reference so they stay in the past).
+ */
+export type SeedData = {
+  members: (Omit<Member, "createdAt"> & { createdDaysAgo: number; createdMinuteOfDay: number })[];
+  events: (Omit<MeetupEvent, "startsAt"> & { startsOffsetMin: number })[];
+  feedback: Feedback[];
+};

@@ -14,7 +14,8 @@
     "e2e": "TZ=Europe/Istanbul playwright test",
     "gen:users": "tsx scripts/generate-users.ts",
     "typecheck": "tsc --noEmit",
-    "fetch:locations": "tsx scripts/fetch-locations.ts"
+    "fetch:locations": "tsx scripts/fetch-locations.ts",
+    "gen:seed": "TZ=Europe/Istanbul tsx scripts/generate-seed.ts"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.4.4",
