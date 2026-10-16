@@ -112,3 +112,19 @@ export const FIRST_NAMES: string[] = [
   "Sarp", "Ela", "Doruk", "Nehir", "Alp", "Derin", "Berk", "Ilgın", "Cem", "Pelin",
   "Maya", "Leo", "Sofia", "Omar", "Anna", "Lukas", "Nadia",
 ];
+
+/** Conversation starters for demo members' "An idea you can't stop thinking about". */
+export const IDEAS: string[] = [
+  "Cities should have more benches",
+  "Every neighbourhood needs a free tool library",
+  "We should read more books written before we were born",
+  "Ferries are the best office in İstanbul",
+  "Small talk is underrated",
+  "Most meetings could be walks",
+  "Translation is a kind of writing",
+  "Everyone should learn to cook one dish from their grandmother",
+  "Boredom is where ideas come from",
+  "Second-hand bookshops are the real social networks",
+  "We need more places to sit that don't require buying coffee",
+  "AI will make handwriting fashionable again",
+];

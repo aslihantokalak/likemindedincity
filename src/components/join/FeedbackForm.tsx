@@ -46,6 +46,20 @@ export default function FeedbackForm({ event, me, tablemates, onSend }: Props) {
           </fieldset>
         )}
 
+        {tablemates.some(t => t.idea) && (
+          <section>
+            <h2 className="mb-3 text-xs font-medium uppercase tracking-wider text-muted">What was on their minds</h2>
+            <ul className="space-y-3">
+              {tablemates.filter(t => t.idea).map(t => (
+                <li key={t.id}>
+                  <p className="font-serif text-lg leading-snug">“{t.idea}”</p>
+                  <p className="text-sm text-muted">{t.firstName}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <button type="submit" disabled={rating === null}
           className="rounded-full bg-accent px-6 py-3 font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-40">
           Send

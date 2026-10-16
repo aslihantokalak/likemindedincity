@@ -10,7 +10,7 @@ import { DEFAULT_WEIGHTS } from "../src/domain/matching";
 import { districtsOf } from "../src/data/locations";
 import { LANGUAGES } from "../src/data/live-vocab";
 import { VENUES } from "../src/data/venues";
-import { BOOKS, FIRST_NAMES, INTEREST_GROUPS, PROFESSIONS, SCHOOLS } from "../src/data/vocab";
+import { BOOKS, FIRST_NAMES, IDEAS, INTEREST_GROUPS, PROFESSIONS, SCHOOLS } from "../src/data/vocab";
 import { int, mulberry32, pick, sample, weighted, type Rng } from "./rng";
 
 import { SEED_REFERENCE } from "../src/domain/live/seed-time";
@@ -71,6 +71,7 @@ function makeMember(rng: Rng, index: number, province: string): SeedMember {
   if (rng() < 0.55) m.book = pick(rng, BOOKS).title;
   if (rng() < 0.7) m.profession = pick(rng, PROFESSIONS).profession;
   if (rng() < 0.5) m.school = pick(rng, SCHOOLS);
+  if (rng() < 0.4) m.idea = pick(rng, IDEAS);
   return m;
 }
 

@@ -32,29 +32,28 @@ export const SEED: SeedData = {
   {
    "id": "s002",
    "firstName": "Deniz",
-   "age": 36,
+   "age": 45,
    "province": "İstanbul",
-   "district": "Beylikdüzü",
-   "intent": "friendship",
+   "district": "Beşiktaş",
+   "intent": "networking",
    "interests": [
+    "investing",
     "venture capital",
-    "public speaking",
-    "design"
+    "saas"
    ],
    "availability": [
     "mon_evening",
-    "wed_evening",
-    "sat_afternoon",
-    "sat_evening"
+    "wed_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 239,
-   "book": "Dune",
-   "school": "Bilkent University"
+   "createdDaysAgo": 44,
+   "createdMinuteOfDay": 1221,
+   "book": "The Alchemist",
+   "profession": "Chef",
+   "idea": "Most meetings could be walks"
   },
   {
    "id": "s003",
@@ -82,7 +81,8 @@ export const SEED: SeedData = {
    "createdDaysAgo": 57,
    "createdMinuteOfDay": 610,
    "book": "Mrs Dalloway",
-   "profession": "Chef"
+   "profession": "Chef",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
    "id": "s004",
@@ -92,11 +92,9 @@ export const SEED: SeedData = {
    "district": "Üsküdar",
    "intent": "friendship",
    "interests": [
-    "travel",
-    "language exchange",
-    "cooking",
-    "photography",
-    "yoga"
+    "chess",
+    "film",
+    "literary fiction"
    ],
    "availability": [
     "mon_evening",
@@ -111,7 +109,8 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 56,
    "createdMinuteOfDay": 1151,
-   "book": "Kafka on the Shore"
+   "book": "Kafka on the Shore",
+   "idea": "Ferries are the best office in İstanbul"
   },
   {
    "id": "s005",
@@ -121,11 +120,9 @@ export const SEED: SeedData = {
    "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "travel",
-    "language exchange",
-    "cooking",
-    "dancing",
-    "hiking"
+    "productivity",
+    "podcasts",
+    "startups"
    ],
    "availability": [
     "tue_evening",
@@ -139,105 +136,99 @@ export const SEED: SeedData = {
    "createdDaysAgo": 56,
    "createdMinuteOfDay": 1358,
    "profession": "Founder",
-   "school": "Koç University"
+   "school": "Koç University",
+   "idea": "Every neighbourhood needs a free tool library"
   },
   {
    "id": "s006",
    "firstName": "Ece",
-   "age": 33,
+   "age": 37,
    "province": "İstanbul",
-   "district": "Avcılar",
+   "district": "Kadıköy",
    "intent": "friendship",
    "interests": [
-    "street food",
-    "football",
-    "dancing",
-    "language exchange",
-    "board games",
-    "classical music"
+    "podcasts",
+    "product management",
+    "venture capital",
+    "design",
+    "public speaking"
    ],
    "availability": [
-    "mon_evening",
-    "fri_evening"
+    "fri_evening",
+    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 39,
-   "createdMinuteOfDay": 1252,
-   "book": "The Brothers Karamazov",
-   "profession": "Architect",
+   "tableSize": "medium",
+   "createdDaysAgo": 54,
+   "createdMinuteOfDay": 1104,
    "school": "METU"
   },
   {
    "id": "s007",
    "firstName": "Emre",
-   "age": 26,
+   "age": 44,
    "province": "İstanbul",
    "district": "Beyoğlu",
-   "intent": "networking",
+   "intent": "friendship",
    "interests": [
-    "philosophy",
-    "museums",
-    "literary fiction"
+    "classical music",
+    "literary fiction",
+    "film"
    ],
    "availability": [
     "wed_evening",
     "sat_afternoon"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 1373,
-   "profession": "Founder",
-   "school": "Ankara Fen Lisesi"
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 1270,
+   "book": "The Brothers Karamazov",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
    "id": "s008",
    "firstName": "Selin",
-   "age": 31,
+   "age": 22,
    "province": "İstanbul",
    "district": "Kadıköy",
    "intent": "friendship",
    "interests": [
-    "film",
-    "museums",
-    "chess",
     "art house cinema",
     "coffee",
-    "dancing"
+    "philosophy",
+    "tea",
+    "street food"
    ],
    "availability": [
     "mon_afternoon",
-    "mon_evening",
-    "tue_afternoon"
+    "wed_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 7,
-   "createdMinuteOfDay": 1143,
-   "book": "The Time Regulation Institute",
-   "profession": "Investment Analyst",
-   "school": "Galatasaray University"
+   "tableSize": "small",
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 442,
+   "book": "Anna Karenina",
+   "profession": "Teacher"
   },
   {
    "id": "s009",
    "firstName": "Burak",
    "age": 34,
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Şişli",
    "intent": "hobby_partner",
    "interests": [
-    "museums",
-    "poetry",
-    "art house cinema",
-    "coffee"
+    "product management",
+    "fintech",
+    "growth marketing",
+    "saas"
    ],
    "availability": [
     "tue_morning",
@@ -251,138 +242,47 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 40,
    "createdMinuteOfDay": 1316,
-   "book": "The Brothers Karamazov"
+   "book": "The Brothers Karamazov",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
    "id": "s010",
    "firstName": "Defne",
-   "age": 38,
+   "age": 31,
    "province": "İstanbul",
-   "district": "Ümraniye",
-   "intent": "networking",
+   "district": "Tuzla",
+   "intent": "friendship",
    "interests": [
-    "language exchange",
-    "cycling",
-    "dancing",
-    "cooking"
+    "tea",
+    "film",
+    "art house cinema"
    ],
    "availability": [
-    "tue_afternoon",
     "wed_evening",
-    "thu_evening",
     "sat_afternoon"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 1273,
-   "book": "Kuyucaklı Yusuf",
-   "profession": "Product Designer"
+   "createdDaysAgo": 53,
+   "createdMinuteOfDay": 850,
+   "idea": "Translation is a kind of writing"
   },
   {
    "id": "s011",
    "firstName": "Kerem",
-   "age": 31,
-   "province": "İstanbul",
-   "district": "Fatih",
-   "intent": "friendship",
-   "interests": [
-    "tea",
-    "classical music",
-    "museums",
-    "journaling"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1146,
-   "profession": "Accountant"
-  },
-  {
-   "id": "s012",
-   "firstName": "İpek",
-   "age": 23,
-   "province": "İstanbul",
-   "district": "Beykoz",
-   "intent": "networking",
-   "interests": [
-    "photography",
-    "travel",
-    "football",
-    "board games"
-   ],
-   "availability": [
-    "tue_evening",
-    "thu_evening",
-    "fri_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 1096,
-   "book": "Dune",
-   "profession": "Doctor",
-   "school": "Istanbul University"
-  },
-  {
-   "id": "s013",
-   "firstName": "Ozan",
-   "age": 38,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "museums",
-    "journaling",
-    "writing"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_afternoon",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 57,
-   "createdMinuteOfDay": 755,
-   "book": "Anna Karenina",
-   "profession": "Marketing Specialist",
-   "school": "METU"
-  },
-  {
-   "id": "s014",
-   "firstName": "Ayşe",
    "age": 21,
    "province": "İstanbul",
-   "district": "Üsküdar",
-   "intent": "friendship",
+   "district": "Büyükçekmece",
+   "intent": "hobby_partner",
    "interests": [
-    "chess",
-    "classical music",
-    "coffee",
-    "live music"
+    "football",
+    "photography",
+    "cooking"
    ],
    "availability": [
-    "tue_evening",
+    "fri_evening",
     "sun_afternoon",
     "sun_evening"
    ],
@@ -390,38 +290,120 @@ export const SEED: SeedData = {
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1305,
-   "profession": "Chef",
-   "school": "METU"
+   "createdDaysAgo": 14,
+   "createdMinuteOfDay": 1153,
+   "book": "Anna Karenina",
+   "profession": "Academic",
+   "school": "Kabataş Erkek Lisesi"
   },
   {
-   "id": "s015",
-   "firstName": "Baran",
-   "age": 42,
+   "id": "s012",
+   "firstName": "İpek",
+   "age": 36,
    "province": "İstanbul",
-   "district": "Şişli",
+   "district": "Çatalca",
    "intent": "friendship",
    "interests": [
-    "photography",
-    "travel",
-    "climbing",
-    "bosphorus walks",
-    "literary fiction"
+    "philosophy",
+    "writing",
+    "film"
    ],
    "availability": [
-    "fri_evening",
-    "sat_evening"
+    "wed_evening",
+    "thu_afternoon",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 22,
-   "createdMinuteOfDay": 842,
-   "book": "The Bastard of Istanbul",
+   "createdDaysAgo": 27,
+   "createdMinuteOfDay": 425,
+   "book": "Norwegian Wood",
+   "profession": "Founder"
+  },
+  {
+   "id": "s013",
+   "firstName": "Ozan",
+   "age": 39,
+   "province": "İstanbul",
+   "district": "Fatih",
+   "intent": "hobby_partner",
+   "interests": [
+    "saas",
+    "ai",
+    "product management",
+    "public speaking"
+   ],
+   "availability": [
+    "sat_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 14,
+   "createdMinuteOfDay": 673,
+   "book": "Atomic Habits",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s014",
+   "firstName": "Ayşe",
+   "age": 45,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "hobby_partner",
+   "interests": [
+    "museums",
+    "classical music",
+    "film",
+    "history",
+    "philosophy"
+   ],
+   "availability": [
+    "thu_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 877,
+   "book": "Madonna in a Fur Coat",
    "profession": "Architect"
+  },
+  {
+   "id": "s015",
+   "firstName": "Baran",
+   "age": 27,
+   "province": "İstanbul",
+   "district": "Sarıyer",
+   "intent": "networking",
+   "interests": [
+    "cycling",
+    "board games",
+    "street food",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening",
+    "thu_evening",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 53,
+   "createdMinuteOfDay": 801,
+   "book": "The Time Regulation Institute",
+   "profession": "Product Manager"
   },
   {
    "id": "s016",
@@ -455,70 +437,69 @@ export const SEED: SeedData = {
   {
    "id": "s017",
    "firstName": "Kaan",
-   "age": 39,
+   "age": 30,
    "province": "İstanbul",
    "district": "Şişli",
    "intent": "hobby_partner",
    "interests": [
-    "yoga",
-    "design",
-    "startups",
-    "growth marketing",
-    "street food"
+    "classical music",
+    "literary fiction",
+    "journaling",
+    "museums",
+    "philosophy",
+    "investing"
    ],
    "availability": [
-    "tue_evening",
-    "sat_afternoon"
+    "sun_morning",
+    "sun_afternoon"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 24,
-   "createdMinuteOfDay": 944,
-   "school": "Ankara Fen Lisesi"
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 1187,
+   "book": "Dune",
+   "school": "METU",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
    "id": "s018",
    "firstName": "Duru",
-   "age": 31,
+   "age": 30,
    "province": "İstanbul",
-   "district": "Sultangazi",
-   "intent": "friendship",
+   "district": "Şişli",
+   "intent": "networking",
    "interests": [
-    "design",
-    "yoga",
+    "product management",
     "podcasts",
-    "venture capital",
-    "street food"
+    "growth marketing",
+    "board games"
    ],
    "availability": [
-    "tue_evening",
-    "wed_evening"
+    "wed_morning",
+    "wed_evening",
+    "thu_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 769,
-   "book": "The Brothers Karamazov",
-   "profession": "Data Scientist"
+   "createdDaysAgo": 16,
+   "createdMinuteOfDay": 1243
   },
   {
    "id": "s019",
    "firstName": "Arda",
-   "age": 31,
+   "age": 41,
    "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "friendship",
+   "district": "Beşiktaş",
+   "intent": "networking",
    "interests": [
-    "yoga",
-    "public speaking",
-    "product management",
-    "productivity",
-    "venture capital",
-    "tea"
+    "street food",
+    "dancing",
+    "hiking"
    ],
    "availability": [
     "mon_evening",
@@ -527,30 +508,27 @@ export const SEED: SeedData = {
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1298,
-   "book": "Inspired",
-   "school": "Istanbul University"
+   "tableSize": "medium",
+   "createdDaysAgo": 43,
+   "createdMinuteOfDay": 1065,
+   "profession": "Editor"
   },
   {
    "id": "s020",
    "firstName": "Lara",
    "age": 37,
    "province": "İstanbul",
-   "district": "Şişli",
+   "district": "Pendik",
    "intent": "networking",
    "interests": [
+    "coffee",
+    "tea",
     "writing",
-    "classical music",
-    "art house cinema",
-    "tea"
+    "classical music"
    ],
    "availability": [
-    "mon_afternoon",
     "tue_evening",
-    "fri_evening",
-    "sat_afternoon"
+    "fri_evening"
    ],
    "languages": [
     "Turkish"
@@ -563,29 +541,30 @@ export const SEED: SeedData = {
   {
    "id": "s021",
    "firstName": "Yusuf",
-   "age": 39,
+   "age": 44,
    "province": "İstanbul",
    "district": "Kadıköy",
-   "intent": "networking",
+   "intent": "hobby_partner",
    "interests": [
-    "podcasts",
-    "venture capital",
-    "investing",
-    "running",
-    "yoga"
+    "history",
+    "museums",
+    "chess",
+    "tea",
+    "coffee"
    ],
    "availability": [
-    "fri_evening",
-    "sat_afternoon"
+    "sat_afternoon",
+    "sun_morning",
+    "sun_afternoon"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 15,
-   "createdMinuteOfDay": 1407,
-   "profession": "Investment Analyst",
-   "school": "Kabataş Erkek Lisesi"
+   "createdDaysAgo": 33,
+   "createdMinuteOfDay": 1392,
+   "book": "Memed, My Hawk"
   },
   {
    "id": "s022",
@@ -595,11 +574,9 @@ export const SEED: SeedData = {
    "district": "Bahçelievler",
    "intent": "hobby_partner",
    "interests": [
-    "classical music",
     "poetry",
-    "literary fiction",
     "writing",
-    "podcasts"
+    "classical music"
    ],
    "availability": [
     "tue_evening",
@@ -620,320 +597,349 @@ export const SEED: SeedData = {
   {
    "id": "s023",
    "firstName": "Efe",
-   "age": 36,
-   "province": "İstanbul",
-   "district": "Başakşehir",
-   "intent": "networking",
-   "interests": [
-    "saas",
-    "growth marketing",
-    "podcasts",
-    "ai",
-    "tea"
-   ],
-   "availability": [
-    "wed_morning",
-    "thu_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 8,
-   "createdMinuteOfDay": 1423,
-   "book": "The Bastard of Istanbul",
-   "profession": "Accountant"
-  },
-  {
-   "id": "s024",
-   "firstName": "Sena",
-   "age": 36,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "hobby_partner",
-   "interests": [
-    "travel",
-    "street food",
-    "hiking"
-   ],
-   "availability": [
-    "thu_evening",
-    "sat_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 20,
-   "createdMinuteOfDay": 441,
-   "profession": "Chef"
-  },
-  {
-   "id": "s025",
-   "firstName": "Onur",
-   "age": 44,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "classical music",
-    "art house cinema",
-    "film",
-    "tea"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "tue_afternoon",
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 21,
-   "createdMinuteOfDay": 1100,
-   "book": "Project Hail Mary",
-   "school": "Ankara Fen Lisesi"
-  },
-  {
-   "id": "s026",
-   "firstName": "Ada",
-   "age": 28,
-   "province": "İstanbul",
-   "district": "Bakırköy",
-   "intent": "friendship",
-   "interests": [
-    "product management",
-    "public speaking",
-    "growth marketing",
-    "design",
-    "podcasts",
-    "cycling"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "mon_evening",
-    "tue_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 564,
-   "profession": "Journalist"
-  },
-  {
-   "id": "s027",
-   "firstName": "Tolga",
-   "age": 35,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "street food",
-    "dancing",
-    "hiking",
-    "fintech"
-   ],
-   "availability": [
-    "wed_morning",
-    "thu_morning",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 18,
-   "createdMinuteOfDay": 418,
-   "book": "The Brothers Karamazov",
-   "profession": "Doctor"
-  },
-  {
-   "id": "s028",
-   "firstName": "Irmak",
-   "age": 43,
+   "age": 22,
    "province": "İstanbul",
    "district": "Şişli",
-   "intent": "networking",
+   "intent": "friendship",
    "interests": [
+    "fintech",
+    "podcasts",
+    "ai",
     "venture capital",
-    "yoga",
-    "public speaking",
-    "tea"
+    "yoga"
    ],
    "availability": [
-    "wed_evening",
+    "wed_morning",
+    "fri_evening",
     "sat_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 35,
-   "createdMinuteOfDay": 883,
-   "profession": "Product Designer",
-   "school": "Koç University"
+   "createdDaysAgo": 59,
+   "createdMinuteOfDay": 1276,
+   "book": "The Bastard of Istanbul",
+   "profession": "Journalist",
+   "school": "Boğaziçi University",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s029",
-   "firstName": "Umut",
-   "age": 33,
+   "id": "s024",
+   "firstName": "Sena",
+   "age": 45,
    "province": "İstanbul",
-   "district": "Çekmeköy",
-   "intent": "networking",
-   "interests": [
-    "museums",
-    "chess",
-    "philosophy",
-    "writing",
-    "coffee",
-    "saas"
-   ],
-   "availability": [
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 1296,
-   "profession": "Data Scientist"
-  },
-  {
-   "id": "s030",
-   "firstName": "Asya",
-   "age": 31,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Küçükçekmece",
    "intent": "friendship",
    "interests": [
-    "growth marketing",
-    "podcasts",
-    "ai"
-   ],
-   "availability": [
-    "wed_evening",
-    "fri_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 42,
-   "createdMinuteOfDay": 930,
-   "book": "The Brothers Karamazov",
-   "profession": "Doctor",
-   "school": "Koç University"
-  },
-  {
-   "id": "s031",
-   "firstName": "Sarp",
-   "age": 33,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "chess",
-    "literary fiction",
-    "coffee",
-    "film"
+    "hiking",
+    "dancing",
+    "photography",
+    "climbing",
+    "cycling"
    ],
    "availability": [
     "mon_evening",
-    "thu_evening",
-    "fri_evening",
+    "wed_morning",
     "sat_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 3,
-   "createdMinuteOfDay": 996,
-   "book": "Anna Karenina",
-   "profession": "Banker",
-   "school": "Kabataş Erkek Lisesi"
-  },
-  {
-   "id": "s032",
-   "firstName": "Ela",
-   "age": 34,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "networking",
-   "interests": [
-    "yoga",
-    "venture capital",
-    "startups",
-    "growth marketing"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 1315,
-   "book": "The Lean Startup",
-   "profession": "Accountant",
-   "school": "Istanbul Technical University"
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 1181,
+   "book": "Crime and Punishment"
   },
   {
-   "id": "s033",
-   "firstName": "Doruk",
-   "age": 31,
+   "id": "s025",
+   "firstName": "Onur",
+   "age": 27,
    "province": "İstanbul",
-   "district": "Kadıköy",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "writing",
-    "chess",
+    "tea",
+    "literary fiction",
+    "philosophy",
     "film"
    ],
    "availability": [
-    "tue_evening",
+    "wed_evening",
+    "fri_evening",
     "sat_afternoon",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1322,
-   "profession": "Architect"
+   "tableSize": "small",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 503,
+   "profession": "Marketing Specialist",
+   "school": "METU"
   },
   {
-   "id": "s034",
-   "firstName": "Nehir",
-   "age": 23,
+   "id": "s026",
+   "firstName": "Ada",
+   "age": 37,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "hiking",
+    "street food",
+    "cycling"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "wed_evening",
+    "thu_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 702,
+   "book": "Tutunamayanlar",
+   "school": "METU"
+  },
+  {
+   "id": "s027",
+   "firstName": "Tolga",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "dancing",
+    "travel",
+    "language exchange",
+    "cycling",
+    "climbing"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 1368,
+   "book": "The Bastard of Istanbul",
+   "school": "Istanbul Technical University"
+  },
+  {
+   "id": "s028",
+   "firstName": "Irmak",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "climbing",
+    "board games",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 28,
+   "createdMinuteOfDay": 1319,
+   "book": "Mrs Dalloway",
+   "profession": "Academic",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s029",
+   "firstName": "Umut",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Fatih",
+   "intent": "networking",
+   "interests": [
+    "fintech",
+    "podcasts",
+    "productivity"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 1333,
+   "book": "Memed, My Hawk",
+   "profession": "Accountant"
+  },
+  {
+   "id": "s030",
+   "firstName": "Asya",
+   "age": 37,
    "province": "İstanbul",
    "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "investing",
-    "growth marketing",
-    "yoga",
-    "journaling"
+    "dancing",
+    "cycling",
+    "cooking",
+    "film"
    ],
    "availability": [
     "mon_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 461,
+   "book": "Shoe Dog",
+   "profession": "Data Scientist"
+  },
+  {
+   "id": "s031",
+   "firstName": "Sarp",
+   "age": 32,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "hobby_partner",
+   "interests": [
+    "cooking",
+    "hiking",
+    "bosphorus walks",
+    "language exchange"
+   ],
+   "availability": [
+    "wed_evening",
+    "thu_evening",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 720,
+   "idea": "We should read more books written before we were born"
+  },
+  {
+   "id": "s032",
+   "firstName": "Ela",
+   "age": 36,
+   "province": "İstanbul",
+   "district": "Fatih",
+   "intent": "networking",
+   "interests": [
+    "climbing",
+    "cycling",
+    "cooking",
+    "dancing"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_evening",
+    "fri_morning",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 42,
+   "createdMinuteOfDay": 1185,
+   "book": "Stoner",
+   "profession": "Marketing Specialist",
+   "school": "Koç University"
+  },
+  {
+   "id": "s033",
+   "firstName": "Doruk",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "museums",
+    "film",
+    "journaling",
+    "literary fiction"
+   ],
+   "availability": [
+    "wed_evening",
+    "fri_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 1124
+  },
+  {
+   "id": "s034",
+   "firstName": "Nehir",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "street food",
+    "language exchange",
+    "travel",
+    "board games"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "tue_evening",
+    "thu_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 57,
+   "createdMinuteOfDay": 1342,
+   "book": "The Brothers Karamazov",
+   "profession": "Teacher",
+   "school": "Sabancı University",
+   "idea": "Cities should have more benches"
+  },
+  {
+   "id": "s035",
+   "firstName": "Alp",
+   "age": 34,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "coffee",
+    "writing",
+    "chess",
+    "journaling"
+   ],
+   "availability": [
     "fri_evening",
     "sun_afternoon",
     "sun_evening"
@@ -943,122 +949,73 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 52,
-   "createdMinuteOfDay": 514,
+   "createdDaysAgo": 36,
+   "createdMinuteOfDay": 486,
    "book": "Dune",
-   "profession": "Data Scientist",
-   "school": "METU"
-  },
-  {
-   "id": "s035",
-   "firstName": "Alp",
-   "age": 39,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "growth marketing",
-    "fintech",
-    "podcasts",
-    "saas",
-    "venture capital",
-    "live music"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_afternoon",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 1311,
-   "profession": "Editor",
-   "school": "Ankara Fen Lisesi"
+   "profession": "Data Scientist"
   },
   {
    "id": "s036",
    "firstName": "Derin",
-   "age": 27,
+   "age": 41,
    "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
+   "district": "Beyoğlu",
+   "intent": "networking",
    "interests": [
-    "literary fiction",
-    "philosophy",
-    "chess"
+    "board games",
+    "live music",
+    "street food",
+    "photography"
    ],
    "availability": [
-    "fri_morning",
-    "sun_afternoon"
+    "thu_evening",
+    "fri_afternoon",
+    "sat_morning",
+    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 57,
-   "createdMinuteOfDay": 1214,
-   "book": "The Museum of Innocence",
-   "profession": "Doctor"
+   "tableSize": "medium",
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 628,
+   "book": "Thinking, Fast and Slow",
+   "school": "Boğaziçi University",
+   "idea": "Every neighbourhood needs a free tool library"
   },
   {
    "id": "s037",
    "firstName": "Berk",
-   "age": 22,
+   "age": 43,
    "province": "İstanbul",
-   "district": "Esenyurt",
-   "intent": "networking",
+   "district": "Ümraniye",
+   "intent": "friendship",
    "interests": [
-    "cycling",
-    "bosphorus walks",
-    "cooking",
-    "live music",
-    "climbing",
-    "podcasts"
+    "public speaking",
+    "design",
+    "saas",
+    "productivity",
+    "ai"
    ],
    "availability": [
-    "fri_morning",
-    "fri_evening"
+    "mon_evening",
+    "wed_morning",
+    "wed_evening",
+    "thu_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 4,
-   "createdMinuteOfDay": 537,
-   "school": "METU"
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 609,
+   "book": "The Brothers Karamazov",
+   "idea": "Boredom is where ideas come from"
   },
   {
    "id": "s038",
    "firstName": "Ilgın",
-   "age": 43,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "networking",
-   "interests": [
-    "writing",
-    "chess",
-    "tea"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 16,
-   "createdMinuteOfDay": 628,
-   "book": "Zero to One",
-   "school": "Robert College"
-  },
-  {
-   "id": "s039",
-   "firstName": "Cem",
    "age": 23,
    "province": "İstanbul",
    "district": "Beyoğlu",
@@ -1084,16 +1041,16 @@ export const SEED: SeedData = {
    "school": "Galatasaray High School"
   },
   {
-   "id": "s040",
-   "firstName": "Pelin",
+   "id": "s039",
+   "firstName": "Cem",
    "age": 22,
    "province": "İstanbul",
-   "district": "Küçükçekmece",
+   "district": "Arnavutköy",
    "intent": "friendship",
    "interests": [
-    "venture capital",
-    "growth marketing",
-    "ai"
+    "football",
+    "language exchange",
+    "travel"
    ],
    "availability": [
     "tue_evening",
@@ -1108,20 +1065,19 @@ export const SEED: SeedData = {
    "book": "Tutunamayanlar"
   },
   {
-   "id": "s041",
-   "firstName": "Maya",
+   "id": "s040",
+   "firstName": "Pelin",
    "age": 38,
    "province": "İstanbul",
-   "district": "Kadıköy",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "public speaking",
-    "product management",
-    "running",
-    "cooking"
+    "poetry",
+    "film",
+    "history",
+    "writing"
    ],
    "availability": [
-    "tue_evening",
     "wed_evening",
     "fri_evening"
    ],
@@ -1131,309 +1087,25 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 54,
    "createdMinuteOfDay": 1010,
-   "book": "Huzur"
+   "book": "Huzur",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s042",
-   "firstName": "Leo",
-   "age": 44,
+   "id": "s041",
+   "firstName": "Maya",
+   "age": 42,
    "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "networking",
-   "interests": [
-    "language exchange",
-    "climbing",
-    "hiking"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_afternoon",
-    "fri_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 643,
-   "profession": "Chef",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s043",
-   "firstName": "Sofia",
-   "age": 22,
-   "province": "İstanbul",
-   "district": "Sancaktepe",
-   "intent": "hobby_partner",
-   "interests": [
-    "film",
-    "tea",
-    "journaling",
-    "art house cinema",
-    "live music"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 20,
-   "createdMinuteOfDay": 1251,
-   "book": "Madonna in a Fur Coat",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s044",
-   "firstName": "Omar",
-   "age": 32,
-   "province": "İstanbul",
-   "district": "Maltepe",
-   "intent": "friendship",
-   "interests": [
-    "yoga",
-    "running",
-    "productivity",
-    "board games"
-   ],
-   "availability": [
-    "tue_evening",
-    "thu_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 524,
-   "school": "Robert College"
-  },
-  {
-   "id": "s045",
-   "firstName": "Anna",
-   "age": 31,
-   "province": "İstanbul",
-   "district": "Beykoz",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
     "hiking",
-    "dancing",
-    "bosphorus walks",
-    "coffee"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 1145,
-   "book": "Crime and Punishment",
-   "profession": "Teacher",
-   "school": "Ankara Fen Lisesi"
-  },
-  {
-   "id": "s046",
-   "firstName": "Lukas",
-   "age": 32,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "climbing",
-    "bosphorus walks",
-    "language exchange",
     "cooking",
-    "photography",
-    "venture capital"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_evening",
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 1347,
-   "profession": "Lawyer",
-   "school": "Sabancı University"
-  },
-  {
-   "id": "s047",
-   "firstName": "Nadia",
-   "age": 40,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "networking",
-   "interests": [
-    "live music",
-    "cooking",
-    "bosphorus walks",
-    "design"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening",
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 49,
-   "createdMinuteOfDay": 1199,
-   "book": "Kafka on the Shore",
-   "profession": "Founder"
-  },
-  {
-   "id": "s048",
-   "firstName": "Elif",
-   "age": 21,
-   "province": "İstanbul",
-   "district": "Maltepe",
-   "intent": "networking",
-   "interests": [
-    "fintech",
-    "venture capital",
-    "running",
-    "literary fiction"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "thu_afternoon",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1150,
-   "book": "The Mom Test",
-   "profession": "Banker",
-   "school": "METU"
-  },
-  {
-   "id": "s049",
-   "firstName": "Deniz",
-   "age": 29,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "friendship",
-   "interests": [
-    "design",
-    "ai",
-    "public speaking",
-    "podcasts",
-    "fintech"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "sat_afternoon",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 33,
-   "createdMinuteOfDay": 982,
-   "book": "Thinking, Fast and Slow",
-   "profession": "Software Engineer",
-   "school": "Koç University"
-  },
-  {
-   "id": "s050",
-   "firstName": "Can",
-   "age": 30,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "hobby_partner",
-   "interests": [
-    "dancing",
-    "photography",
-    "cooking",
+    "cycling",
+    "football",
     "climbing"
    ],
    "availability": [
-    "thu_afternoon",
-    "thu_evening",
-    "fri_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 36,
-   "createdMinuteOfDay": 1318,
-   "profession": "Software Engineer",
-   "school": "Ankara Fen Lisesi"
-  },
-  {
-   "id": "s051",
-   "firstName": "Zeynep",
-   "age": 29,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "board games",
-    "hiking",
-    "dancing",
-    "language exchange"
-   ],
-   "availability": [
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 563,
-   "book": "Project Hail Mary",
-   "profession": "Architect"
-  },
-  {
-   "id": "s052",
-   "firstName": "Mert",
-   "age": 41,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "museums",
-    "philosophy",
-    "literary fiction",
-    "journaling",
-    "ai"
-   ],
-   "availability": [
-    "wed_evening",
+    "mon_evening",
     "sat_morning",
     "sun_afternoon"
    ],
@@ -1441,92 +1113,363 @@ export const SEED: SeedData = {
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 1179,
-   "book": "The Stranger",
-   "profession": "Academic"
+   "createdDaysAgo": 28,
+   "createdMinuteOfDay": 1387,
+   "book": "Stoner",
+   "profession": "Academic",
+   "school": "Ankara Fen Lisesi"
   },
   {
-   "id": "s053",
-   "firstName": "Ece",
-   "age": 36,
+   "id": "s042",
+   "firstName": "Leo",
+   "age": 42,
    "province": "İstanbul",
    "district": "Beyoğlu",
    "intent": "friendship",
    "interests": [
-    "live music",
-    "photography",
-    "dancing",
-    "language exchange"
+    "podcasts",
+    "saas",
+    "investing",
+    "growth marketing"
    ],
    "availability": [
-    "mon_evening",
-    "thu_evening"
+    "tue_evening",
+    "wed_morning",
+    "wed_evening",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 21,
-   "createdMinuteOfDay": 1121,
-   "book": "Kafka on the Shore"
+   "createdDaysAgo": 37,
+   "createdMinuteOfDay": 45,
+   "book": "The Museum of Innocence",
+   "school": "Koç University"
   },
   {
-   "id": "s054",
-   "firstName": "Emre",
-   "age": 31,
+   "id": "s043",
+   "firstName": "Sofia",
+   "age": 39,
    "province": "İstanbul",
-   "district": "Avcılar",
-   "intent": "networking",
+   "district": "Şişli",
+   "intent": "friendship",
    "interests": [
-    "yoga",
-    "product management",
-    "running",
-    "ai",
-    "startups"
+    "history",
+    "coffee",
+    "writing"
    ],
    "availability": [
+    "tue_evening",
+    "thu_evening",
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 11,
+   "createdMinuteOfDay": 1268,
+   "book": "Selected Poems",
+   "profession": "Chef",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s044",
+   "firstName": "Omar",
+   "age": 45,
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "intent": "friendship",
+   "interests": [
+    "running",
+    "fintech",
+    "design",
+    "ai",
+    "public speaking",
+    "football"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "thu_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 25,
+   "createdMinuteOfDay": 1377,
+   "profession": "Data Scientist"
+  },
+  {
+   "id": "s045",
+   "firstName": "Anna",
+   "age": 28,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "hobby_partner",
+   "interests": [
+    "photography",
+    "climbing",
+    "cooking",
+    "dancing",
+    "art house cinema"
+   ],
+   "availability": [
+    "wed_evening",
+    "thu_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 685,
+   "profession": "Product Designer",
+   "school": "Kabataş Erkek Lisesi",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s046",
+   "firstName": "Lukas",
+   "age": 29,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "tea",
+    "chess",
+    "history",
+    "writing",
+    "art house cinema"
+   ],
+   "availability": [
+    "wed_evening",
     "fri_afternoon",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 752,
+   "book": "Kuyucaklı Yusuf",
+   "profession": "Journalist",
+   "idea": "Cities should have more benches"
+  },
+  {
+   "id": "s047",
+   "firstName": "Nadia",
+   "age": 29,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "hobby_partner",
+   "interests": [
+    "art house cinema",
+    "literary fiction",
+    "philosophy",
+    "poetry",
+    "film"
+   ],
+   "availability": [
+    "mon_evening",
+    "thu_morning",
+    "thu_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 17,
+   "createdMinuteOfDay": 958,
+   "school": "METU"
+  },
+  {
+   "id": "s048",
+   "firstName": "Elif",
+   "age": 25,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "venture capital",
+    "public speaking",
+    "ai",
+    "classical music"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_evening",
     "sun_morning"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 948,
-   "book": "The Brothers Karamazov"
+   "tableSize": "medium",
+   "createdDaysAgo": 37,
+   "createdMinuteOfDay": 1139,
+   "book": "Mrs Dalloway",
+   "idea": "Small talk is underrated"
   },
   {
-   "id": "s055",
-   "firstName": "Selin",
-   "age": 26,
+   "id": "s049",
+   "firstName": "Deniz",
+   "age": 30,
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Kadıköy",
    "intent": "friendship",
    "interests": [
-    "venture capital",
-    "fintech",
-    "running"
+    "investing",
+    "design",
+    "podcasts",
+    "startups"
    ],
    "availability": [
-    "tue_afternoon",
-    "tue_evening",
-    "wed_evening",
-    "thu_evening"
+    "mon_evening",
+    "fri_evening",
+    "sat_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 26,
+   "createdMinuteOfDay": 781,
+   "profession": "Marketing Specialist",
+   "school": "Istanbul University",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s050",
+   "firstName": "Can",
+   "age": 42,
+   "province": "İstanbul",
+   "district": "Bahçelievler",
+   "intent": "friendship",
+   "interests": [
+    "public speaking",
+    "design",
+    "product management",
+    "ai",
+    "board games"
+   ],
+   "availability": [
+    "fri_morning",
+    "fri_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 555,
+   "book": "Mrs Dalloway",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s051",
+   "firstName": "Zeynep",
+   "age": 27,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "tea",
+    "chess",
+    "writing",
+    "literary fiction",
+    "museums"
+   ],
+   "availability": [
+    "sat_morning",
+    "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 1048,
-   "profession": "Journalist"
+   "tableSize": "medium",
+   "createdDaysAgo": 43,
+   "createdMinuteOfDay": 974,
+   "book": "One Hundred Years of Solitude",
+   "profession": "Software Engineer",
+   "school": "Galatasaray University"
   },
   {
-   "id": "s056",
-   "firstName": "Burak",
+   "id": "s052",
+   "firstName": "Mert",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Avcılar",
+   "intent": "hobby_partner",
+   "interests": [
+    "street food",
+    "photography",
+    "travel",
+    "climbing",
+    "bosphorus walks",
+    "yoga"
+   ],
+   "availability": [
+    "mon_morning",
+    "tue_afternoon",
+    "sat_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 34,
+   "createdMinuteOfDay": 1250,
+   "book": "The Brothers Karamazov",
+   "profession": "Accountant"
+  },
+  {
+   "id": "s053",
+   "firstName": "Ece",
+   "age": 34,
+   "province": "İstanbul",
+   "district": "Beylikdüzü",
+   "intent": "friendship",
+   "interests": [
+    "coffee",
+    "journaling",
+    "literary fiction",
+    "history",
+    "writing"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 53,
+   "createdMinuteOfDay": 914,
+   "book": "One Hundred Years of Solitude",
+   "profession": "Marketing Specialist",
+   "school": "Robert College"
+  },
+  {
+   "id": "s054",
+   "firstName": "Emre",
    "age": 21,
    "province": "İstanbul",
    "district": "Sancaktepe",
@@ -1553,344 +1496,333 @@ export const SEED: SeedData = {
    "profession": "Data Scientist"
   },
   {
-   "id": "s057",
-   "firstName": "Defne",
-   "age": 22,
+   "id": "s055",
+   "firstName": "Selin",
+   "age": 30,
    "province": "İstanbul",
-   "district": "Sultanbeyli",
-   "intent": "friendship",
+   "district": "Şile",
+   "intent": "hobby_partner",
    "interests": [
-    "startups",
-    "saas",
-    "ai",
-    "product management",
-    "fintech"
+    "bosphorus walks",
+    "street food",
+    "hiking"
    ],
    "availability": [
+    "mon_evening",
     "tue_afternoon",
+    "thu_evening",
     "sun_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
+   "tableSize": "medium",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 1233,
+   "book": "Norwegian Wood",
+   "profession": "Accountant",
+   "school": "Sabancı University",
+   "idea": "We should read more books written before we were born"
+  },
+  {
+   "id": "s056",
+   "firstName": "Burak",
+   "age": 43,
+   "province": "İstanbul",
+   "district": "Bakırköy",
+   "intent": "networking",
+   "interests": [
+    "language exchange",
+    "photography",
+    "football",
+    "museums"
+   ],
+   "availability": [
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
    "tableSize": "small",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 1359,
-   "profession": "Teacher"
+   "createdDaysAgo": 2,
+   "createdMinuteOfDay": 1015,
+   "profession": "Architect"
+  },
+  {
+   "id": "s057",
+   "firstName": "Defne",
+   "age": 28,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "podcasts",
+    "venture capital",
+    "yoga",
+    "running",
+    "saas",
+    "cooking"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 18,
+   "createdMinuteOfDay": 624,
+   "book": "Dune",
+   "profession": "Software Engineer",
+   "school": "Istanbul University",
+   "idea": "Translation is a kind of writing"
   },
   {
    "id": "s058",
    "firstName": "Kerem",
-   "age": 31,
+   "age": 34,
    "province": "İstanbul",
-   "district": "Şişli",
+   "district": "Beşiktaş",
    "intent": "networking",
    "interests": [
-    "classical music",
+    "coffee",
+    "film",
+    "writing",
+    "history",
     "philosophy",
-    "poetry",
-    "street food"
+    "venture capital"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_morning",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 106,
+   "book": "Thinking, Fast and Slow",
+   "school": "Galatasaray High School"
+  },
+  {
+   "id": "s059",
+   "firstName": "İpek",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Üsküdar",
+   "intent": "hobby_partner",
+   "interests": [
+    "growth marketing",
+    "investing",
+    "podcasts",
+    "product management",
+    "literary fiction"
    ],
    "availability": [
     "tue_evening",
-    "thu_evening",
     "sat_evening",
-    "sun_afternoon"
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 29,
+   "createdMinuteOfDay": 1120,
+   "book": "Selected Poems",
+   "profession": "Marketing Specialist"
+  },
+  {
+   "id": "s060",
+   "firstName": "Ozan",
+   "age": 31,
+   "province": "İstanbul",
+   "district": "Bayrampaşa",
+   "intent": "networking",
+   "interests": [
+    "growth marketing",
+    "yoga",
+    "podcasts",
+    "poetry"
+   ],
+   "availability": [
+    "wed_morning",
+    "wed_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 714,
+   "book": "Anna Karenina",
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s061",
+   "firstName": "Ayşe",
+   "age": 31,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "football",
+    "board games",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
+    "thu_evening",
+    "sat_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 54,
+   "createdMinuteOfDay": 755,
+   "profession": "Product Designer",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s062",
+   "firstName": "Baran",
+   "age": 27,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "journaling",
+    "classical music",
+    "literary fiction",
+    "art house cinema",
+    "saas"
+   ],
+   "availability": [
+    "tue_evening",
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
    "createdDaysAgo": 55,
-   "createdMinuteOfDay": 26,
-   "school": "Robert College"
-  },
-  {
-   "id": "s059",
-   "firstName": "İpek",
-   "age": 24,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "networking",
-   "interests": [
-    "philosophy",
-    "art house cinema",
-    "tea",
-    "history",
-    "journaling"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 13,
-   "createdMinuteOfDay": 1098,
-   "book": "The Museum of Innocence",
-   "profession": "Investment Analyst"
-  },
-  {
-   "id": "s060",
-   "firstName": "Ozan",
-   "age": 44,
-   "province": "İstanbul",
-   "district": "Pendik",
-   "intent": "friendship",
-   "interests": [
-    "writing",
-    "history",
-    "film",
-    "museums"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_morning",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 1262
-  },
-  {
-   "id": "s061",
-   "firstName": "Ayşe",
-   "age": 26,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "hiking",
-    "football",
-    "language exchange",
-    "travel"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_morning",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 4,
-   "createdMinuteOfDay": 1317,
-   "school": "Koç University"
-  },
-  {
-   "id": "s062",
-   "firstName": "Baran",
-   "age": 44,
-   "province": "İstanbul",
-   "district": "Arnavutköy",
-   "intent": "networking",
-   "interests": [
-    "podcasts",
-    "fintech",
-    "public speaking",
-    "growth marketing",
-    "venture capital"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 17,
-   "createdMinuteOfDay": 1373,
-   "profession": "Product Manager"
+   "createdMinuteOfDay": 1277,
+   "profession": "Data Scientist",
+   "idea": "Boredom is where ideas come from"
   },
   {
    "id": "s063",
    "firstName": "Naz",
-   "age": 27,
+   "age": 32,
    "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "friendship",
+   "district": "Çatalca",
+   "intent": "hobby_partner",
    "interests": [
-    "bosphorus walks",
+    "hiking",
     "board games",
+    "travel",
     "football"
    ],
    "availability": [
-    "tue_evening",
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 52,
-   "createdMinuteOfDay": 1262,
-   "book": "The Bastard of Istanbul",
-   "school": "Istanbul University"
-  },
-  {
-   "id": "s064",
-   "firstName": "Kaan",
-   "age": 25,
-   "province": "İstanbul",
-   "district": "Bayrampaşa",
-   "intent": "hobby_partner",
-   "interests": [
-    "coffee",
-    "history",
-    "philosophy"
-   ],
-   "availability": [
-    "wed_afternoon",
-    "thu_evening",
-    "sat_morning",
-    "sun_afternoon"
+    "mon_evening",
+    "sat_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 41,
-   "createdMinuteOfDay": 1295,
-   "profession": "Marketing Specialist",
-   "school": "Boğaziçi University"
+   "createdDaysAgo": 14,
+   "createdMinuteOfDay": 650,
+   "book": "Human Landscapes from My Country",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s065",
-   "firstName": "Duru",
-   "age": 26,
+   "id": "s064",
+   "firstName": "Kaan",
+   "age": 30,
    "province": "İstanbul",
    "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "ai",
-    "running",
-    "product management",
-    "growth marketing",
-    "cooking"
-   ],
-   "availability": [
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 40,
-   "createdMinuteOfDay": 522,
-   "book": "Stoner",
-   "profession": "Software Engineer",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s066",
-   "firstName": "Arda",
-   "age": 41,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "friendship",
-   "interests": [
-    "investing",
-    "venture capital",
-    "fintech",
-    "startups",
-    "yoga"
-   ],
-   "availability": [
-    "tue_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 1344,
-   "book": "The Brothers Karamazov",
-   "school": "Galatasaray University"
-  },
-  {
-   "id": "s067",
-   "firstName": "Lara",
-   "age": 31,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
    "intent": "hobby_partner",
    "interests": [
+    "journaling",
+    "history",
     "chess",
-    "classical music",
-    "coffee"
+    "museums"
    ],
    "availability": [
     "mon_evening",
-    "wed_evening",
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 33,
-   "createdMinuteOfDay": 1298,
-   "book": "Kafka on the Shore",
-   "profession": "Chef"
-  },
-  {
-   "id": "s068",
-   "firstName": "Yusuf",
-   "age": 42,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "museums",
-    "writing",
-    "art house cinema",
-    "tea"
-   ],
-   "availability": [
-    "sat_evening",
+    "sat_afternoon",
     "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 815,
-   "book": "The Museum of Innocence",
-   "profession": "Investment Analyst",
-   "school": "Galatasaray High School"
+   "createdDaysAgo": 4,
+   "createdMinuteOfDay": 897,
+   "book": "Inspired",
+   "profession": "Teacher"
   },
   {
-   "id": "s069",
-   "firstName": "Melis",
-   "age": 27,
+   "id": "s065",
+   "firstName": "Duru",
+   "age": 29,
    "province": "İstanbul",
-   "district": "Güngören",
-   "intent": "hobby_partner",
+   "district": "Kadıköy",
+   "intent": "friendship",
    "interests": [
-    "productivity",
-    "investing",
-    "growth marketing",
-    "street food"
+    "tea",
+    "film",
+    "museums",
+    "photography"
    ],
    "availability": [
     "thu_evening",
+    "fri_evening",
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 1010,
+   "book": "Human Landscapes from My Country",
+   "profession": "Teacher",
+   "school": "Boğaziçi University",
+   "idea": "Every neighbourhood needs a free tool library"
+  },
+  {
+   "id": "s066",
+   "firstName": "Arda",
+   "age": 27,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "hobby_partner",
+   "interests": [
+    "design",
+    "saas",
+    "investing"
+   ],
+   "availability": [
+    "mon_morning",
+    "thu_evening",
+    "fri_evening",
     "sun_evening"
    ],
    "languages": [
@@ -1904,117 +1836,198 @@ export const SEED: SeedData = {
    "school": "Koç University"
   },
   {
-   "id": "s070",
-   "firstName": "Efe",
-   "age": 44,
+   "id": "s067",
+   "firstName": "Lara",
+   "age": 31,
    "province": "İstanbul",
-   "district": "Büyükçekmece",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "fintech",
-    "design",
-    "startups",
-    "saas",
-    "ai"
-   ],
-   "availability": [
-    "tue_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 968,
-   "profession": "Architect"
-  },
-  {
-   "id": "s071",
-   "firstName": "Sena",
-   "age": 39,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "language exchange",
     "cycling",
-    "street food",
-    "football",
-    "hiking"
+    "hiking",
+    "climbing",
+    "language exchange",
+    "bosphorus walks"
    ],
    "availability": [
     "tue_evening",
-    "fri_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 45,
-   "createdMinuteOfDay": 1426,
-   "profession": "Chef",
-   "school": "Robert College"
-  },
-  {
-   "id": "s072",
-   "firstName": "Onur",
-   "age": 43,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "friendship",
-   "interests": [
-    "poetry",
-    "philosophy",
-    "film",
-    "journaling",
-    "growth marketing"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening",
-    "sat_morning",
-    "sun_afternoon"
+    "wed_afternoon",
+    "sat_afternoon",
+    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 26,
-   "createdMinuteOfDay": 967,
-   "book": "Thinking, Fast and Slow",
-   "school": "Istanbul University"
+   "createdDaysAgo": 13,
+   "createdMinuteOfDay": 1341,
+   "profession": "Founder"
+  },
+  {
+   "id": "s068",
+   "firstName": "Yusuf",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "intent": "networking",
+   "interests": [
+    "football",
+    "hiking",
+    "photography",
+    "literary fiction"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 416,
+   "book": "Zero to One",
+   "profession": "Marketing Specialist",
+   "school": "Istanbul Technical University",
+   "idea": "Small talk is underrated"
+  },
+  {
+   "id": "s069",
+   "firstName": "Melis",
+   "age": 44,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "venture capital",
+    "yoga",
+    "growth marketing",
+    "fintech",
+    "investing"
+   ],
+   "availability": [
+    "wed_evening",
+    "thu_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 34,
+   "createdMinuteOfDay": 1237,
+   "profession": "Product Designer"
+  },
+  {
+   "id": "s070",
+   "firstName": "Efe",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "art house cinema",
+    "journaling",
+    "museums",
+    "poetry",
+    "film"
+   ],
+   "availability": [
+    "mon_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 28,
+   "createdMinuteOfDay": 982,
+   "book": "Shoe Dog",
+   "profession": "Founder",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s071",
+   "firstName": "Sena",
+   "age": 38,
+   "province": "İstanbul",
+   "district": "Pendik",
+   "intent": "networking",
+   "interests": [
+    "travel",
+    "cooking",
+    "bosphorus walks",
+    "climbing"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 558,
+   "book": "Huzur",
+   "profession": "Data Scientist",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s072",
+   "firstName": "Onur",
+   "age": 42,
+   "province": "İstanbul",
+   "district": "Küçükçekmece",
+   "intent": "hobby_partner",
+   "interests": [
+    "live music",
+    "cycling",
+    "photography",
+    "board games"
+   ],
+   "availability": [
+    "fri_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 9,
+   "createdMinuteOfDay": 879,
+   "profession": "Teacher",
+   "school": "Galatasaray University"
   },
   {
    "id": "s073",
    "firstName": "Ada",
-   "age": 23,
+   "age": 24,
    "province": "İstanbul",
    "district": "Beyoğlu",
    "intent": "friendship",
    "interests": [
-    "philosophy",
-    "art house cinema",
-    "museums"
+    "board games",
+    "travel",
+    "language exchange",
+    "photography",
+    "venture capital"
    ],
    "availability": [
-    "mon_evening",
-    "thu_evening",
-    "fri_evening",
-    "sun_afternoon"
+    "wed_evening",
+    "thu_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 1093,
-   "school": "Bilkent University"
+   "tableSize": "medium",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 338,
+   "book": "Tutunamayanlar",
+   "profession": "Software Engineer",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
    "id": "s074",
@@ -2024,1306 +2037,1171 @@ export const SEED: SeedData = {
    "district": "Beyoğlu",
    "intent": "hobby_partner",
    "interests": [
-    "museums",
-    "history",
-    "chess",
-    "classical music",
-    "film",
-    "board games"
+    "fintech",
+    "design",
+    "public speaking",
+    "literary fiction"
    ],
    "availability": [
-    "fri_morning",
-    "sat_afternoon",
-    "sat_evening"
+    "wed_evening",
+    "fri_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 5,
-   "createdMinuteOfDay": 756,
-   "book": "The Lean Startup"
+   "tableSize": "medium",
+   "createdDaysAgo": 29,
+   "createdMinuteOfDay": 1398,
+   "book": "The Time Regulation Institute",
+   "profession": "Accountant",
+   "school": "Galatasaray High School",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
    "id": "s075",
    "firstName": "Irmak",
-   "age": 29,
+   "age": 22,
    "province": "İstanbul",
-   "district": "Beşiktaş",
+   "district": "Bakırköy",
    "intent": "friendship",
    "interests": [
-    "street food",
-    "photography",
-    "language exchange"
+    "board games",
+    "cycling",
+    "cooking"
    ],
    "availability": [
-    "sat_morning",
-    "sat_afternoon"
+    "mon_evening",
+    "thu_evening"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 1238,
-   "book": "Inspired",
-   "profession": "Marketing Specialist",
-   "school": "Galatasaray University"
+   "tableSize": "small",
+   "createdDaysAgo": 10,
+   "createdMinuteOfDay": 1351,
+   "book": "The Museum of Innocence",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
    "id": "s076",
    "firstName": "Umut",
-   "age": 30,
+   "age": 45,
    "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "hobby_partner",
+   "district": "Şişli",
+   "intent": "friendship",
    "interests": [
-    "saas",
-    "running",
-    "design",
-    "public speaking"
+    "hiking",
+    "bosphorus walks",
+    "street food",
+    "climbing",
+    "travel",
+    "productivity"
    ],
    "availability": [
-    "wed_evening",
-    "fri_evening"
+    "sat_afternoon",
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 18,
-   "createdMinuteOfDay": 890,
-   "book": "Selected Poems",
-   "profession": "Product Designer",
-   "school": "METU"
+   "tableSize": "small",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 822,
+   "profession": "Chef",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
    "id": "s077",
    "firstName": "Asya",
-   "age": 29,
+   "age": 28,
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Silivri",
    "intent": "friendship",
    "interests": [
-    "bosphorus walks",
-    "language exchange",
-    "street food",
-    "startups"
+    "productivity",
+    "startups",
+    "public speaking"
    ],
    "availability": [
-    "wed_evening",
-    "thu_morning",
-    "sat_morning",
-    "sat_afternoon"
+    "wed_afternoon",
+    "thu_evening",
+    "sun_afternoon",
+    "sun_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 738,
-   "school": "Galatasaray High School"
+   "tableSize": "small",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 551,
+   "profession": "Banker",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
    "id": "s078",
    "firstName": "Sarp",
-   "age": 22,
+   "age": 27,
    "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "hobby_partner",
+   "district": "Beykoz",
+   "intent": "networking",
    "interests": [
-    "cycling",
-    "live music",
-    "hiking",
-    "bosphorus walks",
-    "photography",
-    "art house cinema"
+    "chess",
+    "film",
+    "history",
+    "tea",
+    "public speaking"
    ],
    "availability": [
-    "wed_evening",
-    "thu_evening"
+    "fri_afternoon",
+    "fri_evening",
+    "sat_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 995,
-   "profession": "Software Engineer",
-   "school": "Kabataş Erkek Lisesi"
+   "tableSize": "medium",
+   "createdDaysAgo": 34,
+   "createdMinuteOfDay": 385,
+   "book": "Shoe Dog",
+   "profession": "Lawyer",
+   "school": "Sabancı University"
   },
   {
    "id": "s079",
    "firstName": "Ela",
-   "age": 43,
+   "age": 26,
    "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "friendship",
+   "district": "Kadıköy",
+   "intent": "hobby_partner",
    "interests": [
-    "coffee",
-    "film",
-    "literary fiction"
+    "language exchange",
+    "live music",
+    "bosphorus walks",
+    "product management"
    ],
    "availability": [
-    "mon_evening",
-    "sat_morning",
-    "sat_afternoon",
-    "sun_morning"
+    "fri_evening",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1304,
-   "book": "The Hard Thing About Hard Things"
+   "tableSize": "small",
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 1340
   },
   {
    "id": "s080",
    "firstName": "Doruk",
-   "age": 40,
+   "age": 35,
    "province": "İstanbul",
-   "district": "Sultangazi",
-   "intent": "friendship",
+   "district": "Çekmeköy",
+   "intent": "hobby_partner",
    "interests": [
-    "running",
-    "saas",
-    "podcasts",
-    "yoga",
-    "venture capital"
+    "hiking",
+    "language exchange",
+    "board games",
+    "climbing"
    ],
    "availability": [
-    "mon_evening",
-    "sat_morning"
+    "fri_morning",
+    "fri_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 1434,
-   "profession": "Banker",
-   "school": "Galatasaray High School"
+   "tableSize": "medium",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 999,
+   "book": "Zero to One",
+   "profession": "Product Manager",
+   "school": "Koç University"
   },
   {
    "id": "s081",
    "firstName": "Nehir",
-   "age": 25,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "product management",
-    "venture capital",
-    "saas",
-    "public speaking",
-    "running"
-   ],
-   "availability": [
-    "fri_afternoon",
-    "fri_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 1395,
-   "book": "Kafka on the Shore"
-  },
-  {
-   "id": "s082",
-   "firstName": "Alp",
-   "age": 25,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "friendship",
-   "interests": [
-    "history",
-    "film",
-    "literary fiction"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 28,
-   "createdMinuteOfDay": 1148,
-   "book": "Memed, My Hawk",
-   "profession": "Product Designer"
-  },
-  {
-   "id": "s083",
-   "firstName": "Derin",
-   "age": 39,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "investing",
-    "ai",
-    "growth marketing",
-    "yoga",
-    "chess"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "mon_evening",
-    "thu_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 47,
-   "createdMinuteOfDay": 915,
-   "book": "Kafka on the Shore"
-  },
-  {
-   "id": "s084",
-   "firstName": "Berk",
-   "age": 24,
+   "age": 45,
    "province": "İstanbul",
    "district": "Beyoğlu",
-   "intent": "hobby_partner",
-   "interests": [
-    "investing",
-    "saas",
-    "product management",
-    "fintech",
-    "literary fiction"
-   ],
-   "availability": [
-    "tue_morning",
-    "tue_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 789,
-   "book": "Kafka on the Shore",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s085",
-   "firstName": "Ilgın",
-   "age": 30,
-   "province": "İstanbul",
-   "district": "Şile",
-   "intent": "friendship",
-   "interests": [
-    "tea",
-    "literary fiction",
-    "writing",
-    "classical music",
-    "chess",
-    "travel"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 32,
-   "createdMinuteOfDay": 1295,
-   "book": "Sapiens",
-   "profession": "Software Engineer",
-   "school": "Koç University"
-  },
-  {
-   "id": "s086",
-   "firstName": "Cem",
-   "age": 33,
-   "province": "İstanbul",
-   "district": "Çekmeköy",
-   "intent": "friendship",
-   "interests": [
-    "growth marketing",
-    "productivity",
-    "design",
-    "yoga",
-    "product management"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 1403,
-   "profession": "Marketing Specialist"
-  },
-  {
-   "id": "s087",
-   "firstName": "Pelin",
-   "age": 30,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "hobby_partner",
-   "interests": [
-    "startups",
-    "yoga",
-    "running",
-    "podcasts",
-    "ai",
-    "bosphorus walks"
-   ],
-   "availability": [
-    "fri_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 46,
-   "createdMinuteOfDay": 814,
-   "profession": "Journalist",
-   "school": "Koç University"
-  },
-  {
-   "id": "s088",
-   "firstName": "Maya",
-   "age": 21,
-   "province": "İstanbul",
-   "district": "Eyüpsultan",
    "intent": "networking",
    "interests": [
-    "yoga",
-    "podcasts",
-    "venture capital",
-    "product management",
-    "dancing"
-   ],
-   "availability": [
-    "wed_afternoon",
-    "wed_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 575,
-   "book": "Istanbul: Memories and the City",
-   "profession": "Journalist",
-   "school": "Kabataş Erkek Lisesi"
-  },
-  {
-   "id": "s089",
-   "firstName": "Leo",
-   "age": 41,
-   "province": "İstanbul",
-   "district": "Üsküdar",
-   "intent": "friendship",
-   "interests": [
-    "poetry",
-    "art house cinema",
-    "film",
-    "saas"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 1249,
-   "profession": "Chef",
-   "school": "Robert College"
-  },
-  {
-   "id": "s090",
-   "firstName": "Sofia",
-   "age": 25,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "philosophy",
-    "museums",
-    "classical music",
-    "tea",
-    "chess"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_afternoon",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 15,
-   "createdMinuteOfDay": 1316,
-   "book": "Kuyucaklı Yusuf",
-   "profession": "Product Manager",
-   "school": "Istanbul University"
-  },
-  {
-   "id": "s091",
-   "firstName": "Omar",
-   "age": 29,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "fintech",
-    "product management",
-    "design",
-    "growth marketing"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 21,
-   "createdMinuteOfDay": 1429,
-   "profession": "Accountant"
-  },
-  {
-   "id": "s092",
-   "firstName": "Anna",
-   "age": 40,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "history",
-    "museums",
-    "coffee",
-    "writing"
-   ],
-   "availability": [
-    "tue_afternoon",
-    "fri_morning",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 238,
-   "book": "One Hundred Years of Solitude",
-   "school": "Robert College"
-  },
-  {
-   "id": "s093",
-   "firstName": "Lukas",
-   "age": 41,
-   "province": "İstanbul",
-   "district": "Zeytinburnu",
-   "intent": "networking",
-   "interests": [
-    "street food",
     "language exchange",
-    "football"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 50,
-   "createdMinuteOfDay": 508,
-   "school": "Koç University"
-  },
-  {
-   "id": "s094",
-   "firstName": "Nadia",
-   "age": 25,
-   "province": "İstanbul",
-   "district": "Ataşehir",
-   "intent": "networking",
-   "interests": [
-    "growth marketing",
-    "ai",
-    "startups",
-    "yoga",
-    "venture capital"
-   ],
-   "availability": [
-    "mon_morning",
-    "mon_evening",
-    "tue_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 3,
-   "createdMinuteOfDay": 1208,
-   "book": "Stoner",
-   "profession": "Accountant",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s095",
-   "firstName": "Elif",
-   "age": 41,
-   "province": "İstanbul",
-   "district": "Büyükçekmece",
-   "intent": "networking",
-   "interests": [
+    "dancing",
+    "live music",
     "photography",
-    "bosphorus walks",
-    "board games"
-   ],
-   "availability": [
-    "thu_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 1280,
-   "profession": "Academic",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s096",
-   "firstName": "Deniz",
-   "age": 40,
-   "province": "İstanbul",
-   "district": "Bakırköy",
-   "intent": "hobby_partner",
-   "interests": [
-    "art house cinema",
-    "tea",
-    "classical music",
-    "photography"
-   ],
-   "availability": [
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 589,
-   "profession": "Founder"
-  },
-  {
-   "id": "s097",
-   "firstName": "Can",
-   "age": 28,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "friendship",
-   "interests": [
-    "cycling",
-    "board games",
-    "football"
-   ],
-   "availability": [
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 97,
-   "book": "Shoe Dog",
-   "school": "Kabataş Erkek Lisesi"
-  },
-  {
-   "id": "s098",
-   "firstName": "Zeynep",
-   "age": 38,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "hobby_partner",
-   "interests": [
-    "philosophy",
-    "writing",
-    "tea",
-    "museums",
-    "chess"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "wed_evening",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 550,
-   "school": "Boğaziçi University"
-  },
-  {
-   "id": "s099",
-   "firstName": "Mert",
-   "age": 21,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "dancing",
-    "climbing",
     "street food",
-    "live music",
-    "film"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 8,
-   "createdMinuteOfDay": 964,
-   "profession": "Product Manager"
-  },
-  {
-   "id": "s100",
-   "firstName": "Ece",
-   "age": 27,
-   "province": "İstanbul",
-   "district": "Silivri",
-   "intent": "friendship",
-   "interests": [
-    "live music",
-    "travel",
-    "football",
-    "dancing",
-    "cycling"
-   ],
-   "availability": [
-    "mon_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 49,
-   "createdMinuteOfDay": 1310,
-   "school": "METU"
-  },
-  {
-   "id": "s101",
-   "firstName": "Emre",
-   "age": 37,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "venture capital",
-    "product management",
-    "public speaking",
-    "design",
-    "live music"
-   ],
-   "availability": [
-    "fri_afternoon",
-    "sat_morning",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 885,
-   "book": "Norwegian Wood",
-   "school": "METU"
-  },
-  {
-   "id": "s102",
-   "firstName": "Selin",
-   "age": 38,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "friendship",
-   "interests": [
-    "growth marketing",
-    "design",
-    "venture capital",
-    "investing",
-    "running",
-    "bosphorus walks"
-   ],
-   "availability": [
-    "thu_evening",
-    "fri_evening",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 60,
-   "createdMinuteOfDay": 1158,
-   "book": "The Lean Startup",
-   "school": "METU"
-  },
-  {
-   "id": "s103",
-   "firstName": "Burak",
-   "age": 42,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "live music",
-    "board games",
-    "football"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 40,
-   "createdMinuteOfDay": 1280,
-   "book": "Atomic Habits",
-   "school": "Ankara Fen Lisesi"
-  },
-  {
-   "id": "s104",
-   "firstName": "Defne",
-   "age": 23,
-   "province": "İstanbul",
-   "district": "Bahçelievler",
-   "intent": "friendship",
-   "interests": [
-    "yoga",
-    "growth marketing",
-    "saas",
-    "running",
-    "museums"
-   ],
-   "availability": [
-    "wed_evening",
-    "fri_evening",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 1293,
-   "profession": "Chef"
-  },
-  {
-   "id": "s105",
-   "firstName": "Kerem",
-   "age": 38,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "bosphorus walks",
-    "football",
-    "hiking",
-    "photography",
-    "dancing"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "tue_evening",
-    "wed_evening",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 895,
-   "profession": "Data Scientist"
-  },
-  {
-   "id": "s106",
-   "firstName": "İpek",
-   "age": 43,
-   "province": "İstanbul",
-   "district": "Silivri",
-   "intent": "hobby_partner",
-   "interests": [
-    "live music",
-    "travel",
-    "cycling",
-    "street food",
-    "cooking"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 1113,
-   "profession": "Chef",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s107",
-   "firstName": "Ozan",
-   "age": 36,
-   "province": "İstanbul",
-   "district": "Sancaktepe",
-   "intent": "friendship",
-   "interests": [
-    "dancing",
-    "live music",
-    "street food",
-    "football",
-    "cooking"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 457,
-   "book": "Dune",
-   "profession": "Chef"
-  },
-  {
-   "id": "s108",
-   "firstName": "Ayşe",
-   "age": 38,
-   "province": "İstanbul",
-   "district": "Küçükçekmece",
-   "intent": "networking",
-   "interests": [
-    "live music",
-    "dancing",
-    "climbing",
-    "cooking",
-    "board games",
-    "podcasts"
-   ],
-   "availability": [
-    "mon_afternoon",
-    "wed_evening",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 8,
-   "createdMinuteOfDay": 1274,
-   "book": "Norwegian Wood"
-  },
-  {
-   "id": "s109",
-   "firstName": "Baran",
-   "age": 22,
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "hobby_partner",
-   "interests": [
-    "venture capital",
-    "public speaking",
-    "fintech",
-    "design",
-    "ai"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 1164,
-   "profession": "Data Scientist"
-  },
-  {
-   "id": "s110",
-   "firstName": "Naz",
-   "age": 35,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "hobby_partner",
-   "interests": [
-    "fintech",
-    "product management",
-    "startups",
-    "productivity"
-   ],
-   "availability": [
-    "tue_afternoon",
-    "wed_evening",
-    "sat_morning",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 24,
-   "createdMinuteOfDay": 1120,
-   "school": "Boğaziçi University"
-  },
-  {
-   "id": "s111",
-   "firstName": "Kaan",
-   "age": 37,
-   "province": "İstanbul",
-   "district": "Silivri",
-   "intent": "hobby_partner",
-   "interests": [
-    "tea",
-    "art house cinema",
-    "museums",
-    "startups"
-   ],
-   "availability": [
-    "fri_evening",
-    "sat_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 611,
-   "profession": "Editor",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s112",
-   "firstName": "Duru",
-   "age": 39,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "running",
-    "startups",
-    "fintech",
-    "design",
-    "saas"
-   ],
-   "availability": [
-    "mon_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 26,
-   "createdMinuteOfDay": 794,
-   "school": "Ankara Fen Lisesi"
-  },
-  {
-   "id": "s113",
-   "firstName": "Arda",
-   "age": 30,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "hobby_partner",
-   "interests": [
-    "dancing",
-    "cycling",
-    "cooking",
-    "hiking",
-    "public speaking"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 759,
-   "profession": "Accountant",
-   "school": "Robert College"
-  },
-  {
-   "id": "s114",
-   "firstName": "Lara",
-   "age": 36,
-   "province": "İstanbul",
-   "district": "Kartal",
-   "intent": "friendship",
-   "interests": [
-    "climbing",
-    "photography",
-    "board games",
-    "cooking",
     "design"
    ],
    "availability": [
     "mon_evening",
-    "tue_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 20,
-   "createdMinuteOfDay": 1209,
-   "book": "The Time Regulation Institute",
-   "profession": "Chef",
-   "school": "Galatasaray University"
-  },
-  {
-   "id": "s115",
-   "firstName": "Yusuf",
-   "age": 30,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
-   "interests": [
-    "saas",
-    "podcasts",
-    "fintech",
-    "startups",
-    "investing"
-   ],
-   "availability": [
-    "fri_evening",
+    "wed_evening",
     "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 41,
-   "createdMinuteOfDay": 1257,
-   "profession": "Doctor",
-   "school": "Robert College"
+   "tableSize": "medium",
+   "createdDaysAgo": 1,
+   "createdMinuteOfDay": 1219,
+   "profession": "Marketing Specialist"
   },
   {
-   "id": "s116",
-   "firstName": "Melis",
-   "age": 38,
+   "id": "s082",
+   "firstName": "Alp",
+   "age": 26,
    "province": "İstanbul",
-   "district": "Beşiktaş",
-   "intent": "friendship",
+   "district": "Şişli",
+   "intent": "networking",
    "interests": [
-    "fintech",
-    "running",
+    "saas",
     "podcasts",
-    "travel"
+    "startups"
    ],
    "availability": [
+    "wed_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 19,
+   "createdMinuteOfDay": 1295,
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s083",
+   "firstName": "Derin",
+   "age": 37,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "hobby_partner",
+   "interests": [
+    "live music",
+    "cycling",
+    "board games",
+    "football"
+   ],
+   "availability": [
+    "mon_evening",
     "thu_evening",
-    "sat_evening",
-    "sun_morning"
+    "fri_evening",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 8,
-   "createdMinuteOfDay": 734,
-   "book": "Zero to One",
-   "profession": "Doctor"
+   "createdDaysAgo": 44,
+   "createdMinuteOfDay": 649,
+   "book": "Shoe Dog",
+   "profession": "Chef",
+   "school": "Boğaziçi University"
   },
   {
-   "id": "s117",
-   "firstName": "Efe",
+   "id": "s084",
+   "firstName": "Berk",
    "age": 28,
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "literary fiction",
-    "coffee",
+    "art house cinema",
     "film",
-    "venture capital"
+    "tea"
    ],
    "availability": [
-    "mon_afternoon",
     "wed_evening",
     "fri_evening",
-    "sat_afternoon"
+    "sat_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 1377,
+   "book": "Tutunamayanlar",
+   "profession": "Chef"
+  },
+  {
+   "id": "s085",
+   "firstName": "Ilgın",
+   "age": 34,
+   "province": "İstanbul",
+   "district": "Bahçelievler",
+   "intent": "networking",
+   "interests": [
+    "chess",
+    "classical music",
+    "coffee",
+    "history",
+    "hiking"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_evening",
+    "fri_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
    "createdDaysAgo": 45,
-   "createdMinuteOfDay": 163,
-   "book": "Project Hail Mary",
-   "profession": "Founder"
+   "createdMinuteOfDay": 728,
+   "profession": "Product Manager"
   },
   {
-   "id": "s118",
-   "firstName": "Sena",
-   "age": 25,
+   "id": "s086",
+   "firstName": "Cem",
+   "age": 33,
    "province": "İstanbul",
-   "district": "Şişli",
+   "district": "Şile",
    "intent": "hobby_partner",
    "interests": [
-    "fintech",
-    "investing",
-    "product management",
-    "productivity",
-    "yoga"
+    "yoga",
+    "ai",
+    "running",
+    "climbing"
    ],
    "availability": [
-    "tue_afternoon",
     "wed_evening",
-    "fri_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 28,
-   "createdMinuteOfDay": 1192,
-   "book": "Atomic Habits"
-  },
-  {
-   "id": "s119",
-   "firstName": "Onur",
-   "age": 44,
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "networking",
-   "interests": [
-    "poetry",
-    "tea",
-    "literary fiction",
-    "art house cinema",
-    "classical music",
-    "hiking"
-   ],
-   "availability": [
-    "mon_morning",
-    "thu_evening",
+    "sat_evening",
     "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 1278,
-   "book": "Thinking, Fast and Slow",
-   "profession": "Marketing Specialist"
+   "createdDaysAgo": 34,
+   "createdMinuteOfDay": 1329,
+   "book": "Crime and Punishment",
+   "school": "Robert College",
+   "idea": "Ferries are the best office in İstanbul"
   },
   {
-   "id": "s120",
-   "firstName": "Ada",
-   "age": 21,
+   "id": "s087",
+   "firstName": "Pelin",
+   "age": 23,
    "province": "İstanbul",
-   "district": "Kağıthane",
+   "district": "Beyoğlu",
+   "intent": "friendship",
+   "interests": [
+    "startups",
+    "ai",
+    "venture capital",
+    "growth marketing",
+    "football"
+   ],
+   "availability": [
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 10,
+   "createdMinuteOfDay": 1254,
+   "profession": "Doctor",
+   "school": "Sabancı University"
+  },
+  {
+   "id": "s088",
+   "firstName": "Maya",
+   "age": 45,
+   "province": "İstanbul",
+   "district": "Kadıköy",
    "intent": "hobby_partner",
    "interests": [
-    "street food",
-    "football",
-    "hiking",
+    "startups",
+    "fintech",
+    "investing",
+    "ai"
+   ],
+   "availability": [
+    "sun_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 39,
+   "createdMinuteOfDay": 1355,
+   "book": "Crime and Punishment",
+   "profession": "Journalist",
+   "school": "Boğaziçi University",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
+  },
+  {
+   "id": "s089",
+   "firstName": "Leo",
+   "age": 23,
+   "province": "İstanbul",
+   "district": "Bahçelievler",
+   "intent": "friendship",
+   "interests": [
+    "cycling",
+    "travel",
     "language exchange",
-    "cooking"
+    "climbing",
+    "startups"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 14,
+   "createdMinuteOfDay": 1309,
+   "school": "Sabancı University"
+  },
+  {
+   "id": "s090",
+   "firstName": "Sofia",
+   "age": 24,
+   "province": "İstanbul",
+   "district": "Ümraniye",
+   "intent": "networking",
+   "interests": [
+    "growth marketing",
+    "fintech",
+    "product management"
+   ],
+   "availability": [
+    "tue_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 6,
+   "createdMinuteOfDay": 1328,
+   "book": "The Mom Test",
+   "profession": "Architect",
+   "school": "Boğaziçi University",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s091",
+   "firstName": "Omar",
+   "age": 28,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "ai",
+    "startups",
+    "fintech",
+    "venture capital",
+    "public speaking"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "tue_evening",
+    "thu_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 30,
+   "createdMinuteOfDay": 1340,
+   "book": "Norwegian Wood",
+   "profession": "Doctor",
+   "school": "Bilkent University"
+  },
+  {
+   "id": "s092",
+   "firstName": "Anna",
+   "age": 44,
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "intent": "networking",
+   "interests": [
+    "productivity",
+    "ai",
+    "running",
+    "startups",
+    "chess"
+   ],
+   "availability": [
+    "wed_evening",
+    "thu_evening",
+    "fri_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 51,
+   "createdMinuteOfDay": 1423,
+   "school": "Istanbul Technical University"
+  },
+  {
+   "id": "s093",
+   "firstName": "Lukas",
+   "age": 37,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "networking",
+   "interests": [
+    "tea",
+    "history",
+    "museums",
+    "investing"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "tue_evening",
+    "thu_evening",
+    "sat_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 3,
+   "createdMinuteOfDay": 1202,
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s094",
+   "firstName": "Nadia",
+   "age": 42,
+   "province": "İstanbul",
+   "district": "Ataşehir",
+   "intent": "friendship",
+   "interests": [
+    "cooking",
+    "dancing",
+    "live music"
    ],
    "availability": [
     "mon_evening",
+    "wed_evening",
+    "thu_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 1266,
+   "book": "The Museum of Innocence",
+   "profession": "Architect",
+   "school": "Boğaziçi University",
+   "idea": "Every neighbourhood needs a free tool library"
+  },
+  {
+   "id": "s095",
+   "firstName": "Elif",
+   "age": 31,
+   "province": "İstanbul",
+   "district": "Ataşehir",
+   "intent": "friendship",
+   "interests": [
+    "philosophy",
+    "film",
+    "poetry",
+    "writing",
+    "classical music",
+    "running"
+   ],
+   "availability": [
     "fri_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 9,
+   "createdMinuteOfDay": 1266,
+   "book": "The Hard Thing About Hard Things",
+   "profession": "Product Designer"
+  },
+  {
+   "id": "s096",
+   "firstName": "Deniz",
+   "age": 28,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "networking",
+   "interests": [
+    "running",
+    "public speaking",
+    "podcasts",
+    "fintech",
+    "startups"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "wed_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 27,
+   "createdMinuteOfDay": 1275,
+   "book": "The Bastard of Istanbul",
+   "profession": "Accountant",
+   "school": "Istanbul Technical University"
+  },
+  {
+   "id": "s097",
+   "firstName": "Can",
+   "age": 43,
+   "province": "İstanbul",
+   "district": "Maltepe",
+   "intent": "networking",
+   "interests": [
+    "film",
+    "writing",
+    "journaling",
+    "coffee",
+    "street food"
+   ],
+   "availability": [
+    "wed_evening",
+    "fri_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 21,
+   "createdMinuteOfDay": 1310,
+   "book": "Selected Poems",
+   "profession": "Banker",
+   "school": "Istanbul University",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s098",
+   "firstName": "Zeynep",
+   "age": 22,
+   "province": "İstanbul",
+   "district": "Zeytinburnu",
+   "intent": "hobby_partner",
+   "interests": [
+    "growth marketing",
+    "podcasts",
+    "public speaking",
+    "productivity"
+   ],
+   "availability": [
+    "mon_morning",
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 807,
+   "book": "Inspired",
+   "profession": "Banker"
+  },
+  {
+   "id": "s099",
+   "firstName": "Mert",
+   "age": 30,
+   "province": "İstanbul",
+   "district": "Büyükçekmece",
+   "intent": "hobby_partner",
+   "interests": [
+    "football",
+    "hiking",
+    "cycling",
+    "travel"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_afternoon",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 1366,
+   "profession": "Banker",
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s100",
+   "firstName": "Ece",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Güngören",
+   "intent": "friendship",
+   "interests": [
+    "running",
+    "growth marketing",
+    "product management",
+    "venture capital",
+    "productivity",
+    "street food"
+   ],
+   "availability": [
+    "tue_evening",
+    "sat_morning",
+    "sat_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 1,
+   "createdMinuteOfDay": 1194,
+   "profession": "Lawyer",
+   "idea": "Cities should have more benches"
+  },
+  {
+   "id": "s101",
+   "firstName": "Emre",
+   "age": 32,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "networking",
+   "interests": [
+    "language exchange",
+    "climbing",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 11,
+   "createdMinuteOfDay": 1079
+  },
+  {
+   "id": "s102",
+   "firstName": "Selin",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "tea",
+    "classical music",
+    "film"
+   ],
+   "availability": [
+    "tue_evening",
+    "fri_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 1409,
+   "book": "The Hard Thing About Hard Things",
+   "profession": "Lawyer"
+  },
+  {
+   "id": "s103",
+   "firstName": "Burak",
+   "age": 30,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "hiking",
+    "football",
+    "cycling",
+    "bosphorus walks",
+    "travel",
+    "writing"
+   ],
+   "availability": [
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 60,
+   "createdMinuteOfDay": 1299,
+   "book": "The Bastard of Istanbul"
+  },
+  {
+   "id": "s104",
+   "firstName": "Defne",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "productivity",
+    "fintech",
+    "startups"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_morning",
+    "thu_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 45,
+   "createdMinuteOfDay": 1336,
+   "book": "The Lean Startup",
+   "profession": "Founder"
+  },
+  {
+   "id": "s105",
+   "firstName": "Kerem",
+   "age": 21,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "climbing",
+    "dancing",
+    "language exchange"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_evening",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 1126,
-   "profession": "Investment Analyst",
-   "school": "Galatasaray High School"
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 1268,
+   "book": "Mrs Dalloway",
+   "profession": "Academic"
   },
   {
-   "id": "s121",
-   "firstName": "Tolga",
+   "id": "s106",
+   "firstName": "İpek",
+   "age": 44,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "bosphorus walks",
+    "dancing",
+    "travel"
+   ],
+   "availability": [
+    "sat_afternoon",
+    "sun_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 24,
+   "createdMinuteOfDay": 1432,
+   "book": "The Time Regulation Institute",
+   "profession": "Chef"
+  },
+  {
+   "id": "s107",
+   "firstName": "Ozan",
+   "age": 38,
+   "province": "İstanbul",
+   "district": "Ataşehir",
+   "intent": "networking",
+   "interests": [
+    "podcasts",
+    "venture capital",
+    "investing",
+    "saas",
+    "yoga",
+    "philosophy"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 25,
+   "createdMinuteOfDay": 1230,
+   "book": "Inspired",
+   "profession": "Product Manager"
+  },
+  {
+   "id": "s108",
+   "firstName": "Ayşe",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "friendship",
+   "interests": [
+    "classical music",
+    "history",
+    "philosophy",
+    "coffee",
+    "journaling"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_morning",
+    "sat_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 26,
+   "createdMinuteOfDay": 1238,
+   "book": "One Hundred Years of Solitude",
+   "school": "Galatasaray High School",
+   "idea": "Translation is a kind of writing"
+  },
+  {
+   "id": "s109",
+   "firstName": "Baran",
+   "age": 29,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "live music",
+    "cycling",
+    "hiking",
+    "football",
+    "fintech"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 10,
+   "createdMinuteOfDay": 575,
+   "book": "Dune",
+   "profession": "Editor",
+   "school": "Istanbul University",
+   "idea": "Small talk is underrated"
+  },
+  {
+   "id": "s110",
+   "firstName": "Naz",
+   "age": 45,
+   "province": "İstanbul",
+   "district": "Silivri",
+   "intent": "friendship",
+   "interests": [
+    "live music",
+    "cooking",
+    "dancing",
+    "street food",
+    "travel"
+   ],
+   "availability": [
+    "fri_afternoon",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 37,
+   "createdMinuteOfDay": 696,
+   "profession": "Editor"
+  },
+  {
+   "id": "s111",
+   "firstName": "Kaan",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "intent": "hobby_partner",
+   "interests": [
+    "product management",
+    "fintech",
+    "saas",
+    "investing",
+    "startups"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 732,
+   "school": "Koç University",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s112",
+   "firstName": "Duru",
+   "age": 33,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "networking",
+   "interests": [
+    "productivity",
+    "design",
+    "podcasts",
+    "ai",
+    "startups"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 24,
+   "createdMinuteOfDay": 993,
+   "profession": "Journalist",
+   "school": "Robert College",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s113",
+   "firstName": "Arda",
+   "age": 45,
+   "province": "İstanbul",
+   "district": "Güngören",
+   "intent": "friendship",
+   "interests": [
+    "dancing",
+    "bosphorus walks",
+    "cooking",
+    "climbing",
+    "board games",
+    "writing"
+   ],
+   "availability": [
+    "fri_evening",
+    "sat_morning",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 16,
+   "createdMinuteOfDay": 1091,
+   "book": "Stoner",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s114",
+   "firstName": "Lara",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "fintech",
+    "product management",
+    "podcasts",
+    "startups"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 45,
+   "createdMinuteOfDay": 744,
+   "idea": "We should read more books written before we were born"
+  },
+  {
+   "id": "s115",
+   "firstName": "Yusuf",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "yoga",
+    "product management",
+    "running",
+    "saas",
+    "ai"
+   ],
+   "availability": [
+    "fri_evening",
+    "sat_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 1,
+   "createdMinuteOfDay": 1052,
+   "school": "Sabancı University",
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s116",
+   "firstName": "Melis",
    "age": 39,
    "province": "İstanbul",
    "district": "Şişli",
@@ -3345,21 +3223,20 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 56,
    "createdMinuteOfDay": 1262,
-   "profession": "Editor"
+   "profession": "Editor",
+   "idea": "Boredom is where ideas come from"
   },
   {
-   "id": "s122",
-   "firstName": "Irmak",
+   "id": "s117",
+   "firstName": "Efe",
    "age": 34,
    "province": "İstanbul",
    "district": "Beyoğlu",
    "intent": "friendship",
    "interests": [
-    "cooking",
-    "language exchange",
-    "bosphorus walks",
-    "dancing",
-    "yoga"
+    "chess",
+    "tea",
+    "literary fiction"
    ],
    "availability": [
     "thu_evening",
@@ -3373,21 +3250,20 @@ export const SEED: SeedData = {
    "createdDaysAgo": 28,
    "createdMinuteOfDay": 1376,
    "book": "Anna Karenina",
-   "school": "Bilkent University"
+   "school": "Bilkent University",
+   "idea": "We should read more books written before we were born"
   },
   {
-   "id": "s123",
-   "firstName": "Umut",
+   "id": "s118",
+   "firstName": "Sena",
    "age": 43,
    "province": "İstanbul",
    "district": "Beylikdüzü",
    "intent": "friendship",
    "interests": [
-    "dancing",
-    "hiking",
-    "travel",
-    "language exchange",
-    "football",
+    "podcasts",
+    "ai",
+    "yoga",
     "literary fiction"
    ],
    "availability": [
@@ -3404,271 +3280,83 @@ export const SEED: SeedData = {
    "createdDaysAgo": 44,
    "createdMinuteOfDay": 1339,
    "book": "Madonna in a Fur Coat",
-   "profession": "Doctor"
+   "profession": "Doctor",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
-   "id": "s124",
-   "firstName": "Asya",
-   "age": 26,
+   "id": "s119",
+   "firstName": "Onur",
+   "age": 28,
    "province": "İstanbul",
-   "district": "Şişli",
+   "district": "Sarıyer",
    "intent": "friendship",
    "interests": [
-    "board games",
-    "travel",
-    "dancing",
-    "hiking",
-    "investing"
+    "tea",
+    "literary fiction",
+    "history",
+    "museums",
+    "chess"
    ],
    "availability": [
-    "tue_evening",
-    "wed_evening",
     "fri_afternoon",
     "sat_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 60,
-   "createdMinuteOfDay": 1261,
-   "book": "Kafka on the Shore",
+   "tableSize": "medium",
+   "createdDaysAgo": 19,
+   "createdMinuteOfDay": 1426,
+   "book": "Tutunamayanlar",
+   "profession": "Lawyer",
    "school": "Robert College"
   },
   {
-   "id": "s125",
-   "firstName": "Sarp",
-   "age": 41,
+   "id": "s120",
+   "firstName": "Ada",
+   "age": 43,
    "province": "İstanbul",
    "district": "Kadıköy",
-   "intent": "friendship",
+   "intent": "hobby_partner",
    "interests": [
-    "saas",
-    "venture capital",
-    "fintech",
-    "philosophy"
+    "history",
+    "coffee",
+    "literary fiction",
+    "classical music",
+    "philosophy",
+    "hiking"
    ],
    "availability": [
     "mon_evening",
-    "tue_evening"
+    "tue_evening",
+    "sun_morning"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 744
-  },
-  {
-   "id": "s126",
-   "firstName": "Ela",
-   "age": 43,
-   "province": "İstanbul",
-   "district": "Kağıthane",
-   "intent": "friendship",
-   "interests": [
-    "growth marketing",
-    "saas",
-    "venture capital"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
    "createdDaysAgo": 51,
-   "createdMinuteOfDay": 230,
-   "profession": "Founder",
-   "school": "Robert College"
+   "createdMinuteOfDay": 1311,
+   "profession": "Lawyer",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
-   "id": "s127",
-   "firstName": "Doruk",
-   "age": 33,
-   "province": "İstanbul",
-   "district": "Şişli",
-   "intent": "networking",
-   "interests": [
-    "tea",
-    "history",
-    "art house cinema",
-    "literary fiction",
-    "growth marketing"
-   ],
-   "availability": [
-    "tue_evening",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 711,
-   "book": "Anna Karenina",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s128",
-   "firstName": "Nehir",
-   "age": 26,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "writing",
-    "classical music",
-    "chess",
-    "film"
-   ],
-   "availability": [
-    "mon_morning",
-    "wed_evening",
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 564,
-   "book": "Zero to One"
-  },
-  {
-   "id": "s129",
-   "firstName": "Alp",
-   "age": 42,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "friendship",
-   "interests": [
-    "bosphorus walks",
-    "photography",
-    "dancing",
-    "travel"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 1207,
-   "school": "Sabancı University"
-  },
-  {
-   "id": "s130",
-   "firstName": "Derin",
+   "id": "s121",
+   "firstName": "Tolga",
    "age": 37,
    "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "networking",
-   "interests": [
-    "public speaking",
-    "design",
-    "venture capital",
-    "fintech",
-    "product management"
-   ],
-   "availability": [
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 52,
-   "createdMinuteOfDay": 1095,
-   "profession": "Journalist",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s131",
-   "firstName": "Berk",
-   "age": 43,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "intent": "networking",
-   "interests": [
-    "venture capital",
-    "design",
-    "growth marketing",
-    "investing",
-    "photography"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 24,
-   "createdMinuteOfDay": 544,
-   "book": "Huzur"
-  },
-  {
-   "id": "s132",
-   "firstName": "Ilgın",
-   "age": 36,
-   "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Beşiktaş",
    "intent": "friendship",
    "interests": [
-    "language exchange",
-    "dancing",
-    "hiking",
-    "street food"
-   ],
-   "availability": [
-    "thu_evening",
-    "fri_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1095,
-   "profession": "Lawyer"
-  },
-  {
-   "id": "s133",
-   "firstName": "Cem",
-   "age": 34,
-   "province": "İstanbul",
-   "district": "Sancaktepe",
-   "intent": "networking",
-   "interests": [
-    "literary fiction",
-    "history",
-    "chess",
-    "classical music",
+    "art house cinema",
+    "poetry",
     "film",
-    "street food"
+    "classical music",
+    "writing"
    ],
    "availability": [
-    "mon_morning",
     "mon_evening",
+    "wed_afternoon",
     "sat_morning",
     "sun_morning"
    ],
@@ -3676,221 +3364,249 @@ export const SEED: SeedData = {
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 20,
-   "createdMinuteOfDay": 902,
-   "book": "Norwegian Wood",
-   "profession": "Journalist"
+   "createdDaysAgo": 36,
+   "createdMinuteOfDay": 1398,
+   "profession": "Investment Analyst",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
-   "id": "s134",
-   "firstName": "Pelin",
-   "age": 30,
+   "id": "s122",
+   "firstName": "Irmak",
+   "age": 36,
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Beşiktaş",
    "intent": "friendship",
    "interests": [
-    "coffee",
-    "poetry",
-    "philosophy",
-    "history"
+    "chess",
+    "writing",
+    "classical music",
+    "public speaking"
    ],
    "availability": [
+    "wed_evening",
+    "thu_evening",
+    "sun_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 39,
+   "createdMinuteOfDay": 1278,
+   "profession": "Investment Analyst",
+   "school": "Ankara Fen Lisesi",
+   "idea": "We need more places to sit that don't require buying coffee"
+  },
+  {
+   "id": "s123",
+   "firstName": "Umut",
+   "age": 43,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "networking",
+   "interests": [
+    "writing",
+    "philosophy",
+    "classical music",
+    "poetry"
+   ],
+   "availability": [
+    "wed_evening",
     "fri_evening",
-    "sat_morning",
+    "sun_morning",
     "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 1281,
-   "book": "Dune"
+   "tableSize": "medium",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 312,
+   "book": "Memed, My Hawk",
+   "profession": "Product Manager",
+   "school": "Robert College"
   },
   {
-   "id": "s135",
-   "firstName": "Maya",
-   "age": 31,
+   "id": "s124",
+   "firstName": "Asya",
+   "age": 25,
    "province": "İstanbul",
-   "district": "Beşiktaş",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "dancing",
-    "street food",
-    "board games",
-    "travel"
+    "productivity",
+    "fintech",
+    "venture capital",
+    "journaling"
    ],
    "availability": [
-    "wed_afternoon",
-    "thu_morning"
+    "wed_evening",
+    "thu_evening",
+    "sat_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 746,
-   "book": "The Brothers Karamazov",
-   "profession": "Doctor",
-   "school": "Kabataş Erkek Lisesi"
+   "createdDaysAgo": 25,
+   "createdMinuteOfDay": 1164,
+   "profession": "Journalist"
   },
   {
-   "id": "s136",
-   "firstName": "Leo",
-   "age": 40,
+   "id": "s125",
+   "firstName": "Sarp",
+   "age": 27,
    "province": "İstanbul",
-   "district": "Sultangazi",
+   "district": "Şişli",
    "intent": "friendship",
    "interests": [
-    "film",
-    "classical music",
     "writing",
-    "tea",
-    "literary fiction"
+    "coffee",
+    "philosophy",
+    "museums"
    ],
    "availability": [
-    "mon_evening",
     "wed_evening",
-    "sat_morning"
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 18,
-   "createdMinuteOfDay": 1313,
-   "profession": "Marketing Specialist",
-   "school": "Kabataş Erkek Lisesi"
-  },
-  {
-   "id": "s137",
-   "firstName": "Sofia",
-   "age": 37,
-   "province": "İstanbul",
-   "district": "Sarıyer",
-   "intent": "friendship",
-   "interests": [
-    "yoga",
-    "ai",
-    "podcasts",
-    "startups",
-    "investing"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
    "tableSize": "medium",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 1089,
-   "book": "Sapiens"
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 1285,
+   "profession": "Data Scientist"
   },
   {
-   "id": "s138",
-   "firstName": "Omar",
+   "id": "s126",
+   "firstName": "Ela",
    "age": 33,
    "province": "İstanbul",
-   "district": "Kadıköy",
-   "intent": "friendship",
+   "district": "Başakşehir",
+   "intent": "hobby_partner",
    "interests": [
-    "film",
-    "classical music",
-    "literary fiction",
-    "history",
-    "startups"
+    "product management",
+    "startups",
+    "design",
+    "tea"
    ],
    "availability": [
-    "mon_evening",
-    "fri_morning",
-    "sat_evening"
+    "tue_evening",
+    "fri_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 351,
-   "profession": "Data Scientist",
-   "school": "Kabataş Erkek Lisesi"
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 803,
+   "book": "The Alchemist",
+   "profession": "Editor"
   },
   {
-   "id": "s139",
-   "firstName": "Anna",
+   "id": "s127",
+   "firstName": "Doruk",
    "age": 38,
    "province": "İstanbul",
    "district": "Kadıköy",
-   "intent": "networking",
+   "intent": "friendship",
    "interests": [
-    "chess",
-    "poetry",
+    "history",
+    "writing",
+    "film",
     "journaling"
    ],
    "availability": [
     "mon_evening",
     "tue_evening",
-    "sat_afternoon",
-    "sun_afternoon"
+    "wed_evening",
+    "fri_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 718,
-   "book": "The Museum of Innocence",
-   "profession": "Data Scientist"
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 1327,
+   "profession": "Product Manager",
+   "school": "Galatasaray High School"
   },
   {
-   "id": "s140",
-   "firstName": "Lukas",
-   "age": 30,
+   "id": "s128",
+   "firstName": "Nehir",
+   "age": 37,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
+    "venture capital",
+    "public speaking",
+    "startups",
+    "productivity"
+   ],
+   "availability": [
+    "wed_evening",
+    "fri_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 1,
+   "createdMinuteOfDay": 574,
+   "profession": "Editor",
+   "school": "Robert College"
+  },
+  {
+   "id": "s129",
+   "firstName": "Alp",
+   "age": 23,
    "province": "İstanbul",
    "district": "Beşiktaş",
    "intent": "friendship",
    "interests": [
     "classical music",
     "philosophy",
-    "coffee"
+    "tea",
+    "journaling",
+    "chess",
+    "venture capital"
    ],
    "availability": [
-    "sat_morning",
-    "sat_afternoon",
+    "tue_evening",
     "sun_evening"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 1310,
-   "profession": "Teacher"
+   "tableSize": "small",
+   "createdDaysAgo": 20,
+   "createdMinuteOfDay": 860,
+   "profession": "Banker",
+   "school": "Sabancı University"
   },
   {
-   "id": "s141",
-   "firstName": "Nadia",
-   "age": 37,
-   "province": "Ankara",
-   "district": "Çankaya",
+   "id": "s130",
+   "firstName": "Derin",
+   "age": 41,
+   "province": "İstanbul",
+   "district": "Beyoğlu",
    "intent": "friendship",
    "interests": [
-    "board games",
-    "football",
-    "travel",
-    "cooking",
-    "street food",
-    "tea"
+    "art house cinema",
+    "literary fiction",
+    "journaling"
    ],
    "availability": [
     "wed_evening",
-    "sat_evening",
+    "fri_evening",
     "sun_afternoon"
    ],
    "languages": [
@@ -3898,104 +3614,240 @@ export const SEED: SeedData = {
    ],
    "tableSize": "small",
    "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1197,
-   "book": "Shoe Dog",
-   "profession": "Marketing Specialist",
-   "school": "Sabancı University"
+   "createdMinuteOfDay": 440,
+   "profession": "Lawyer"
   },
   {
-   "id": "s142",
-   "firstName": "Elif",
-   "age": 29,
-   "province": "Ankara",
-   "district": "Çankaya",
+   "id": "s131",
+   "firstName": "Berk",
+   "age": 31,
+   "province": "İstanbul",
+   "district": "Ümraniye",
    "intent": "friendship",
    "interests": [
-    "tea",
-    "museums",
-    "philosophy",
-    "classical music",
-    "art house cinema"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 30,
-   "createdMinuteOfDay": 1321,
-   "book": "Kafka on the Shore",
-   "profession": "Doctor"
-  },
-  {
-   "id": "s143",
-   "firstName": "Deniz",
-   "age": 42,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "product management",
-    "design",
-    "fintech",
-    "film"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 60,
-   "createdMinuteOfDay": 401,
-   "book": "Madonna in a Fur Coat",
-   "profession": "Banker",
-   "school": "METU"
-  },
-  {
-   "id": "s144",
-   "firstName": "Can",
-   "age": 35,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "growth marketing",
-    "public speaking",
-    "running",
-    "product management",
-    "hiking"
+    "dancing",
+    "cycling",
+    "football",
+    "hiking",
+    "climbing"
    ],
    "availability": [
     "mon_afternoon",
-    "fri_evening",
+    "tue_evening",
+    "wed_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 721,
+   "book": "Selected Poems",
+   "profession": "Journalist"
+  },
+  {
+   "id": "s132",
+   "firstName": "Ilgın",
+   "age": 40,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "football",
+    "bosphorus walks",
+    "photography",
+    "cooking"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "wed_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 9,
+   "createdMinuteOfDay": 388,
+   "book": "Istanbul: Memories and the City",
+   "profession": "Teacher",
+   "school": "Boğaziçi University"
+  },
+  {
+   "id": "s133",
+   "firstName": "Cem",
+   "age": 24,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "friendship",
+   "interests": [
+    "product management",
+    "yoga",
+    "investing"
+   ],
+   "availability": [
+    "tue_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 17,
+   "createdMinuteOfDay": 520,
+   "profession": "Data Scientist"
+  },
+  {
+   "id": "s134",
+   "firstName": "Pelin",
+   "age": 44,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "networking",
+   "interests": [
+    "language exchange",
+    "hiking",
+    "cycling"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 1296,
+   "profession": "Product Designer",
+   "idea": "Ferries are the best office in İstanbul"
+  },
+  {
+   "id": "s135",
+   "firstName": "Maya",
+   "age": 29,
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "intent": "friendship",
+   "interests": [
+    "ai",
+    "running",
+    "growth marketing",
+    "venture capital",
+    "public speaking"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
     "sat_morning",
     "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 951
+   "tableSize": "small",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 885,
+   "profession": "Banker"
   },
   {
-   "id": "s145",
-   "firstName": "Zeynep",
-   "age": 38,
-   "province": "Ankara",
-   "district": "Pursaklar",
+   "id": "s136",
+   "firstName": "Leo",
+   "age": 26,
+   "province": "İstanbul",
+   "district": "Eyüpsultan",
+   "intent": "networking",
+   "interests": [
+    "travel",
+    "board games",
+    "cycling",
+    "live music",
+    "fintech"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 23,
+   "createdMinuteOfDay": 374,
+   "profession": "Investment Analyst",
+   "school": "Kabataş Erkek Lisesi",
+   "idea": "Cities should have more benches"
+  },
+  {
+   "id": "s137",
+   "firstName": "Sofia",
+   "age": 39,
+   "province": "İstanbul",
+   "district": "Kadıköy",
    "intent": "friendship",
    "interests": [
-    "venture capital",
+    "coffee",
+    "journaling",
+    "writing",
+    "literary fiction",
+    "poetry",
+    "climbing"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_morning",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 54,
+   "createdMinuteOfDay": 1382,
+   "profession": "Software Engineer"
+  },
+  {
+   "id": "s138",
+   "firstName": "Omar",
+   "age": 37,
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "intent": "hobby_partner",
+   "interests": [
+    "language exchange",
+    "bosphorus walks",
+    "football",
+    "photography",
+    "cooking",
+    "philosophy"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "fri_evening",
+    "sat_morning",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 862,
+   "profession": "Lawyer"
+  },
+  {
+   "id": "s139",
+   "firstName": "Anna",
+   "age": 38,
+   "province": "İstanbul",
+   "district": "Şişli",
+   "intent": "friendship",
+   "interests": [
     "startups",
-    "design",
-    "public speaking"
+    "venture capital",
+    "investing"
    ],
    "availability": [
     "tue_evening",
@@ -4010,241 +3862,200 @@ export const SEED: SeedData = {
    "createdDaysAgo": 57,
    "createdMinuteOfDay": 954,
    "book": "Selected Poems",
-   "profession": "Product Designer"
+   "profession": "Product Designer",
+   "idea": "Translation is a kind of writing"
   },
   {
-   "id": "s146",
-   "firstName": "Mert",
-   "age": 25,
-   "province": "Ankara",
-   "district": "Haymana",
-   "intent": "networking",
-   "interests": [
-    "cooking",
-    "board games",
-    "live music",
-    "design"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 50,
-   "createdMinuteOfDay": 1287,
-   "profession": "Data Scientist",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s147",
-   "firstName": "Ece",
-   "age": 30,
-   "province": "Ankara",
-   "district": "Çankaya",
+   "id": "s140",
+   "firstName": "Lukas",
+   "age": 38,
+   "province": "İstanbul",
+   "district": "Kadıköy",
    "intent": "hobby_partner",
    "interests": [
-    "growth marketing",
-    "ai",
-    "yoga",
-    "saas",
-    "public speaking",
+    "live music",
+    "board games",
     "cycling"
    ],
    "availability": [
-    "tue_evening",
+    "tue_morning",
+    "wed_evening",
+    "sat_morning",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 5,
-   "createdMinuteOfDay": 1093,
-   "book": "One Hundred Years of Solitude",
-   "profession": "Lawyer",
-   "school": "Istanbul Technical University"
+   "createdDaysAgo": 33,
+   "createdMinuteOfDay": 1353,
+   "book": "Selected Poems",
+   "profession": "Architect",
+   "school": "Ankara Fen Lisesi"
   },
   {
-   "id": "s148",
-   "firstName": "Emre",
-   "age": 40,
+   "id": "s141",
+   "firstName": "Nadia",
+   "age": 21,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "cycling",
-    "dancing",
-    "bosphorus walks",
-    "cooking",
-    "film"
+    "photography",
+    "hiking",
+    "live music",
+    "street food",
+    "travel",
+    "yoga"
+   ],
+   "availability": [
+    "thu_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 530,
+   "book": "Tutunamayanlar",
+   "profession": "Software Engineer",
+   "school": "Sabancı University"
+  },
+  {
+   "id": "s142",
+   "firstName": "Elif",
+   "age": 45,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "public speaking",
+    "investing",
+    "growth marketing"
    ],
    "availability": [
     "mon_morning",
     "wed_evening",
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 57,
-   "createdMinuteOfDay": 539,
-   "school": "Robert College"
-  },
-  {
-   "id": "s149",
-   "firstName": "Selin",
-   "age": 31,
-   "province": "Ankara",
-   "district": "Etimesgut",
-   "intent": "networking",
-   "interests": [
-    "ai",
-    "product management",
-    "running",
-    "podcasts",
-    "fintech"
-   ],
-   "availability": [
-    "sat_afternoon",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 60,
-   "createdMinuteOfDay": 927,
-   "book": "The Mom Test",
-   "profession": "Chef",
-   "school": "Koç University"
-  },
-  {
-   "id": "s150",
-   "firstName": "Burak",
-   "age": 42,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "design",
-    "running",
-    "podcasts",
-    "startups"
-   ],
-   "availability": [
-    "fri_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 57,
-   "book": "Atomic Habits",
-   "profession": "Chef"
-  },
-  {
-   "id": "s151",
-   "firstName": "Defne",
-   "age": 26,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "chess",
-    "classical music",
-    "history"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_afternoon",
-    "sat_morning",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 1322,
-   "book": "Inspired",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s152",
-   "firstName": "Kerem",
-   "age": 39,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "hobby_partner",
-   "interests": [
-    "climbing",
-    "street food",
-    "hiking"
-   ],
-   "availability": [
-    "thu_evening",
-    "sun_evening"
+    "fri_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1425
+   "createdDaysAgo": 51,
+   "createdMinuteOfDay": 1340,
+   "school": "Robert College",
+   "idea": "Every neighbourhood needs a free tool library"
   },
   {
-   "id": "s153",
-   "firstName": "İpek",
-   "age": 36,
+   "id": "s143",
+   "firstName": "Deniz",
+   "age": 26,
    "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
+   "district": "Sincan",
+   "intent": "networking",
    "interests": [
-    "bosphorus walks",
-    "travel",
-    "climbing",
-    "language exchange",
-    "street food",
-    "tea"
+    "writing",
+    "film",
+    "chess",
+    "literary fiction",
+    "journaling"
    ],
    "availability": [
+    "mon_evening",
+    "thu_afternoon",
     "thu_evening",
-    "sun_morning"
+    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 13,
-   "createdMinuteOfDay": 569,
-   "profession": "Investment Analyst",
-   "school": "Robert College"
+   "tableSize": "medium",
+   "createdDaysAgo": 19,
+   "createdMinuteOfDay": 1319,
+   "book": "Selected Poems",
+   "profession": "Chef",
+   "school": "Galatasaray University",
+   "idea": "Cities should have more benches"
   },
   {
-   "id": "s154",
-   "firstName": "Ozan",
-   "age": 42,
+   "id": "s144",
+   "firstName": "Can",
+   "age": 30,
    "province": "Ankara",
-   "district": "Pursaklar",
-   "intent": "friendship",
+   "district": "Çankaya",
+   "intent": "networking",
    "interests": [
-    "film",
-    "history",
-    "journaling",
+    "bosphorus walks",
+    "climbing",
+    "cycling",
+    "travel",
+    "cooking",
+    "podcasts"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 25,
+   "createdMinuteOfDay": 1405,
+   "idea": "Everyone should learn to cook one dish from their grandmother"
+  },
+  {
+   "id": "s145",
+   "firstName": "Zeynep",
+   "age": 40,
+   "province": "Ankara",
+   "district": "Nallıhan",
+   "intent": "networking",
+   "interests": [
     "chess",
-    "tea"
+    "philosophy",
+    "poetry",
+    "journaling",
+    "photography"
    ],
    "availability": [
     "mon_evening",
+    "wed_evening",
+    "thu_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 23,
+   "createdMinuteOfDay": 1327,
+   "profession": "Chef",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s146",
+   "firstName": "Mert",
+   "age": 31,
+   "province": "Ankara",
+   "district": "Polatlı",
+   "intent": "friendship",
+   "interests": [
+    "travel",
+    "football",
+    "cooking",
+    "hiking",
+    "language exchange"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "wed_afternoon",
     "sun_evening"
    ],
    "languages": [
@@ -4253,37 +4064,66 @@ export const SEED: SeedData = {
    ],
    "tableSize": "medium",
    "createdDaysAgo": 53,
-   "createdMinuteOfDay": 454
+   "createdMinuteOfDay": 1178,
+   "profession": "Product Designer",
+   "school": "Bilkent University"
   },
   {
-   "id": "s155",
-   "firstName": "Ayşe",
-   "age": 41,
+   "id": "s147",
+   "firstName": "Ece",
+   "age": 24,
    "province": "Ankara",
    "district": "Çankaya",
-   "intent": "hobby_partner",
+   "intent": "friendship",
    "interests": [
-    "cooking",
-    "dancing",
-    "climbing",
-    "photography",
-    "board games"
+    "coffee",
+    "classical music",
+    "film"
    ],
    "availability": [
-    "thu_afternoon",
-    "sat_morning"
+    "fri_evening",
+    "sat_morning",
+    "sun_morning",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 1317,
-   "book": "Kuyucaklı Yusuf"
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 291,
+   "profession": "Academic"
   },
   {
-   "id": "s156",
-   "firstName": "Baran",
+   "id": "s148",
+   "firstName": "Emre",
+   "age": 44,
+   "province": "Ankara",
+   "district": "Kahramankazan",
+   "intent": "networking",
+   "interests": [
+    "podcasts",
+    "running",
+    "yoga",
+    "saas",
+    "public speaking"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 51,
+   "createdMinuteOfDay": 822,
+   "profession": "Software Engineer"
+  },
+  {
+   "id": "s149",
+   "firstName": "Selin",
    "age": 40,
    "province": "Ankara",
    "district": "Çankaya",
@@ -4309,17 +4149,16 @@ export const SEED: SeedData = {
    "book": "Human Landscapes from My Country"
   },
   {
-   "id": "s157",
-   "firstName": "Naz",
+   "id": "s150",
+   "firstName": "Burak",
    "age": 31,
    "province": "Ankara",
    "district": "Haymana",
    "intent": "networking",
    "interests": [
-    "poetry",
     "literary fiction",
-    "film",
-    "museums"
+    "museums",
+    "classical music"
    ],
    "availability": [
     "fri_evening",
@@ -4337,23 +4176,22 @@ export const SEED: SeedData = {
    "school": "METU"
   },
   {
-   "id": "s158",
-   "firstName": "Kaan",
+   "id": "s151",
+   "firstName": "Defne",
    "age": 38,
    "province": "Ankara",
    "district": "Kızılcahamam",
    "intent": "hobby_partner",
    "interests": [
-    "design",
-    "fintech",
-    "product management",
-    "language exchange"
+    "climbing",
+    "street food",
+    "language exchange",
+    "board games"
    ],
    "availability": [
     "mon_evening",
     "tue_evening",
-    "thu_morning",
-    "fri_evening"
+    "thu_morning"
    ],
    "languages": [
     "Turkish"
@@ -4365,251 +4203,243 @@ export const SEED: SeedData = {
    "school": "Ankara Fen Lisesi"
   },
   {
-   "id": "s159",
-   "firstName": "Duru",
-   "age": 34,
+   "id": "s152",
+   "firstName": "Kerem",
+   "age": 35,
    "province": "Ankara",
    "district": "Çankaya",
-   "intent": "friendship",
+   "intent": "networking",
    "interests": [
-    "tea",
-    "coffee",
-    "film"
+    "growth marketing",
+    "productivity",
+    "public speaking",
+    "venture capital",
+    "podcasts",
+    "cycling"
    ],
    "availability": [
-    "wed_evening",
-    "thu_evening"
+    "fri_evening",
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 45,
-   "createdMinuteOfDay": 1105
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 1264,
+   "profession": "Product Designer",
+   "idea": "Most meetings could be walks"
   },
   {
-   "id": "s160",
-   "firstName": "Arda",
-   "age": 29,
+   "id": "s153",
+   "firstName": "İpek",
+   "age": 39,
    "province": "Ankara",
-   "district": "Etimesgut",
+   "district": "Çankaya",
+   "intent": "hobby_partner",
+   "interests": [
+    "writing",
+    "chess",
+    "art house cinema",
+    "literary fiction",
+    "product management"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 42,
+   "createdMinuteOfDay": 1130,
+   "book": "The Hard Thing About Hard Things",
+   "profession": "Investment Analyst",
+   "school": "Galatasaray University"
+  },
+  {
+   "id": "s154",
+   "firstName": "Ozan",
+   "age": 26,
+   "province": "Ankara",
+   "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "language exchange",
+    "dancing",
+    "cooking",
+    "live music",
     "football",
-    "board games"
+    "hiking"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 39,
+   "createdMinuteOfDay": 1030,
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s155",
+   "firstName": "Ayşe",
+   "age": 25,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "live music",
+    "street food",
+    "cooking"
    ],
    "availability": [
     "mon_evening",
-    "sat_morning",
-    "sat_evening"
+    "tue_morning",
+    "wed_evening",
+    "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
    "createdDaysAgo": 34,
-   "createdMinuteOfDay": 826,
-   "school": "Koç University"
+   "createdMinuteOfDay": 955,
+   "book": "Thinking, Fast and Slow",
+   "profession": "Academic",
+   "school": "Galatasaray High School",
+   "idea": "Most meetings could be walks"
   },
   {
-   "id": "s161",
-   "firstName": "Lara",
-   "age": 41,
+   "id": "s156",
+   "firstName": "Baran",
+   "age": 30,
    "province": "Ankara",
-   "district": "Çankaya",
+   "district": "Ayaş",
    "intent": "hobby_partner",
    "interests": [
-    "growth marketing",
-    "product management",
-    "yoga",
-    "startups",
-    "classical music"
-   ],
-   "availability": [
-    "fri_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 5,
-   "createdMinuteOfDay": 1220,
-   "profession": "Architect",
-   "school": "Galatasaray University"
-  },
-  {
-   "id": "s162",
-   "firstName": "Yusuf",
-   "age": 45,
-   "province": "Ankara",
-   "district": "Balâ",
-   "intent": "friendship",
-   "interests": [
-    "cooking",
-    "live music",
-    "street food"
+    "productivity",
+    "ai",
+    "startups"
    ],
    "availability": [
     "mon_evening",
-    "tue_evening",
-    "wed_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 586,
-   "book": "The Hard Thing About Hard Things",
-   "profession": "Accountant"
-  },
-  {
-   "id": "s163",
-   "firstName": "Melis",
-   "age": 24,
-   "province": "Ankara",
-   "district": "Haymana",
-   "intent": "friendship",
-   "interests": [
-    "photography",
-    "cycling",
-    "dancing",
-    "growth marketing"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 41,
-   "createdMinuteOfDay": 603,
-   "school": "Galatasaray University"
-  },
-  {
-   "id": "s164",
-   "firstName": "Efe",
-   "age": 37,
-   "province": "Ankara",
-   "district": "Evren",
-   "intent": "friendship",
-   "interests": [
-    "literary fiction",
-    "tea",
-    "classical music",
-    "poetry",
-    "venture capital"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 28,
-   "createdMinuteOfDay": 880
-  },
-  {
-   "id": "s165",
-   "firstName": "Sena",
-   "age": 38,
-   "province": "Ankara",
-   "district": "Sincan",
-   "intent": "networking",
-   "interests": [
-    "coffee",
-    "film",
-    "journaling"
-   ],
-   "availability": [
-    "fri_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 851,
-   "book": "The Alchemist",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s166",
-   "firstName": "Onur",
-   "age": 41,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "hiking",
-    "football",
-    "cycling",
-    "street food",
-    "podcasts"
-   ],
-   "availability": [
     "thu_evening",
-    "sat_afternoon"
+    "sun_morning"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 4,
-   "createdMinuteOfDay": 1146,
-   "profession": "Journalist"
+   "createdDaysAgo": 20,
+   "createdMinuteOfDay": 1345,
+   "profession": "Product Manager"
   },
   {
-   "id": "s167",
-   "firstName": "Ada",
-   "age": 24,
+   "id": "s157",
+   "firstName": "Naz",
+   "age": 42,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "poetry",
-    "history",
-    "art house cinema",
-    "film",
-    "fintech"
+    "writing",
+    "classical music",
+    "history"
    ],
    "availability": [
+    "tue_afternoon",
     "tue_evening",
+    "fri_morning",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 776,
+   "book": "Inspired",
+   "profession": "Doctor",
+   "idea": "Small talk is underrated"
+  },
+  {
+   "id": "s158",
+   "firstName": "Kaan",
+   "age": 31,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "climbing",
+    "live music",
+    "photography",
+    "language exchange",
+    "football"
+   ],
+   "availability": [
+    "mon_evening",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 1321,
-   "book": "The Bastard of Istanbul",
+   "tableSize": "medium",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 864,
+   "book": "The Mom Test",
+   "profession": "Academic",
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s159",
+   "firstName": "Duru",
+   "age": 23,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "chess",
+    "museums",
+    "literary fiction",
+    "philosophy"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 13,
+   "createdMinuteOfDay": 1249,
+   "book": "Memed, My Hawk",
+   "profession": "Lawyer",
    "school": "Bilkent University"
   },
   {
-   "id": "s168",
-   "firstName": "Tolga",
-   "age": 43,
+   "id": "s160",
+   "firstName": "Arda",
+   "age": 30,
    "province": "Ankara",
-   "district": "Etimesgut",
+   "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "running",
     "saas",
-    "productivity"
+    "productivity",
+    "fintech",
+    "startups"
    ],
    "availability": [
     "thu_evening",
@@ -4619,112 +4449,107 @@ export const SEED: SeedData = {
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 1086,
-   "book": "The Stranger",
-   "school": "Istanbul University"
+   "tableSize": "small",
+   "createdDaysAgo": 35,
+   "createdMinuteOfDay": 505,
+   "book": "The Mom Test",
+   "profession": "Editor"
   },
   {
-   "id": "s169",
-   "firstName": "Irmak",
-   "age": 21,
+   "id": "s161",
+   "firstName": "Lara",
+   "age": 44,
    "province": "Ankara",
-   "district": "Çankaya",
+   "district": "Nallıhan",
    "intent": "friendship",
    "interests": [
-    "running",
-    "product management",
-    "design",
-    "photography"
+    "board games",
+    "live music",
+    "cooking",
+    "investing"
    ],
    "availability": [
-    "wed_evening",
-    "sat_afternoon",
-    "sun_morning"
+    "thu_evening",
+    "sat_afternoon"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 826,
-   "book": "Project Hail Mary",
+   "tableSize": "small",
+   "createdDaysAgo": 22,
+   "createdMinuteOfDay": 1272,
    "profession": "Lawyer",
    "school": "Koç University"
   },
   {
-   "id": "s170",
-   "firstName": "Umut",
-   "age": 38,
+   "id": "s162",
+   "firstName": "Yusuf",
+   "age": 45,
    "province": "Ankara",
-   "district": "Evren",
-   "intent": "hobby_partner",
+   "district": "Çankaya",
+   "intent": "friendship",
    "interests": [
-    "growth marketing",
-    "productivity",
-    "running",
-    "startups",
-    "yoga"
+    "bosphorus walks",
+    "cooking",
+    "hiking",
+    "travel",
+    "football"
    ],
    "availability": [
-    "tue_evening",
+    "fri_morning",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 57,
-   "createdMinuteOfDay": 1423,
-   "book": "Madonna in a Fur Coat"
+   "tableSize": "small",
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 660,
+   "school": "Robert College",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
-   "id": "s171",
-   "firstName": "Asya",
-   "age": 40,
+   "id": "s163",
+   "firstName": "Melis",
+   "age": 30,
    "province": "Ankara",
-   "district": "Beypazarı",
-   "intent": "friendship",
+   "district": "Çankaya",
+   "intent": "networking",
    "interests": [
     "cooking",
-    "hiking",
-    "cycling",
-    "running"
+    "travel",
+    "street food"
    ],
    "availability": [
-    "tue_evening",
-    "fri_evening",
-    "sat_afternoon"
+    "mon_evening",
+    "thu_morning"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 852,
-   "book": "Huzur",
-   "profession": "Marketing Specialist",
-   "school": "METU"
+   "tableSize": "small",
+   "createdDaysAgo": 18,
+   "createdMinuteOfDay": 426,
+   "school": "METU",
+   "idea": "Most meetings could be walks"
   },
   {
-   "id": "s172",
-   "firstName": "Sarp",
+   "id": "s164",
+   "firstName": "Efe",
    "age": 27,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "networking",
    "interests": [
-    "live music",
-    "cycling",
-    "board games",
-    "climbing",
-    "photography",
-    "history"
+    "investing",
+    "saas",
+    "design",
+    "public speaking",
+    "cooking"
    ],
    "availability": [
     "mon_evening",
-    "thu_evening",
     "fri_evening",
     "sun_evening"
    ],
@@ -4737,23 +4562,306 @@ export const SEED: SeedData = {
    "createdMinuteOfDay": 875,
    "book": "Selected Poems",
    "profession": "Product Designer",
-   "school": "Ankara Fen Lisesi"
+   "school": "Ankara Fen Lisesi",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s173",
-   "firstName": "Ela",
-   "age": 36,
+   "id": "s165",
+   "firstName": "Sena",
+   "age": 44,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "football",
     "language exchange",
-    "street food"
+    "photography",
+    "board games",
+    "growth marketing"
+   ],
+   "availability": [
+    "tue_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 59,
+   "createdMinuteOfDay": 1261,
+   "book": "Dune",
+   "school": "Boğaziçi University",
+   "idea": "Translation is a kind of writing"
+  },
+  {
+   "id": "s166",
+   "firstName": "Onur",
+   "age": 25,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "yoga",
+    "design",
+    "saas",
+    "productivity",
+    "tea"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "sun_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 11,
+   "createdMinuteOfDay": 1433,
+   "book": "Zero to One",
+   "profession": "Founder",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s167",
+   "firstName": "Ada",
+   "age": 43,
+   "province": "Ankara",
+   "district": "Keçiören",
+   "intent": "friendship",
+   "interests": [
+    "photography",
+    "street food",
+    "language exchange",
+    "dancing",
+    "board games",
+    "investing"
+   ],
+   "availability": [
+    "mon_evening",
+    "fri_afternoon",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 1310,
+   "profession": "Accountant",
+   "school": "Istanbul Technical University"
+  },
+  {
+   "id": "s168",
+   "firstName": "Tolga",
+   "age": 42,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "product management",
+    "design",
+    "growth marketing",
+    "public speaking",
+    "running"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 34,
+   "createdMinuteOfDay": 1308,
+   "book": "The Brothers Karamazov"
+  },
+  {
+   "id": "s169",
+   "firstName": "Irmak",
+   "age": 28,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "productivity",
+    "podcasts",
+    "ai",
+    "fintech",
+    "public speaking"
    ],
    "availability": [
     "tue_evening",
     "wed_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 26,
+   "createdMinuteOfDay": 1371
+  },
+  {
+   "id": "s170",
+   "firstName": "Umut",
+   "age": 26,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "street food",
+    "language exchange",
+    "climbing",
+    "board games",
+    "travel"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "sat_afternoon",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 1263,
+   "school": "Galatasaray University",
+   "idea": "Every neighbourhood needs a free tool library"
+  },
+  {
+   "id": "s171",
+   "firstName": "Asya",
+   "age": 25,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "hobby_partner",
+   "interests": [
+    "art house cinema",
+    "journaling",
+    "tea"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
+    "sat_morning",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 45,
+   "createdMinuteOfDay": 753,
+   "profession": "Journalist"
+  },
+  {
+   "id": "s172",
+   "firstName": "Sarp",
+   "age": 44,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "street food",
+    "climbing",
+    "language exchange"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "tue_evening",
+    "fri_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 51,
+   "createdMinuteOfDay": 1011,
+   "book": "Kafka on the Shore",
+   "profession": "Founder",
+   "idea": "Ferries are the best office in İstanbul"
+  },
+  {
+   "id": "s173",
+   "firstName": "Ela",
+   "age": 35,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "poetry",
+    "journaling",
+    "film",
+    "classical music",
+    "board games"
+   ],
+   "availability": [
+    "mon_evening",
+    "fri_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 21,
+   "createdMinuteOfDay": 860,
+   "book": "Memed, My Hawk",
+   "profession": "Marketing Specialist",
+   "school": "Istanbul Technical University",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s174",
+   "firstName": "Doruk",
+   "age": 37,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "chess",
+    "literary fiction",
+    "writing",
+    "tea",
+    "museums"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 33,
+   "createdMinuteOfDay": 1170,
+   "book": "Huzur",
+   "profession": "Product Designer",
+   "school": "Sabancı University",
+   "idea": "Boredom is where ideas come from"
+  },
+  {
+   "id": "s175",
+   "firstName": "Nehir",
+   "age": 35,
+   "province": "Ankara",
+   "district": "Etimesgut",
+   "intent": "friendship",
+   "interests": [
+    "climbing",
+    "live music",
+    "cooking",
+    "photography"
+   ],
+   "availability": [
+    "mon_evening",
     "sat_evening",
     "sun_afternoon"
    ],
@@ -4762,245 +4870,137 @@ export const SEED: SeedData = {
    ],
    "tableSize": "medium",
    "createdDaysAgo": 58,
-   "createdMinuteOfDay": 1421,
-   "book": "The Museum of Innocence"
-  },
-  {
-   "id": "s174",
-   "firstName": "Doruk",
-   "age": 24,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "chess",
-    "art house cinema",
-    "writing",
-    "history"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 41,
-   "createdMinuteOfDay": 666,
-   "school": "Robert College"
-  },
-  {
-   "id": "s175",
-   "firstName": "Nehir",
-   "age": 37,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "philosophy",
-    "coffee",
-    "literary fiction",
-    "art house cinema"
-   ],
-   "availability": [
-    "tue_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 1026,
-   "profession": "Academic"
+   "createdMinuteOfDay": 522,
+   "book": "Madonna in a Fur Coat",
+   "profession": "Architect",
+   "school": "Istanbul University"
   },
   {
    "id": "s176",
    "firstName": "Alp",
-   "age": 27,
+   "age": 45,
    "province": "Ankara",
-   "district": "Güdül",
-   "intent": "friendship",
+   "district": "Nallıhan",
+   "intent": "networking",
    "interests": [
-    "growth marketing",
-    "saas",
-    "ai",
-    "design",
-    "investing",
-    "film"
+    "journaling",
+    "literary fiction",
+    "chess",
+    "history"
    ],
    "availability": [
-    "mon_evening",
-    "wed_evening",
-    "thu_evening",
+    "sat_morning",
     "sun_morning"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 31,
-   "createdMinuteOfDay": 1423,
-   "book": "Mrs Dalloway",
-   "school": "Kabataş Erkek Lisesi"
+   "tableSize": "small",
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 1407,
+   "book": "Inspired",
+   "profession": "Doctor",
+   "idea": "Cities should have more benches"
   },
   {
    "id": "s177",
    "firstName": "Derin",
-   "age": 24,
+   "age": 30,
    "province": "Ankara",
-   "district": "Polatlı",
+   "district": "Keçiören",
    "intent": "friendship",
    "interests": [
-    "history",
-    "museums",
-    "tea",
-    "coffee",
-    "art house cinema"
+    "podcasts",
+    "fintech",
+    "product management"
    ],
    "availability": [
     "tue_evening",
-    "sat_afternoon",
-    "sun_evening"
+    "thu_evening",
+    "sat_evening",
+    "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 817,
-   "profession": "Investment Analyst",
-   "school": "Kabataş Erkek Lisesi"
+   "tableSize": "small",
+   "createdDaysAgo": 38,
+   "createdMinuteOfDay": 639,
+   "idea": "AI will make handwriting fashionable again"
   },
   {
    "id": "s178",
    "firstName": "Berk",
-   "age": 43,
+   "age": 38,
    "province": "Ankara",
-   "district": "Ayaş",
-   "intent": "hobby_partner",
+   "district": "Şereflikoçhisar",
+   "intent": "friendship",
    "interests": [
-    "travel",
-    "bosphorus walks",
-    "football",
-    "dancing",
-    "cooking",
-    "art house cinema"
+    "philosophy",
+    "museums",
+    "literary fiction",
+    "journaling"
    ],
    "availability": [
-    "tue_evening",
+    "mon_morning",
+    "sat_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 30,
+   "createdMinuteOfDay": 1435,
+   "profession": "Journalist"
+  },
+  {
+   "id": "s179",
+   "firstName": "Ilgın",
+   "age": 42,
+   "province": "Ankara",
+   "district": "Etimesgut",
+   "intent": "networking",
+   "interests": [
+    "product management",
+    "growth marketing",
+    "fintech",
+    "poetry"
+   ],
+   "availability": [
+    "fri_evening",
     "sat_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 32,
-   "createdMinuteOfDay": 1320,
-   "profession": "Architect",
-   "school": "Koç University"
-  },
-  {
-   "id": "s179",
-   "firstName": "Ilgın",
-   "age": 31,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "journaling",
-    "tea",
-    "classical music"
-   ],
-   "availability": [
-    "tue_evening",
-    "thu_afternoon",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 50,
-   "createdMinuteOfDay": 1275,
-   "book": "Stoner",
-   "profession": "Lawyer"
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 1151,
+   "book": "Zero to One",
+   "school": "Kabataş Erkek Lisesi",
+   "idea": "Second-hand bookshops are the real social networks"
   },
   {
    "id": "s180",
    "firstName": "Cem",
-   "age": 24,
+   "age": 22,
    "province": "Ankara",
-   "district": "Çankaya",
+   "district": "Ayaş",
    "intent": "friendship",
    "interests": [
-    "bosphorus walks",
-    "board games",
-    "cooking"
+    "chess",
+    "museums",
+    "tea",
+    "writing",
+    "art house cinema",
+    "podcasts"
    ],
    "availability": [
-    "tue_evening",
-    "wed_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 57,
-   "createdMinuteOfDay": 474,
-   "profession": "Chef",
-   "school": "Koç University"
-  },
-  {
-   "id": "s181",
-   "firstName": "Pelin",
-   "age": 33,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "yoga",
-    "fintech",
-    "design",
-    "growth marketing",
-    "photography"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "thu_afternoon",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 733,
-   "book": "Anna Karenina",
-   "profession": "Product Manager"
-  },
-  {
-   "id": "s182",
-   "firstName": "Maya",
-   "age": 42,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "product management",
-    "productivity",
-    "design",
-    "cycling"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
+    "sat_afternoon",
+    "sun_morning",
     "sun_afternoon"
    ],
    "languages": [
@@ -5008,214 +5008,23 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 214,
-   "profession": "Lawyer",
-   "school": "METU"
-  },
-  {
-   "id": "s183",
-   "firstName": "Leo",
-   "age": 24,
-   "province": "Ankara",
-   "district": "Etimesgut",
-   "intent": "friendship",
-   "interests": [
-    "hiking",
-    "live music",
-    "travel"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 19,
-   "book": "Zero to One",
-   "profession": "Editor"
-  },
-  {
-   "id": "s184",
-   "firstName": "Sofia",
-   "age": 36,
-   "province": "Ankara",
-   "district": "Etimesgut",
-   "intent": "friendship",
-   "interests": [
-    "film",
-    "literary fiction",
-    "art house cinema",
-    "journaling",
-    "cooking"
-   ],
-   "availability": [
-    "mon_morning",
-    "mon_evening",
-    "tue_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 36,
-   "createdMinuteOfDay": 1021,
-   "book": "Project Hail Mary",
+   "createdDaysAgo": 27,
+   "createdMinuteOfDay": 534,
    "profession": "Academic",
-   "school": "Ankara Fen Lisesi"
+   "school": "Galatasaray High School"
   },
   {
-   "id": "s185",
-   "firstName": "Omar",
-   "age": 36,
+   "id": "s181",
+   "firstName": "Pelin",
+   "age": 41,
    "province": "Ankara",
-   "district": "Çankaya",
+   "district": "Nallıhan",
    "intent": "networking",
    "interests": [
-    "art house cinema",
-    "chess",
-    "journaling"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 2,
-   "createdMinuteOfDay": 173,
-   "profession": "Chef"
-  },
-  {
-   "id": "s186",
-   "firstName": "Anna",
-   "age": 42,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "bosphorus walks",
-    "dancing",
-    "climbing",
-    "cycling"
-   ],
-   "availability": [
-    "tue_evening",
-    "thu_afternoon",
-    "fri_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1413,
-   "profession": "Data Scientist",
-   "school": "Boğaziçi University"
-  },
-  {
-   "id": "s187",
-   "firstName": "Lukas",
-   "age": 35,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "podcasts",
-    "public speaking",
-    "productivity",
-    "yoga",
-    "startups",
-    "climbing"
-   ],
-   "availability": [
-    "sat_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 45,
-   "createdMinuteOfDay": 1275,
-   "book": "Thinking, Fast and Slow",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s188",
-   "firstName": "Nadia",
-   "age": 30,
-   "province": "Ankara",
-   "district": "Pursaklar",
-   "intent": "networking",
-   "interests": [
-    "climbing",
-    "photography",
-    "bosphorus walks"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_morning",
-    "fri_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 51,
-   "createdMinuteOfDay": 1073,
-   "profession": "Banker"
-  },
-  {
-   "id": "s189",
-   "firstName": "Elif",
-   "age": 42,
-   "province": "Ankara",
-   "district": "Sincan",
-   "intent": "friendship",
-   "interests": [
-    "tea",
-    "writing",
-    "literary fiction"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "wed_evening",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 1083,
-   "school": "Robert College"
-  },
-  {
-   "id": "s190",
-   "firstName": "Deniz",
-   "age": 34,
-   "province": "Ankara",
-   "district": "Polatlı",
-   "intent": "networking",
-   "interests": [
+    "travel",
+    "language exchange",
     "hiking",
-    "board games",
-    "travel"
+    "yoga"
    ],
    "availability": [
     "tue_evening",
@@ -5227,14 +5036,14 @@ export const SEED: SeedData = {
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 522,
-   "profession": "Doctor",
-   "school": "Kabataş Erkek Lisesi"
+   "createdDaysAgo": 38,
+   "createdMinuteOfDay": 1085,
+   "school": "Galatasaray High School",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s191",
-   "firstName": "Can",
+   "id": "s182",
+   "firstName": "Maya",
    "age": 31,
    "province": "Ankara",
    "district": "Çankaya",
@@ -5263,105 +5072,328 @@ export const SEED: SeedData = {
    "profession": "Teacher"
   },
   {
-   "id": "s192",
-   "firstName": "Zeynep",
-   "age": 25,
+   "id": "s183",
+   "firstName": "Leo",
+   "age": 29,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "networking",
    "interests": [
-    "podcasts",
     "design",
-    "venture capital",
-    "growth marketing",
-    "product management"
+    "investing",
+    "yoga",
+    "product management",
+    "saas",
+    "history"
    ],
    "availability": [
-    "tue_evening",
-    "thu_evening",
+    "sat_afternoon",
     "sun_morning"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 1284,
-   "book": "Project Hail Mary",
-   "profession": "Lawyer"
+   "tableSize": "medium",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 989,
+   "profession": "Lawyer",
+   "idea": "Cities should have more benches"
   },
   {
-   "id": "s193",
-   "firstName": "Mert",
-   "age": 22,
+   "id": "s184",
+   "firstName": "Sofia",
+   "age": 32,
    "province": "Ankara",
    "district": "Çankaya",
-   "intent": "friendship",
+   "intent": "networking",
    "interests": [
-    "bosphorus walks",
-    "photography",
-    "cycling",
-    "travel",
-    "climbing",
-    "literary fiction"
+    "public speaking",
+    "yoga",
+    "saas",
+    "product management",
+    "museums"
    ],
    "availability": [
-    "sat_morning",
+    "wed_afternoon",
+    "wed_evening",
     "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 1002,
-   "book": "Memed, My Hawk",
-   "profession": "Lawyer",
-   "school": "METU"
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 856,
+   "book": "Shoe Dog",
+   "profession": "Accountant",
+   "idea": "Cities should have more benches"
   },
   {
-   "id": "s194",
-   "firstName": "Ece",
-   "age": 30,
+   "id": "s185",
+   "firstName": "Omar",
+   "age": 44,
    "province": "Ankara",
-   "district": "Şereflikoçhisar",
-   "intent": "hobby_partner",
+   "district": "Etimesgut",
+   "intent": "networking",
    "interests": [
-    "art house cinema",
-    "classical music",
-    "film",
-    "language exchange"
+    "startups",
+    "venture capital",
+    "yoga",
+    "podcasts"
+   ],
+   "availability": [
+    "sat_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 1141,
+   "profession": "Software Engineer",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s186",
+   "firstName": "Anna",
+   "age": 45,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "productivity",
+    "product management",
+    "podcasts",
+    "design"
    ],
    "availability": [
     "mon_evening",
+    "tue_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 28,
+   "createdMinuteOfDay": 595,
+   "profession": "Founder",
+   "idea": "Translation is a kind of writing"
+  },
+  {
+   "id": "s187",
+   "firstName": "Lukas",
+   "age": 25,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "ai",
+    "fintech",
+    "saas",
+    "investing",
+    "podcasts"
+   ],
+   "availability": [
     "tue_evening",
-    "fri_evening"
+    "fri_morning",
+    "fri_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 1260,
+   "profession": "Product Manager"
+  },
+  {
+   "id": "s188",
+   "firstName": "Nadia",
+   "age": 34,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
+   "interests": [
+    "poetry",
+    "literary fiction",
+    "chess"
+   ],
+   "availability": [
+    "sat_afternoon",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 24,
+   "createdMinuteOfDay": 1209,
+   "book": "The Brothers Karamazov"
+  },
+  {
+   "id": "s189",
+   "firstName": "Elif",
+   "age": 27,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "football",
+    "live music",
+    "board games",
+    "dancing"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_morning",
+    "sat_afternoon",
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 33,
-   "createdMinuteOfDay": 1362,
-   "profession": "Academic"
+   "createdDaysAgo": 16,
+   "createdMinuteOfDay": 1337,
+   "book": "The Brothers Karamazov",
+   "profession": "Chef",
+   "school": "Ankara Fen Lisesi",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s195",
-   "firstName": "Emre",
-   "age": 36,
+   "id": "s190",
+   "firstName": "Deniz",
+   "age": 35,
+   "province": "Ankara",
+   "district": "Etimesgut",
+   "intent": "hobby_partner",
+   "interests": [
+    "cycling",
+    "travel",
+    "board games",
+    "bosphorus walks",
+    "philosophy"
+   ],
+   "availability": [
+    "thu_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 30,
+   "createdMinuteOfDay": 995,
+   "profession": "Teacher"
+  },
+  {
+   "id": "s191",
+   "firstName": "Can",
+   "age": 42,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "photography",
-    "travel",
-    "climbing"
+    "venture capital",
+    "fintech",
+    "public speaking",
+    "podcasts"
    ],
    "availability": [
     "mon_evening",
-    "wed_evening",
     "fri_evening",
+    "sun_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 1324,
+   "book": "Zero to One",
+   "profession": "Accountant"
+  },
+  {
+   "id": "s192",
+   "firstName": "Zeynep",
+   "age": 33,
+   "province": "Ankara",
+   "district": "Ayaş",
+   "intent": "networking",
+   "interests": [
+    "design",
+    "ai",
+    "running",
+    "fintech",
+    "investing"
+   ],
+   "availability": [
+    "mon_evening",
+    "thu_evening",
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 51,
+   "createdMinuteOfDay": 1112,
+   "profession": "Doctor",
+   "school": "Galatasaray High School"
+  },
+  {
+   "id": "s193",
+   "firstName": "Mert",
+   "age": 45,
+   "province": "Ankara",
+   "district": "Ayaş",
+   "intent": "friendship",
+   "interests": [
+    "language exchange",
+    "travel",
+    "board games",
+    "photography"
+   ],
+   "availability": [
+    "thu_evening",
+    "fri_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 1277,
+   "book": "The Hard Thing About Hard Things",
+   "profession": "Editor"
+  },
+  {
+   "id": "s194",
+   "firstName": "Ece",
+   "age": 22,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "networking",
+   "interests": [
+    "climbing",
+    "dancing",
+    "hiking",
+    "language exchange",
+    "journaling"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_morning",
+    "sun_morning",
     "sun_afternoon"
    ],
    "languages": [
@@ -5369,37 +5401,66 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 598,
-   "book": "Tutunamayanlar"
+   "createdDaysAgo": 13,
+   "createdMinuteOfDay": 1368,
+   "profession": "Doctor"
   },
   {
-   "id": "s196",
-   "firstName": "Selin",
-   "age": 44,
+   "id": "s195",
+   "firstName": "Emre",
+   "age": 27,
    "province": "Ankara",
-   "district": "Çankaya",
+   "district": "Akyurt",
    "intent": "friendship",
    "interests": [
-    "classical music",
-    "chess",
-    "journaling",
-    "film"
+    "philosophy",
+    "history",
+    "art house cinema",
+    "poetry",
+    "writing",
+    "saas"
    ],
    "availability": [
     "thu_evening",
     "fri_evening",
-    "sun_morning",
-    "sun_evening"
+    "sat_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 613,
-   "book": "The Lean Startup",
-   "profession": "Doctor"
+   "createdDaysAgo": 39,
+   "createdMinuteOfDay": 1385,
+   "profession": "Founder",
+   "school": "METU"
+  },
+  {
+   "id": "s196",
+   "firstName": "Selin",
+   "age": 30,
+   "province": "Ankara",
+   "district": "Etimesgut",
+   "intent": "networking",
+   "interests": [
+    "travel",
+    "bosphorus walks",
+    "live music",
+    "football",
+    "cycling"
+   ],
+   "availability": [
+    "wed_evening",
+    "fri_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 17,
+   "createdMinuteOfDay": 1319,
+   "school": "Boğaziçi University"
   },
   {
    "id": "s197",
@@ -5407,109 +5468,110 @@ export const SEED: SeedData = {
    "age": 42,
    "province": "Ankara",
    "district": "Çankaya",
-   "intent": "friendship",
+   "intent": "networking",
    "interests": [
-    "street food",
-    "climbing",
-    "photography",
-    "bosphorus walks"
+    "fintech",
+    "podcasts",
+    "investing",
+    "productivity",
+    "venture capital"
    ],
    "availability": [
-    "fri_afternoon",
-    "sat_afternoon"
+    "thu_evening",
+    "sun_morning"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 906,
-   "profession": "Investment Analyst"
+   "tableSize": "medium",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 746,
+   "book": "Dune",
+   "profession": "Lawyer",
+   "school": "Bilkent University"
   },
   {
    "id": "s198",
    "firstName": "Defne",
-   "age": 37,
+   "age": 30,
    "province": "Ankara",
-   "district": "Gölbaşı",
-   "intent": "networking",
+   "district": "Çankaya",
+   "intent": "friendship",
    "interests": [
-    "football",
-    "bosphorus walks",
-    "cycling",
     "language exchange",
-    "writing"
+    "climbing",
+    "photography",
+    "street food"
    ],
    "availability": [
+    "tue_evening",
+    "wed_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 1412,
+   "book": "Project Hail Mary",
+   "profession": "Product Manager"
+  },
+  {
+   "id": "s199",
+   "firstName": "Kerem",
+   "age": 22,
+   "province": "Ankara",
+   "district": "Beypazarı",
+   "intent": "friendship",
+   "interests": [
+    "startups",
+    "investing",
+    "ai",
+    "cycling"
+   ],
+   "availability": [
+    "sat_morning",
     "sat_afternoon",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 1266,
-   "profession": "Chef"
+   "tableSize": "small",
+   "createdDaysAgo": 43,
+   "createdMinuteOfDay": 1336,
+   "school": "Ankara Fen Lisesi",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
-   "id": "s199",
-   "firstName": "Kerem",
-   "age": 37,
+   "id": "s200",
+   "firstName": "İpek",
+   "age": 38,
    "province": "Ankara",
    "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "board games",
-    "street food",
-    "photography",
-    "cycling",
-    "dancing",
-    "tea"
+    "history",
+    "journaling",
+    "classical music",
+    "tea",
+    "literary fiction"
    ],
    "availability": [
+    "mon_evening",
     "tue_evening",
-    "sat_morning"
+    "fri_afternoon",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 19,
-   "createdMinuteOfDay": 689,
-   "profession": "Lawyer",
-   "school": "Kabataş Erkek Lisesi"
-  },
-  {
-   "id": "s200",
-   "firstName": "İpek",
-   "age": 34,
-   "province": "Ankara",
-   "district": "Yenimahalle",
-   "intent": "friendship",
-   "interests": [
-    "museums",
-    "film",
-    "writing",
-    "coffee",
-    "photography"
-   ],
-   "availability": [
-    "wed_afternoon",
-    "fri_evening",
-    "sat_morning",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 4,
-   "createdMinuteOfDay": 1310,
-   "profession": "Product Manager",
-   "school": "Boğaziçi University"
+   "createdDaysAgo": 36,
+   "createdMinuteOfDay": 1101,
+   "book": "The Museum of Innocence"
   },
   {
    "id": "s201",
@@ -5517,285 +5579,6 @@ export const SEED: SeedData = {
    "age": 43,
    "province": "Ankara",
    "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "journaling",
-    "literary fiction",
-    "film",
-    "coffee",
-    "philosophy",
-    "productivity"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 539,
-   "book": "The Alchemist",
-   "school": "Robert College"
-  },
-  {
-   "id": "s202",
-   "firstName": "Ayşe",
-   "age": 33,
-   "province": "Ankara",
-   "district": "Gölbaşı",
-   "intent": "friendship",
-   "interests": [
-    "football",
-    "photography",
-    "live music",
-    "travel"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening",
-    "sat_morning",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 50,
-   "createdMinuteOfDay": 1265
-  },
-  {
-   "id": "s203",
-   "firstName": "Baran",
-   "age": 39,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "writing",
-    "journaling",
-    "tea",
-    "coffee"
-   ],
-   "availability": [
-    "mon_evening",
-    "sat_morning",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 366,
-   "book": "Project Hail Mary",
-   "profession": "Accountant"
-  },
-  {
-   "id": "s204",
-   "firstName": "Naz",
-   "age": 38,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "hobby_partner",
-   "interests": [
-    "journaling",
-    "coffee",
-    "writing",
-    "ai"
-   ],
-   "availability": [
-    "mon_evening",
-    "sat_evening",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 49,
-   "createdMinuteOfDay": 671,
-   "profession": "Journalist",
-   "school": "Robert College"
-  },
-  {
-   "id": "s205",
-   "firstName": "Kaan",
-   "age": 29,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "networking",
-   "interests": [
-    "running",
-    "saas",
-    "investing",
-    "ai"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 46,
-   "createdMinuteOfDay": 603
-  },
-  {
-   "id": "s206",
-   "firstName": "Duru",
-   "age": 38,
-   "province": "Ankara",
-   "district": "Haymana",
-   "intent": "networking",
-   "interests": [
-    "chess",
-    "history",
-    "writing",
-    "tea"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 60,
-   "createdMinuteOfDay": 1424,
-   "book": "Madonna in a Fur Coat"
-  },
-  {
-   "id": "s207",
-   "firstName": "Arda",
-   "age": 23,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "dancing",
-    "live music",
-    "bosphorus walks",
-    "board games",
-    "football"
-   ],
-   "availability": [
-    "wed_afternoon",
-    "thu_evening",
-    "sat_afternoon",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 52,
-   "createdMinuteOfDay": 1046,
-   "book": "Madonna in a Fur Coat",
-   "profession": "Academic",
-   "school": "Robert College"
-  },
-  {
-   "id": "s208",
-   "firstName": "Lara",
-   "age": 24,
-   "province": "Ankara",
-   "district": "Çankaya",
-   "intent": "friendship",
-   "interests": [
-    "history",
-    "literary fiction",
-    "writing",
-    "art house cinema",
-    "classical music",
-    "board games"
-   ],
-   "availability": [
-    "thu_afternoon",
-    "thu_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 10,
-   "createdMinuteOfDay": 1433,
-   "profession": "Founder",
-   "school": "Sabancı University"
-  },
-  {
-   "id": "s209",
-   "firstName": "Yusuf",
-   "age": 35,
-   "province": "Ankara",
-   "district": "Keçiören",
-   "intent": "networking",
-   "interests": [
-    "dancing",
-    "language exchange",
-    "photography",
-    "bosphorus walks"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_afternoon",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 47,
-   "createdMinuteOfDay": 475,
-   "book": "The Alchemist",
-   "profession": "Product Designer"
-  },
-  {
-   "id": "s210",
-   "firstName": "Melis",
-   "age": 33,
-   "province": "Ankara",
-   "district": "Güdül",
-   "intent": "friendship",
-   "interests": [
-    "dancing",
-    "hiking",
-    "bosphorus walks",
-    "saas"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "wed_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 850
-  },
-  {
-   "id": "s211",
-   "firstName": "Efe",
-   "age": 43,
-   "province": "İzmir",
-   "district": "Konak",
    "intent": "friendship",
    "interests": [
     "productivity",
@@ -5813,21 +5596,20 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 27,
    "createdMinuteOfDay": 883,
-   "book": "Huzur"
+   "book": "Huzur",
+   "idea": "Ferries are the best office in İstanbul"
   },
   {
-   "id": "s212",
-   "firstName": "Sena",
+   "id": "s202",
+   "firstName": "Ayşe",
    "age": 36,
-   "province": "İzmir",
-   "district": "Konak",
+   "province": "Ankara",
+   "district": "Kızılcahamam",
    "intent": "friendship",
    "interests": [
-    "travel",
-    "board games",
-    "photography",
-    "climbing",
-    "hiking",
+    "public speaking",
+    "fintech",
+    "startups",
     "art house cinema"
    ],
    "availability": [
@@ -5845,154 +5627,108 @@ export const SEED: SeedData = {
    "school": "Robert College"
   },
   {
-   "id": "s213",
-   "firstName": "Onur",
-   "age": 40,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "networking",
+   "id": "s203",
+   "firstName": "Baran",
+   "age": 36,
+   "province": "Ankara",
+   "district": "Nallıhan",
+   "intent": "hobby_partner",
    "interests": [
-    "growth marketing",
-    "fintech",
-    "public speaking"
-   ],
-   "availability": [
-    "mon_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 1227
-  },
-  {
-   "id": "s214",
-   "firstName": "Ada",
-   "age": 40,
-   "province": "İzmir",
-   "district": "Seferihisar",
-   "intent": "friendship",
-   "interests": [
-    "travel",
-    "cooking",
-    "hiking"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sat_morning",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 17,
-   "createdMinuteOfDay": 828,
-   "profession": "Teacher",
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s215",
-   "firstName": "Tolga",
-   "age": 26,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
-   "interests": [
-    "running",
-    "growth marketing",
-    "startups",
-    "podcasts"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 4,
-   "createdMinuteOfDay": 1304,
-   "book": "The Bastard of Istanbul",
-   "profession": "Marketing Specialist",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s216",
-   "firstName": "Irmak",
-   "age": 45,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
-   "interests": [
-    "design",
-    "venture capital",
-    "ai",
-    "running"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 944,
-   "profession": "Academic",
-   "school": "Boğaziçi University"
-  },
-  {
-   "id": "s217",
-   "firstName": "Umut",
-   "age": 31,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
-   "interests": [
-    "bosphorus walks",
-    "cycling",
-    "hiking",
-    "cooking",
+    "art house cinema",
+    "film",
+    "tea",
+    "literary fiction",
+    "writing",
     "climbing"
    ],
    "availability": [
-    "tue_evening",
-    "wed_evening"
+    "sat_evening",
+    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 1224,
-   "book": "One Hundred Years of Solitude",
-   "profession": "Accountant",
-   "school": "Bilkent University"
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 1306,
+   "profession": "Product Manager",
+   "school": "Kabataş Erkek Lisesi"
   },
   {
-   "id": "s218",
-   "firstName": "Asya",
-   "age": 32,
-   "province": "İzmir",
-   "district": "Bornova",
+   "id": "s204",
+   "firstName": "Naz",
+   "age": 25,
+   "province": "Ankara",
+   "district": "Çankaya",
    "intent": "friendship",
    "interests": [
-    "travel",
-    "hiking",
-    "photography",
+    "football",
+    "dancing",
     "street food",
-    "language exchange"
+    "travel",
+    "photography",
+    "ai"
    ],
    "availability": [
     "tue_evening",
-    "sat_evening",
+    "wed_evening",
+    "fri_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 448,
+   "school": "Ankara Fen Lisesi"
+  },
+  {
+   "id": "s205",
+   "firstName": "Kaan",
+   "age": 44,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "hobby_partner",
+   "interests": [
+    "museums",
+    "classical music",
+    "writing",
+    "running"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 25,
+   "createdMinuteOfDay": 861,
+   "book": "The Bastard of Istanbul",
+   "profession": "Teacher",
+   "school": "Robert College",
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s206",
+   "firstName": "Duru",
+   "age": 35,
+   "province": "Ankara",
+   "district": "Balâ",
+   "intent": "networking",
+   "interests": [
+    "travel",
+    "dancing",
+    "football",
+    "board games"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_afternoon",
     "sun_morning"
    ],
    "languages": [
@@ -6000,133 +5736,168 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 559,
-   "book": "Crime and Punishment"
+   "createdDaysAgo": 40,
+   "createdMinuteOfDay": 1331,
+   "profession": "Product Designer",
+   "school": "Galatasaray University"
   },
   {
-   "id": "s219",
-   "firstName": "Sarp",
-   "age": 43,
-   "province": "İzmir",
-   "district": "Seferihisar",
-   "intent": "networking",
+   "id": "s207",
+   "firstName": "Arda",
+   "age": 21,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
    "interests": [
-    "venture capital",
     "productivity",
-    "design",
-    "yoga",
-    "product management"
+    "investing",
+    "design"
    ],
    "availability": [
     "mon_evening",
-    "wed_evening",
-    "sat_afternoon",
-    "sun_afternoon"
+    "fri_morning"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 24,
-   "createdMinuteOfDay": 1158,
-   "profession": "Chef",
-   "school": "Galatasaray High School"
+   "tableSize": "small",
+   "createdDaysAgo": 37,
+   "createdMinuteOfDay": 61,
+   "profession": "Editor",
+   "school": "Galatasaray High School",
+   "idea": "Second-hand bookshops are the real social networks"
   },
   {
-   "id": "s220",
-   "firstName": "Ela",
-   "age": 22,
-   "province": "İzmir",
-   "district": "Buca",
-   "intent": "hobby_partner",
+   "id": "s208",
+   "firstName": "Lara",
+   "age": 34,
+   "province": "Ankara",
+   "district": "Çankaya",
+   "intent": "friendship",
    "interests": [
-    "writing",
-    "classical music",
-    "tea",
-    "journaling",
+    "live music",
+    "bosphorus walks",
+    "street food",
     "literary fiction"
    ],
    "availability": [
-    "mon_evening",
-    "thu_evening"
+    "tue_evening",
+    "wed_evening",
+    "sat_morning",
+    "sat_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 1178,
-   "profession": "Architect",
-   "school": "Istanbul Technical University"
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 1369,
+   "book": "Memed, My Hawk"
   },
   {
-   "id": "s221",
-   "firstName": "Doruk",
-   "age": 23,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
+   "id": "s209",
+   "firstName": "Yusuf",
+   "age": 36,
+   "province": "Ankara",
+   "district": "Balâ",
+   "intent": "hobby_partner",
    "interests": [
-    "history",
-    "chess",
-    "tea",
-    "philosophy"
+    "yoga",
+    "design",
+    "productivity",
+    "venture capital",
+    "podcasts"
    ],
    "availability": [
+    "tue_evening",
     "wed_evening",
-    "thu_evening",
-    "fri_morning"
+    "sat_morning",
+    "sun_afternoon"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 839,
-   "book": "Kafka on the Shore",
-   "profession": "Editor",
-   "school": "Galatasaray High School"
+   "tableSize": "small",
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 733,
+   "book": "Huzur",
+   "idea": "Cities should have more benches"
   },
   {
-   "id": "s222",
-   "firstName": "Nehir",
-   "age": 38,
+   "id": "s210",
+   "firstName": "Melis",
+   "age": 37,
+   "province": "Ankara",
+   "district": "Kalecik",
+   "intent": "friendship",
+   "interests": [
+    "dancing",
+    "street food",
+    "bosphorus walks",
+    "cycling",
+    "productivity"
+   ],
+   "availability": [
+    "fri_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 39,
+   "createdMinuteOfDay": 803,
+   "book": "Mrs Dalloway",
+   "profession": "Editor",
+   "school": "Istanbul University",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s211",
+   "firstName": "Efe",
+   "age": 37,
    "province": "İzmir",
    "district": "Konak",
    "intent": "networking",
    "interests": [
-    "journaling",
-    "film",
-    "coffee"
+    "bosphorus walks",
+    "cycling",
+    "travel",
+    "live music",
+    "photography",
+    "journaling"
    ],
    "availability": [
-    "mon_evening",
     "tue_evening",
-    "sat_afternoon"
+    "wed_afternoon",
+    "sat_morning"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 812,
-   "profession": "Architect",
-   "school": "Istanbul Technical University"
+   "createdDaysAgo": 37,
+   "createdMinuteOfDay": 522,
+   "profession": "Academic",
+   "idea": "Second-hand bookshops are the real social networks"
   },
   {
-   "id": "s223",
-   "firstName": "Alp",
+   "id": "s212",
+   "firstName": "Sena",
    "age": 43,
    "province": "İzmir",
    "district": "Konak",
    "intent": "networking",
    "interests": [
-    "ai",
-    "product management",
-    "startups"
+    "history",
+    "literary fiction",
+    "classical music",
+    "philosophy",
+    "poetry"
    ],
    "availability": [
     "sun_morning",
@@ -6142,157 +5913,79 @@ export const SEED: SeedData = {
    "school": "Galatasaray University"
   },
   {
-   "id": "s224",
-   "firstName": "Derin",
-   "age": 35,
+   "id": "s213",
+   "firstName": "Onur",
+   "age": 32,
    "province": "İzmir",
-   "district": "Konak",
+   "district": "Balçova",
    "intent": "friendship",
    "interests": [
-    "film",
-    "chess",
-    "history",
-    "climbing"
+    "photography",
+    "board games",
+    "cycling",
+    "football",
+    "literary fiction"
    ],
    "availability": [
-    "mon_evening",
+    "wed_evening",
     "sat_morning",
-    "sat_afternoon",
+    "sat_evening",
     "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 966,
-   "book": "Mrs Dalloway",
-   "school": "Kabataş Erkek Lisesi"
+   "tableSize": "medium",
+   "createdDaysAgo": 10,
+   "createdMinuteOfDay": 574,
+   "profession": "Lawyer",
+   "school": "Robert College",
+   "idea": "Boredom is where ideas come from"
   },
   {
-   "id": "s225",
-   "firstName": "Berk",
-   "age": 43,
+   "id": "s214",
+   "firstName": "Ada",
+   "age": 33,
    "province": "İzmir",
-   "district": "Konak",
-   "intent": "friendship",
+   "district": "Bornova",
+   "intent": "networking",
    "interests": [
-    "coffee",
-    "classical music",
-    "literary fiction",
+    "poetry",
+    "museums",
     "chess",
-    "investing"
+    "history"
    ],
    "availability": [
-    "thu_evening",
-    "fri_evening",
-    "sat_afternoon",
+    "mon_afternoon",
+    "fri_afternoon",
     "sat_evening"
    ],
    "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 18,
-   "createdMinuteOfDay": 1066,
-   "profession": "Architect",
-   "school": "Istanbul University"
-  },
-  {
-   "id": "s226",
-   "firstName": "Ilgın",
-   "age": 23,
-   "province": "İzmir",
-   "district": "Konak",
-   "intent": "friendship",
-   "interests": [
-    "fintech",
-    "growth marketing",
-    "design",
-    "museums"
-   ],
-   "availability": [
-    "tue_evening",
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 41,
-   "createdMinuteOfDay": 1307,
-   "book": "The Mom Test",
-   "profession": "Editor"
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 1210,
+   "profession": "Journalist"
   },
   {
-   "id": "s227",
-   "firstName": "Cem",
-   "age": 36,
-   "province": "İzmir",
-   "district": "Konak",
-   "intent": "friendship",
-   "interests": [
-    "podcasts",
-    "growth marketing",
-    "venture capital",
-    "film"
-   ],
-   "availability": [
-    "mon_evening",
-    "sat_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 43,
-   "createdMinuteOfDay": 1269,
-   "book": "Sapiens",
-   "profession": "Product Manager"
-  },
-  {
-   "id": "s228",
-   "firstName": "Pelin",
-   "age": 33,
-   "province": "İzmir",
-   "district": "Menemen",
-   "intent": "friendship",
-   "interests": [
-    "philosophy",
-    "tea",
-    "history",
-    "art house cinema"
-   ],
-   "availability": [
-    "wed_evening",
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 1346,
-   "book": "The Alchemist"
-  },
-  {
-   "id": "s229",
-   "firstName": "Maya",
+   "id": "s215",
+   "firstName": "Tolga",
    "age": 31,
    "province": "İzmir",
-   "district": "Çeşme",
-   "intent": "friendship",
+   "district": "Karşıyaka",
+   "intent": "networking",
    "interests": [
-    "climbing",
-    "language exchange",
-    "hiking",
     "live music",
-    "bosphorus walks"
+    "board games",
+    "photography",
+    "bosphorus walks",
+    "street food"
    ],
    "availability": [
+    "mon_afternoon",
+    "mon_evening",
     "thu_evening",
     "sat_afternoon"
    ],
@@ -6300,134 +5993,356 @@ export const SEED: SeedData = {
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 727,
-   "profession": "Product Manager"
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 758,
+   "idea": "AI will make handwriting fashionable again"
   },
   {
-   "id": "s230",
-   "firstName": "Leo",
-   "age": 41,
+   "id": "s216",
+   "firstName": "Irmak",
+   "age": 21,
    "province": "İzmir",
-   "district": "Karşıyaka",
+   "district": "Balçova",
    "intent": "friendship",
    "interests": [
-    "public speaking",
+    "running",
     "product management",
-    "design",
-    "classical music"
+    "yoga"
    ],
    "availability": [
     "mon_evening",
-    "sat_evening",
-    "sun_evening"
+    "fri_morning",
+    "sat_morning",
+    "sat_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 806,
-   "book": "Anna Karenina",
-   "profession": "Lawyer"
+   "tableSize": "medium",
+   "createdDaysAgo": 8,
+   "createdMinuteOfDay": 1348,
+   "book": "Stoner",
+   "profession": "Chef",
+   "school": "Kabataş Erkek Lisesi"
   },
   {
-   "id": "s231",
-   "firstName": "Sofia",
-   "age": 24,
+   "id": "s217",
+   "firstName": "Umut",
+   "age": 45,
+   "province": "İzmir",
+   "district": "Karşıyaka",
+   "intent": "networking",
+   "interests": [
+    "journaling",
+    "classical music",
+    "philosophy",
+    "chess"
+   ],
+   "availability": [
+    "thu_evening",
+    "fri_evening",
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 1271,
+   "book": "Crime and Punishment",
+   "profession": "Editor",
+   "idea": "Every neighbourhood needs a free tool library"
+  },
+  {
+   "id": "s218",
+   "firstName": "Asya",
+   "age": 33,
    "province": "İzmir",
    "district": "Konak",
    "intent": "networking",
    "interests": [
-    "public speaking",
-    "venture capital",
-    "growth marketing",
-    "fintech"
+    "product management",
+    "saas",
+    "yoga",
+    "investing"
    ],
    "availability": [
-    "thu_evening",
+    "mon_evening",
+    "tue_evening",
     "fri_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 696,
-   "book": "Shoe Dog",
-   "profession": "Journalist",
-   "school": "Boğaziçi University"
+   "tableSize": "small",
+   "createdDaysAgo": 12,
+   "createdMinuteOfDay": 742,
+   "book": "Memed, My Hawk",
+   "profession": "Teacher"
   },
   {
-   "id": "s232",
-   "firstName": "Omar",
-   "age": 45,
+   "id": "s219",
+   "firstName": "Sarp",
+   "age": 41,
    "province": "İzmir",
-   "district": "Karşıyaka",
-   "intent": "networking",
+   "district": "Konak",
+   "intent": "friendship",
    "interests": [
-    "product management",
-    "ai",
-    "fintech",
-    "board games"
+    "cycling",
+    "football",
+    "climbing",
+    "language exchange",
+    "live music",
+    "museums"
    ],
    "availability": [
-    "mon_evening",
-    "wed_evening",
-    "sat_evening"
+    "fri_evening",
+    "sat_morning",
+    "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 46,
-   "createdMinuteOfDay": 379,
-   "profession": "Teacher"
+   "createdDaysAgo": 36,
+   "createdMinuteOfDay": 479,
+   "book": "The Brothers Karamazov",
+   "profession": "Editor",
+   "school": "Istanbul Technical University",
+   "idea": "We need more places to sit that don't require buying coffee"
   },
   {
-   "id": "s233",
-   "firstName": "Anna",
-   "age": 37,
+   "id": "s220",
+   "firstName": "Ela",
+   "age": 43,
    "province": "İzmir",
-   "district": "Aliağa",
-   "intent": "hobby_partner",
+   "district": "Balçova",
+   "intent": "networking",
    "interests": [
-    "ai",
-    "public speaking",
-    "running"
+    "travel",
+    "cycling",
+    "bosphorus walks",
+    "startups"
    ],
    "availability": [
-    "tue_evening",
-    "thu_evening",
-    "sat_evening"
+    "tue_morning",
+    "tue_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 1267,
-   "book": "Madonna in a Fur Coat",
-   "profession": "Lawyer"
+   "createdDaysAgo": 38,
+   "createdMinuteOfDay": 946,
+   "book": "Huzur",
+   "profession": "Editor",
+   "school": "Galatasaray University"
   },
   {
-   "id": "s234",
-   "firstName": "Lukas",
-   "age": 22,
+   "id": "s221",
+   "firstName": "Doruk",
+   "age": 21,
+   "province": "İzmir",
+   "district": "Torbalı",
+   "intent": "friendship",
+   "interests": [
+    "podcasts",
+    "ai",
+    "public speaking"
+   ],
+   "availability": [
+    "tue_evening",
+    "thu_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 1272,
+   "book": "Dune",
+   "profession": "Product Designer"
+  },
+  {
+   "id": "s222",
+   "firstName": "Nehir",
+   "age": 39,
+   "province": "İzmir",
+   "district": "Foça",
+   "intent": "hobby_partner",
+   "interests": [
+    "startups",
+    "product management",
+    "yoga"
+   ],
+   "availability": [
+    "thu_evening",
+    "sat_afternoon",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 21,
+   "createdMinuteOfDay": 925,
+   "school": "Bilkent University"
+  },
+  {
+   "id": "s223",
+   "firstName": "Alp",
+   "age": 42,
    "province": "İzmir",
    "district": "Bornova",
    "intent": "friendship",
    "interests": [
+    "dancing",
+    "photography",
+    "bosphorus walks",
+    "film"
+   ],
+   "availability": [
+    "thu_evening",
+    "fri_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 870,
+   "profession": "Marketing Specialist",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
+  },
+  {
+   "id": "s224",
+   "firstName": "Derin",
+   "age": 21,
+   "province": "İzmir",
+   "district": "Bornova",
+   "intent": "friendship",
+   "interests": [
+    "photography",
+    "street food",
+    "live music"
+   ],
+   "availability": [
+    "sat_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 1338,
+   "profession": "Journalist"
+  },
+  {
+   "id": "s225",
+   "firstName": "Berk",
+   "age": 33,
+   "province": "İzmir",
+   "district": "Konak",
+   "intent": "networking",
+   "interests": [
+    "classical music",
+    "film",
+    "tea",
+    "history",
+    "museums"
+   ],
+   "availability": [
+    "thu_evening",
+    "fri_afternoon",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 59,
+   "createdMinuteOfDay": 1375,
+   "book": "The Time Regulation Institute",
+   "profession": "Academic",
+   "school": "Galatasaray High School"
+  },
+  {
+   "id": "s226",
+   "firstName": "Ilgın",
+   "age": 29,
+   "province": "İzmir",
+   "district": "Konak",
+   "intent": "friendship",
+   "interests": [
+    "language exchange",
+    "dancing",
+    "street food",
+    "travel",
+    "museums"
+   ],
+   "availability": [
+    "wed_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 7,
+   "createdMinuteOfDay": 1268,
+   "book": "Zero to One",
+   "profession": "Teacher",
+   "idea": "Ferries are the best office in İstanbul"
+  },
+  {
+   "id": "s227",
+   "firstName": "Cem",
+   "age": 31,
+   "province": "İzmir",
+   "district": "Konak",
+   "intent": "networking",
+   "interests": [
+    "poetry",
     "art house cinema",
     "writing",
-    "coffee",
-    "classical music"
+    "tea"
    ],
    "availability": [
     "wed_afternoon",
+    "sat_afternoon",
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 33,
+   "createdMinuteOfDay": 1329,
+   "profession": "Accountant"
+  },
+  {
+   "id": "s228",
+   "firstName": "Pelin",
+   "age": 27,
+   "province": "İzmir",
+   "district": "Karşıyaka",
+   "intent": "friendship",
+   "interests": [
+    "venture capital",
+    "fintech",
+    "saas"
+   ],
+   "availability": [
     "thu_evening",
+    "fri_evening",
     "sat_afternoon",
     "sun_afternoon"
    ],
@@ -6436,207 +6351,44 @@ export const SEED: SeedData = {
    ],
    "tableSize": "medium",
    "createdDaysAgo": 32,
-   "createdMinuteOfDay": 659,
-   "profession": "Data Scientist",
-   "school": "Koç University"
+   "createdMinuteOfDay": 1416,
+   "book": "Madonna in a Fur Coat",
+   "profession": "Doctor"
   },
   {
-   "id": "s235",
-   "firstName": "Nadia",
-   "age": 37,
+   "id": "s229",
+   "firstName": "Maya",
+   "age": 35,
    "province": "İzmir",
-   "district": "Selçuk",
-   "intent": "hobby_partner",
-   "interests": [
-    "fintech",
-    "public speaking",
-    "startups",
-    "yoga"
-   ],
-   "availability": [
-    "thu_evening",
-    "fri_evening",
-    "sat_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 1032,
-   "book": "Tutunamayanlar",
-   "profession": "Chef",
-   "school": "Robert College"
-  },
-  {
-   "id": "s236",
-   "firstName": "Elif",
-   "age": 29,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
-   "interests": [
-    "photography",
-    "hiking",
-    "climbing",
-    "street food",
-    "bosphorus walks"
-   ],
-   "availability": [
-    "sat_morning",
-    "sat_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 1398,
-   "book": "Stoner",
-   "profession": "Product Designer"
-  },
-  {
-   "id": "s237",
-   "firstName": "Deniz",
-   "age": 31,
-   "province": "İzmir",
-   "district": "Tire",
+   "district": "Karşıyaka",
    "intent": "friendship",
    "interests": [
     "art house cinema",
-    "journaling",
-    "coffee",
-    "museums"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 452,
-   "book": "Project Hail Mary",
-   "profession": "Marketing Specialist",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s238",
-   "firstName": "Can",
-   "age": 33,
-   "province": "İzmir",
-   "district": "Çiğli",
-   "intent": "friendship",
-   "interests": [
-    "travel",
-    "board games",
-    "photography"
-   ],
-   "availability": [
-    "tue_afternoon",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 59,
-   "createdMinuteOfDay": 859,
-   "school": "Istanbul Technical University"
-  },
-  {
-   "id": "s239",
-   "firstName": "Zeynep",
-   "age": 44,
-   "province": "İzmir",
-   "district": "Bornova",
-   "intent": "friendship",
-   "interests": [
-    "growth marketing",
-    "ai",
-    "fintech",
-    "podcasts",
-    "productivity"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 15,
-   "createdMinuteOfDay": 1000,
-   "school": "Koç University"
-  },
-  {
-   "id": "s240",
-   "firstName": "Mert",
-   "age": 23,
-   "province": "İzmir",
-   "district": "Konak",
-   "intent": "friendship",
-   "interests": [
-    "photography",
-    "bosphorus walks",
-    "cooking",
-    "football",
+    "museums",
+    "history",
     "board games"
    ],
    "availability": [
-    "wed_evening",
-    "fri_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 3,
-   "createdMinuteOfDay": 527,
-   "book": "One Hundred Years of Solitude",
-   "profession": "Software Engineer",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s241",
-   "firstName": "Ece",
-   "age": 24,
-   "province": "Bursa",
-   "district": "Mustafakemalpaşa",
-   "intent": "friendship",
-   "interests": [
-    "history",
-    "poetry",
-    "film",
-    "philosophy"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening"
+    "sat_morning",
+    "sun_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 22,
-   "createdMinuteOfDay": 1273,
-   "profession": "Accountant"
+   "tableSize": "medium",
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 787,
+   "book": "Zero to One",
+   "profession": "Journalist",
+   "school": "METU"
   },
   {
-   "id": "s242",
-   "firstName": "Emre",
-   "age": 27,
-   "province": "Bursa",
-   "district": "Yıldırım",
+   "id": "s230",
+   "firstName": "Leo",
+   "age": 35,
+   "province": "İzmir",
+   "district": "Bergama",
    "intent": "friendship",
    "interests": [
     "growth marketing",
@@ -6647,7 +6399,7 @@ export const SEED: SeedData = {
     "board games"
    ],
    "availability": [
-    "tue_evening",
+    "wed_evening",
     "sat_morning"
    ],
    "languages": [
@@ -6655,186 +6407,281 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 39,
-   "createdMinuteOfDay": 628,
-   "book": "Inspired",
-   "school": "Istanbul Technical University"
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 1048,
+   "school": "Istanbul Technical University",
+   "idea": "We should read more books written before we were born"
   },
   {
-   "id": "s243",
-   "firstName": "Selin",
-   "age": 45,
-   "province": "Bursa",
-   "district": "Büyükorhan",
+   "id": "s231",
+   "firstName": "Sofia",
+   "age": 28,
+   "province": "İzmir",
+   "district": "Bornova",
    "intent": "networking",
    "interests": [
-    "language exchange",
-    "travel",
-    "football",
-    "street food"
+    "journaling",
+    "philosophy",
+    "chess",
+    "literary fiction",
+    "writing"
    ],
    "availability": [
+    "mon_evening",
+    "wed_evening",
+    "sat_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 53,
+   "createdMinuteOfDay": 830,
+   "profession": "Doctor"
+  },
+  {
+   "id": "s232",
+   "firstName": "Omar",
+   "age": 22,
+   "province": "İzmir",
+   "district": "Aliağa",
+   "intent": "networking",
+   "interests": [
+    "tea",
+    "philosophy",
+    "chess",
+    "poetry"
+   ],
+   "availability": [
+    "mon_evening",
+    "thu_evening",
+    "sat_morning",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 7,
+   "createdMinuteOfDay": 752,
+   "book": "Project Hail Mary",
+   "profession": "Founder",
+   "school": "METU",
+   "idea": "We should read more books written before we were born"
+  },
+  {
+   "id": "s233",
+   "firstName": "Anna",
+   "age": 27,
+   "province": "İzmir",
+   "district": "Selçuk",
+   "intent": "friendship",
+   "interests": [
+    "street food",
+    "language exchange",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "mon_evening",
     "tue_evening",
-    "fri_evening",
     "sat_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 49,
-   "createdMinuteOfDay": 757,
-   "book": "The Lean Startup",
-   "profession": "Lawyer",
-   "school": "Kabataş Erkek Lisesi"
+   "tableSize": "small",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 907,
+   "book": "Kafka on the Shore",
+   "school": "Bilkent University",
+   "idea": "Most meetings could be walks"
   },
   {
-   "id": "s244",
-   "firstName": "Burak",
-   "age": 23,
-   "province": "Bursa",
-   "district": "Harmancık",
-   "intent": "friendship",
+   "id": "s234",
+   "firstName": "Lukas",
+   "age": 32,
+   "province": "İzmir",
+   "district": "Bornova",
+   "intent": "networking",
    "interests": [
-    "tea",
+    "journaling",
     "museums",
-    "classical music",
-    "coffee",
-    "chess"
+    "history"
    ],
    "availability": [
-    "tue_morning",
-    "sat_morning",
-    "sun_evening"
+    "mon_evening",
+    "tue_evening",
+    "sat_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 46,
-   "createdMinuteOfDay": 442
+   "createdDaysAgo": 23,
+   "createdMinuteOfDay": 830,
+   "profession": "Software Engineer",
+   "idea": "Every neighbourhood needs a free tool library"
   },
   {
-   "id": "s245",
-   "firstName": "Defne",
-   "age": 28,
-   "province": "Bursa",
-   "district": "İnegöl",
+   "id": "s235",
+   "firstName": "Nadia",
+   "age": 42,
+   "province": "İzmir",
+   "district": "Bornova",
+   "intent": "networking",
+   "interests": [
+    "investing",
+    "public speaking",
+    "yoga",
+    "podcasts",
+    "product management"
+   ],
+   "availability": [
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 1363,
+   "book": "Kuyucaklı Yusuf",
+   "profession": "Academic",
+   "school": "Ankara Fen Lisesi"
+  },
+  {
+   "id": "s236",
+   "firstName": "Elif",
+   "age": 31,
+   "province": "İzmir",
+   "district": "Konak",
+   "intent": "friendship",
+   "interests": [
+    "travel",
+    "climbing",
+    "dancing",
+    "live music",
+    "street food",
+    "coffee"
+   ],
+   "availability": [
+    "mon_morning",
+    "wed_evening",
+    "thu_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 45,
+   "createdMinuteOfDay": 1075,
+   "profession": "Editor",
+   "school": "Ankara Fen Lisesi",
+   "idea": "Ferries are the best office in İstanbul"
+  },
+  {
+   "id": "s237",
+   "firstName": "Deniz",
+   "age": 33,
+   "province": "İzmir",
+   "district": "Bornova",
    "intent": "friendship",
    "interests": [
     "cooking",
-    "hiking",
-    "travel"
+    "board games",
+    "football",
+    "travel",
+    "dancing"
    ],
    "availability": [
-    "thu_afternoon",
+    "mon_evening",
+    "wed_evening",
     "thu_evening"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 572,
-   "book": "Shoe Dog"
+   "tableSize": "small",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 738,
+   "idea": "AI will make handwriting fashionable again"
   },
   {
-   "id": "s246",
-   "firstName": "Kerem",
-   "age": 27,
-   "province": "Bursa",
-   "district": "Karacabey",
-   "intent": "hobby_partner",
+   "id": "s238",
+   "firstName": "Can",
+   "age": 28,
+   "province": "İzmir",
+   "district": "Karşıyaka",
+   "intent": "friendship",
    "interests": [
-    "cycling",
-    "climbing",
-    "board games",
-    "fintech"
+    "tea",
+    "poetry",
+    "literary fiction"
    ],
    "availability": [
-    "wed_evening",
-    "fri_morning"
+    "fri_evening",
+    "sun_evening"
    ],
    "languages": [
     "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 34,
-   "createdMinuteOfDay": 1095,
-   "book": "The Hard Thing About Hard Things",
-   "profession": "Founder"
-  },
-  {
-   "id": "s247",
-   "firstName": "İpek",
-   "age": 23,
-   "province": "Bursa",
-   "district": "Nilüfer",
-   "intent": "friendship",
-   "interests": [
-    "hiking",
-    "language exchange",
-    "bosphorus walks",
-    "climbing"
-   ],
-   "availability": [
-    "wed_evening",
-    "fri_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
    "tableSize": "small",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 1303,
-   "book": "One Hundred Years of Solitude"
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 560,
+   "book": "The Time Regulation Institute",
+   "profession": "Lawyer",
+   "school": "Galatasaray High School"
   },
   {
-   "id": "s248",
-   "firstName": "Ozan",
-   "age": 22,
-   "province": "Bursa",
-   "district": "Yenişehir",
+   "id": "s239",
+   "firstName": "Zeynep",
+   "age": 43,
+   "province": "İzmir",
+   "district": "Konak",
    "intent": "hobby_partner",
    "interests": [
-    "climbing",
-    "language exchange",
-    "travel",
-    "bosphorus walks"
+    "productivity",
+    "fintech",
+    "running",
+    "product management",
+    "startups"
    ],
    "availability": [
     "sat_afternoon",
-    "sun_morning"
+    "sat_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 15,
-   "createdMinuteOfDay": 1088,
-   "school": "METU"
+   "createdDaysAgo": 50,
+   "createdMinuteOfDay": 1334,
+   "profession": "Investment Analyst",
+   "school": "Kabataş Erkek Lisesi",
+   "idea": "Small talk is underrated"
   },
   {
-   "id": "s249",
-   "firstName": "Ayşe",
-   "age": 35,
-   "province": "Bursa",
-   "district": "Orhaneli",
+   "id": "s240",
+   "firstName": "Mert",
+   "age": 34,
+   "province": "İzmir",
+   "district": "Torbalı",
    "intent": "friendship",
    "interests": [
-    "yoga",
     "running",
-    "ai",
-    "venture capital",
     "fintech",
-    "tea"
+    "public speaking",
+    "design",
+    "climbing"
    ],
    "availability": [
-    "wed_evening",
+    "fri_evening",
     "sun_afternoon"
    ],
    "languages": [
@@ -6842,287 +6689,154 @@ export const SEED: SeedData = {
    ],
    "tableSize": "medium",
    "createdDaysAgo": 30,
-   "createdMinuteOfDay": 1287
+   "createdMinuteOfDay": 766,
+   "book": "Memed, My Hawk",
+   "profession": "Product Manager",
+   "school": "Koç University"
   },
   {
-   "id": "s250",
-   "firstName": "Baran",
+   "id": "s241",
+   "firstName": "Ece",
    "age": 31,
    "province": "Bursa",
-   "district": "İnegöl",
-   "intent": "networking",
-   "interests": [
-    "poetry",
-    "classical music",
-    "literary fiction",
-    "art house cinema",
-    "journaling"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_morning",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 22,
-   "createdMinuteOfDay": 1128,
-   "book": "Kafka on the Shore",
-   "school": "Sabancı University"
-  },
-  {
-   "id": "s251",
-   "firstName": "Naz",
-   "age": 34,
-   "province": "Bursa",
-   "district": "Gürsu",
+   "district": "Harmancık",
    "intent": "friendship",
    "interests": [
-    "ai",
-    "podcasts",
-    "investing",
-    "productivity",
+    "literary fiction",
+    "classical music",
+    "journaling",
     "tea"
    ],
    "availability": [
     "tue_evening",
-    "sat_morning"
+    "wed_evening",
+    "sat_afternoon",
+    "sun_morning"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 40,
-   "createdMinuteOfDay": 1376,
-   "book": "Project Hail Mary",
-   "profession": "Investment Analyst",
-   "school": "Boğaziçi University"
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 545,
+   "book": "Norwegian Wood",
+   "profession": "Product Designer"
   },
   {
-   "id": "s252",
-   "firstName": "Kaan",
-   "age": 38,
-   "province": "Bursa",
-   "district": "Mustafakemalpaşa",
-   "intent": "friendship",
-   "interests": [
-    "football",
-    "bosphorus walks",
-    "cooking",
-    "fintech"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sat_morning",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 49,
-   "createdMinuteOfDay": 1377
-  },
-  {
-   "id": "s253",
-   "firstName": "Duru",
+   "id": "s242",
+   "firstName": "Emre",
    "age": 39,
    "province": "Bursa",
-   "district": "Orhaneli",
+   "district": "Orhangazi",
    "intent": "friendship",
    "interests": [
-    "ai",
-    "design",
-    "venture capital",
-    "yoga",
-    "cycling"
+    "art house cinema",
+    "writing",
+    "history",
+    "film"
    ],
    "availability": [
-    "fri_evening",
+    "wed_morning",
+    "sat_morning",
     "sat_afternoon"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 1384,
-   "profession": "Product Manager",
-   "school": "Robert College"
+   "createdDaysAgo": 47,
+   "createdMinuteOfDay": 1300,
+   "book": "Dune"
   },
   {
-   "id": "s254",
-   "firstName": "Arda",
-   "age": 28,
+   "id": "s243",
+   "firstName": "Selin",
+   "age": 35,
    "province": "Bursa",
-   "district": "İznik",
+   "district": "Mudanya",
    "intent": "networking",
    "interests": [
-    "art house cinema",
-    "poetry",
-    "history",
-    "street food"
+    "product management",
+    "running",
+    "startups",
+    "yoga",
+    "photography"
    ],
    "availability": [
-    "thu_evening",
+    "wed_evening",
+    "sat_morning",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 548,
+   "profession": "Product Designer",
+   "idea": "We need more places to sit that don't require buying coffee"
+  },
+  {
+   "id": "s244",
+   "firstName": "Burak",
+   "age": 27,
+   "province": "Bursa",
+   "district": "Yıldırım",
+   "intent": "friendship",
+   "interests": [
+    "history",
+    "philosophy",
+    "coffee",
+    "writing"
+   ],
+   "availability": [
+    "sat_afternoon",
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 824,
+   "profession": "Accountant",
+   "idea": "Small talk is underrated"
+  },
+  {
+   "id": "s245",
+   "firstName": "Defne",
+   "age": 29,
+   "province": "Bursa",
+   "district": "Büyükorhan",
+   "intent": "friendship",
+   "interests": [
+    "film",
+    "classical music",
+    "philosophy",
+    "running"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "sat_afternoon",
     "sun_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 1426,
-   "book": "Shoe Dog"
-  },
-  {
-   "id": "s255",
-   "firstName": "Lara",
-   "age": 41,
-   "province": "Bursa",
-   "district": "Keles",
-   "intent": "friendship",
-   "interests": [
-    "live music",
-    "photography",
-    "climbing"
-   ],
-   "availability": [
-    "mon_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
    "tableSize": "medium",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 882,
+   "createdDaysAgo": 30,
+   "createdMinuteOfDay": 1304,
    "book": "Thinking, Fast and Slow",
-   "profession": "Accountant"
+   "school": "Istanbul University"
   },
   {
-   "id": "s256",
-   "firstName": "Yusuf",
-   "age": 44,
-   "province": "Antalya",
-   "district": "Gazipaşa",
-   "intent": "networking",
-   "interests": [
-    "productivity",
-    "saas",
-    "running",
-    "ai",
-    "literary fiction"
-   ],
-   "availability": [
-    "thu_evening",
-    "sat_afternoon",
-    "sat_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 1,
-   "createdMinuteOfDay": 1145,
-   "book": "The Time Regulation Institute",
-   "school": "Galatasaray University"
-  },
-  {
-   "id": "s257",
-   "firstName": "Melis",
-   "age": 42,
-   "province": "Antalya",
-   "district": "Kemer",
-   "intent": "friendship",
-   "interests": [
-    "chess",
-    "tea",
-    "art house cinema",
-    "classical music"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "wed_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 754,
-   "book": "The Museum of Innocence"
-  },
-  {
-   "id": "s258",
-   "firstName": "Efe",
-   "age": 41,
-   "province": "Antalya",
-   "district": "Elmalı",
-   "intent": "friendship",
-   "interests": [
-    "yoga",
-    "saas",
-    "podcasts",
-    "design",
-    "writing"
-   ],
-   "availability": [
-    "wed_evening",
-    "sat_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 20,
-   "createdMinuteOfDay": 926,
-   "profession": "Banker",
-   "school": "Koç University"
-  },
-  {
-   "id": "s259",
-   "firstName": "Sena",
-   "age": 40,
-   "province": "Antalya",
-   "district": "Korkuteli",
-   "intent": "friendship",
-   "interests": [
-    "live music",
-    "travel",
-    "dancing"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 48,
-   "createdMinuteOfDay": 1009,
-   "profession": "Academic"
-  },
-  {
-   "id": "s260",
-   "firstName": "Onur",
+   "id": "s246",
+   "firstName": "Kerem",
    "age": 38,
-   "province": "Antalya",
-   "district": "Merkez",
+   "province": "Bursa",
+   "district": "Yenişehir",
    "intent": "friendship",
    "interests": [
     "dancing",
@@ -7144,44 +6858,43 @@ export const SEED: SeedData = {
    "createdMinuteOfDay": 582,
    "book": "Memed, My Hawk",
    "profession": "Lawyer",
-   "school": "Galatasaray High School"
+   "school": "Galatasaray High School",
+   "idea": "Most meetings could be walks"
   },
   {
-   "id": "s261",
-   "firstName": "Ada",
+   "id": "s247",
+   "firstName": "İpek",
    "age": 42,
-   "province": "Antalya",
-   "district": "Aksu",
-   "intent": "hobby_partner",
+   "province": "Bursa",
+   "district": "Yenişehir",
+   "intent": "friendship",
    "interests": [
-    "travel",
-    "cooking",
-    "dancing",
-    "board games",
-    "photography",
-    "history"
+    "podcasts",
+    "venture capital",
+    "running",
+    "design",
+    "poetry"
    ],
    "availability": [
     "tue_evening",
-    "wed_evening",
-    "thu_evening",
-    "sun_afternoon"
+    "wed_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 26,
-   "createdMinuteOfDay": 617,
-   "profession": "Teacher"
+   "tableSize": "small",
+   "createdDaysAgo": 21,
+   "createdMinuteOfDay": 830,
+   "book": "The Museum of Innocence",
+   "profession": "Architect",
+   "school": "Bilkent University"
   },
   {
-   "id": "s262",
-   "firstName": "Tolga",
+   "id": "s248",
+   "firstName": "Ozan",
    "age": 45,
-   "province": "Antalya",
-   "district": "Demre",
+   "province": "Bursa",
+   "district": "Harmancık",
    "intent": "friendship",
    "interests": [
     "board games",
@@ -7200,21 +6913,20 @@ export const SEED: SeedData = {
    "createdDaysAgo": 57,
    "createdMinuteOfDay": 853,
    "book": "Human Landscapes from My Country",
-   "profession": "Product Designer"
+   "profession": "Product Designer",
+   "idea": "Ferries are the best office in İstanbul"
   },
   {
-   "id": "s263",
-   "firstName": "Irmak",
+   "id": "s249",
+   "firstName": "Ayşe",
    "age": 41,
-   "province": "Antalya",
-   "district": "Kumluca",
+   "province": "Bursa",
+   "district": "Orhangazi",
    "intent": "hobby_partner",
    "interests": [
-    "photography",
-    "hiking",
-    "live music",
-    "board games",
-    "language exchange"
+    "public speaking",
+    "venture capital",
+    "product management"
    ],
    "availability": [
     "mon_evening",
@@ -7228,22 +6940,21 @@ export const SEED: SeedData = {
    "tableSize": "small",
    "createdDaysAgo": 15,
    "createdMinuteOfDay": 1331,
-   "school": "Robert College"
+   "school": "Robert College",
+   "idea": "AI will make handwriting fashionable again"
   },
   {
-   "id": "s264",
-   "firstName": "Umut",
+   "id": "s250",
+   "firstName": "Baran",
    "age": 29,
-   "province": "Antalya",
-   "district": "Manavgat",
+   "province": "Bursa",
+   "district": "Osmangazi",
    "intent": "friendship",
    "interests": [
-    "language exchange",
-    "street food",
-    "cooking",
-    "hiking",
-    "bosphorus walks",
-    "yoga"
+    "running",
+    "product management",
+    "productivity",
+    "travel"
    ],
    "availability": [
     "mon_evening",
@@ -7258,45 +6969,45 @@ export const SEED: SeedData = {
    "createdDaysAgo": 32,
    "createdMinuteOfDay": 1297,
    "book": "Memed, My Hawk",
-   "profession": "Doctor"
+   "profession": "Doctor",
+   "idea": "Boredom is where ideas come from"
   },
   {
-   "id": "s265",
-   "firstName": "Asya",
-   "age": 27,
-   "province": "Antalya",
-   "district": "Kepez",
-   "intent": "friendship",
+   "id": "s251",
+   "firstName": "Naz",
+   "age": 21,
+   "province": "Bursa",
+   "district": "Gemlik",
+   "intent": "hobby_partner",
    "interests": [
-    "literary fiction",
-    "classical music",
     "tea",
-    "film"
+    "museums",
+    "journaling"
    ],
    "availability": [
     "mon_evening",
+    "wed_evening",
     "fri_evening"
    ],
    "languages": [
-    "Turkish"
+    "Turkish",
+    "English"
    ],
-   "tableSize": "small",
-   "createdDaysAgo": 1,
-   "createdMinuteOfDay": 1326,
-   "book": "Kuyucaklı Yusuf",
-   "profession": "Journalist",
-   "school": "Boğaziçi University"
+   "tableSize": "medium",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 485,
+   "book": "Crime and Punishment",
+   "profession": "Product Designer",
+   "school": "Ankara Fen Lisesi"
   },
   {
-   "id": "s266",
-   "firstName": "Sarp",
+   "id": "s252",
+   "firstName": "Kaan",
    "age": 21,
-   "province": "Antalya",
-   "district": "Gazipaşa",
+   "province": "Bursa",
+   "district": "Karacabey",
    "intent": "friendship",
    "interests": [
-    "growth marketing",
-    "design",
     "fintech",
     "product management",
     "ai",
@@ -7317,17 +7028,16 @@ export const SEED: SeedData = {
    "school": "Galatasaray University"
   },
   {
-   "id": "s267",
-   "firstName": "Ela",
+   "id": "s253",
+   "firstName": "Duru",
    "age": 41,
-   "province": "Antalya",
-   "district": "Alanya",
+   "province": "Bursa",
+   "district": "Gürsu",
    "intent": "friendship",
    "interests": [
-    "ai",
-    "productivity",
-    "product management",
-    "live music"
+    "cooking",
+    "street food",
+    "board games"
    ],
    "availability": [
     "tue_evening",
@@ -7341,22 +7051,21 @@ export const SEED: SeedData = {
    "createdMinuteOfDay": 1359,
    "book": "Norwegian Wood",
    "profession": "Lawyer",
-   "school": "Sabancı University"
+   "school": "Sabancı University",
+   "idea": "Every neighbourhood needs a free tool library"
   },
   {
-   "id": "s268",
-   "firstName": "Doruk",
+   "id": "s254",
+   "firstName": "Arda",
    "age": 39,
-   "province": "Eskişehir",
-   "district": "Han",
+   "province": "Bursa",
+   "district": "İznik",
    "intent": "friendship",
    "interests": [
-    "hiking",
-    "language exchange",
-    "travel",
-    "climbing",
-    "photography",
-    "coffee"
+    "growth marketing",
+    "fintech",
+    "public speaking",
+    "climbing"
    ],
    "availability": [
     "tue_evening",
@@ -7374,23 +7083,22 @@ export const SEED: SeedData = {
    "school": "Ankara Fen Lisesi"
   },
   {
-   "id": "s269",
-   "firstName": "Nehir",
+   "id": "s255",
+   "firstName": "Lara",
    "age": 41,
-   "province": "Eskişehir",
-   "district": "Alpu",
+   "province": "Bursa",
+   "district": "Orhaneli",
    "intent": "friendship",
    "interests": [
-    "fintech",
     "ai",
     "yoga",
     "venture capital",
-    "public speaking",
-    "poetry"
+    "running",
+    "product management",
+    "literary fiction"
    ],
    "availability": [
     "tue_evening",
-    "fri_evening",
     "sun_morning",
     "sun_evening"
    ],
@@ -7404,17 +7112,16 @@ export const SEED: SeedData = {
    "profession": "Investment Analyst"
   },
   {
-   "id": "s270",
-   "firstName": "Alp",
+   "id": "s256",
+   "firstName": "Yusuf",
    "age": 43,
-   "province": "Eskişehir",
-   "district": "Seyitgazi",
+   "province": "Antalya",
+   "district": "Manavgat",
    "intent": "networking",
    "interests": [
-    "history",
-    "coffee",
-    "museums",
-    "dancing"
+    "bosphorus walks",
+    "cycling",
+    "board games"
    ],
    "availability": [
     "mon_morning",
@@ -7426,773 +7133,777 @@ export const SEED: SeedData = {
    "tableSize": "medium",
    "createdDaysAgo": 58,
    "createdMinuteOfDay": 684,
-   "profession": "Marketing Specialist"
+   "profession": "Marketing Specialist",
+   "idea": "Translation is a kind of writing"
+  },
+  {
+   "id": "s257",
+   "firstName": "Melis",
+   "age": 38,
+   "province": "Antalya",
+   "district": "Finike",
+   "intent": "friendship",
+   "interests": [
+    "street food",
+    "travel",
+    "climbing"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_afternoon",
+    "fri_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 43,
+   "createdMinuteOfDay": 379,
+   "profession": "Chef",
+   "school": "Galatasaray University"
+  },
+  {
+   "id": "s258",
+   "firstName": "Efe",
+   "age": 36,
+   "province": "Antalya",
+   "district": "Alanya",
+   "intent": "hobby_partner",
+   "interests": [
+    "venture capital",
+    "running",
+    "ai",
+    "yoga"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "wed_evening",
+    "thu_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 23,
+   "createdMinuteOfDay": 512,
+   "book": "Thinking, Fast and Slow",
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s259",
+   "firstName": "Sena",
+   "age": 31,
+   "province": "Antalya",
+   "district": "Korkuteli",
+   "intent": "friendship",
+   "interests": [
+    "travel",
+    "hiking",
+    "cycling",
+    "photography",
+    "philosophy"
+   ],
+   "availability": [
+    "mon_afternoon",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 60,
+   "createdMinuteOfDay": 1226,
+   "book": "Inspired",
+   "profession": "Product Manager",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s260",
+   "firstName": "Onur",
+   "age": 40,
+   "province": "Antalya",
+   "district": "Aksu",
+   "intent": "friendship",
+   "interests": [
+    "film",
+    "classical music",
+    "journaling",
+    "poetry"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "sat_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 1161,
+   "book": "Zero to One",
+   "profession": "Architect"
+  },
+  {
+   "id": "s261",
+   "firstName": "Ada",
+   "age": 24,
+   "province": "Antalya",
+   "district": "Kemer",
+   "intent": "friendship",
+   "interests": [
+    "investing",
+    "venture capital",
+    "public speaking",
+    "chess"
+   ],
+   "availability": [
+    "mon_evening",
+    "sun_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 1402,
+   "book": "Dune",
+   "profession": "Data Scientist"
+  },
+  {
+   "id": "s262",
+   "firstName": "Tolga",
+   "age": 26,
+   "province": "Antalya",
+   "district": "Korkuteli",
+   "intent": "hobby_partner",
+   "interests": [
+    "live music",
+    "board games",
+    "language exchange",
+    "photography",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "tue_evening",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 1,
+   "createdMinuteOfDay": 1206,
+   "profession": "Doctor"
+  },
+  {
+   "id": "s263",
+   "firstName": "Irmak",
+   "age": 33,
+   "province": "Antalya",
+   "district": "Alanya",
+   "intent": "friendship",
+   "interests": [
+    "literary fiction",
+    "tea",
+    "museums",
+    "chess",
+    "art house cinema",
+    "design"
+   ],
+   "availability": [
+    "tue_evening",
+    "fri_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 27,
+   "createdMinuteOfDay": 1410,
+   "book": "Project Hail Mary",
+   "school": "Sabancı University",
+   "idea": "We need more places to sit that don't require buying coffee"
+  },
+  {
+   "id": "s264",
+   "firstName": "Umut",
+   "age": 34,
+   "province": "Antalya",
+   "district": "Alanya",
+   "intent": "friendship",
+   "interests": [
+    "art house cinema",
+    "philosophy",
+    "literary fiction",
+    "design"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 22,
+   "createdMinuteOfDay": 755,
+   "book": "Mrs Dalloway",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s265",
+   "firstName": "Asya",
+   "age": 43,
+   "province": "Antalya",
+   "district": "Manavgat",
+   "intent": "networking",
+   "interests": [
+    "travel",
+    "language exchange",
+    "photography",
+    "cooking",
+    "productivity"
+   ],
+   "availability": [
+    "mon_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 56,
+   "createdMinuteOfDay": 554,
+   "profession": "Founder",
+   "school": "Bilkent University"
+  },
+  {
+   "id": "s266",
+   "firstName": "Sarp",
+   "age": 34,
+   "province": "Antalya",
+   "district": "Gazipaşa",
+   "intent": "hobby_partner",
+   "interests": [
+    "investing",
+    "growth marketing",
+    "fintech",
+    "venture capital",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "mon_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 1230,
+   "profession": "Accountant",
+   "school": "Koç University"
+  },
+  {
+   "id": "s267",
+   "firstName": "Ela",
+   "age": 24,
+   "province": "Antalya",
+   "district": "Akseki",
+   "intent": "friendship",
+   "interests": [
+    "design",
+    "podcasts",
+    "yoga",
+    "ai",
+    "cycling"
+   ],
+   "availability": [
+    "tue_afternoon",
+    "wed_afternoon",
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 7,
+   "createdMinuteOfDay": 1166,
+   "book": "Madonna in a Fur Coat"
+  },
+  {
+   "id": "s268",
+   "firstName": "Doruk",
+   "age": 24,
+   "province": "Eskişehir",
+   "district": "İnönü",
+   "intent": "networking",
+   "interests": [
+    "literary fiction",
+    "journaling",
+    "museums",
+    "startups"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 32,
+   "createdMinuteOfDay": 446,
+   "book": "The Time Regulation Institute"
+  },
+  {
+   "id": "s269",
+   "firstName": "Nehir",
+   "age": 31,
+   "province": "Eskişehir",
+   "district": "Mihalgazi",
+   "intent": "friendship",
+   "interests": [
+    "live music",
+    "photography",
+    "travel",
+    "street food",
+    "board games",
+    "investing"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 494,
+   "book": "Anna Karenina"
+  },
+  {
+   "id": "s270",
+   "firstName": "Alp",
+   "age": 41,
+   "province": "Eskişehir",
+   "district": "Odunpazarı",
+   "intent": "networking",
+   "interests": [
+    "football",
+    "cycling",
+    "hiking",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_afternoon",
+    "sat_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 451,
+   "school": "Ankara Fen Lisesi"
   },
   {
    "id": "s271",
    "firstName": "Derin",
-   "age": 21,
+   "age": 37,
    "province": "Eskişehir",
-   "district": "Sarıcakaya",
+   "district": "Mihalgazi",
    "intent": "friendship",
    "interests": [
-    "board games",
-    "language exchange",
-    "street food"
+    "live music",
+    "travel",
+    "photography",
+    "street food",
+    "hiking",
+    "design"
    ],
    "availability": [
-    "tue_evening",
-    "wed_evening",
-    "sun_afternoon"
+    "mon_evening",
+    "thu_evening",
+    "sat_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 17,
-   "createdMinuteOfDay": 1298,
-   "book": "Human Landscapes from My Country",
-   "school": "Ankara Fen Lisesi"
+   "createdDaysAgo": 57,
+   "createdMinuteOfDay": 1137,
+   "profession": "Banker",
+   "idea": "We should read more books written before we were born"
   },
   {
    "id": "s272",
    "firstName": "Berk",
-   "age": 37,
+   "age": 26,
    "province": "Eskişehir",
    "district": "Sivrihisar",
    "intent": "friendship",
    "interests": [
-    "bosphorus walks",
-    "live music",
-    "photography",
-    "language exchange",
+    "climbing",
     "cooking",
-    "yoga"
+    "cycling",
+    "dancing"
    ],
    "availability": [
+    "mon_evening",
     "thu_evening",
-    "sun_afternoon"
+    "sat_afternoon"
    ],
    "languages": [
     "Turkish",
     "English"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 54,
-   "createdMinuteOfDay": 780,
-   "profession": "Product Manager"
+   "tableSize": "small",
+   "createdDaysAgo": 58,
+   "createdMinuteOfDay": 1281,
+   "school": "Istanbul Technical University",
+   "idea": "Small talk is underrated"
   },
   {
    "id": "s273",
    "firstName": "Ilgın",
    "age": 21,
    "province": "Eskişehir",
-   "district": "Alpu",
+   "district": "Sivrihisar",
+   "intent": "friendship",
+   "interests": [
+    "climbing",
+    "travel",
+    "live music"
+   ],
+   "availability": [
+    "sat_morning",
+    "sun_morning",
+    "sun_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 1371,
+   "book": "Memed, My Hawk",
+   "school": "Kabataş Erkek Lisesi"
+  },
+  {
+   "id": "s274",
+   "firstName": "Cem",
+   "age": 39,
+   "province": "Eskişehir",
+   "district": "Günyüzü",
+   "intent": "friendship",
+   "interests": [
+    "literary fiction",
+    "classical music",
+    "history"
+   ],
+   "availability": [
+    "fri_evening",
+    "sat_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 8,
+   "createdMinuteOfDay": 471
+  },
+  {
+   "id": "s275",
+   "firstName": "Pelin",
+   "age": 28,
+   "province": "Eskişehir",
+   "district": "Odunpazarı",
    "intent": "networking",
    "interests": [
-    "hiking",
+    "coffee",
+    "journaling",
+    "chess",
+    "poetry",
+    "film"
+   ],
+   "availability": [
+    "mon_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 26,
+   "createdMinuteOfDay": 1277,
+   "book": "Atomic Habits",
+   "profession": "Product Designer",
+   "school": "Istanbul University",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s276",
+   "firstName": "Maya",
+   "age": 31,
+   "province": "Eskişehir",
+   "district": "Mahmudiye",
+   "intent": "friendship",
+   "interests": [
     "travel",
-    "bosphorus walks",
-    "street food",
-    "language exchange",
-    "yoga"
+    "cooking",
+    "photography"
    ],
    "availability": [
     "tue_evening",
-    "wed_afternoon",
+    "thu_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 41,
+   "createdMinuteOfDay": 996,
+   "profession": "Accountant",
+   "school": "Boğaziçi University",
+   "idea": "Every neighbourhood needs a free tool library"
+  },
+  {
+   "id": "s277",
+   "firstName": "Leo",
+   "age": 37,
+   "province": "Eskişehir",
+   "district": "Beylikova",
+   "intent": "friendship",
+   "interests": [
+    "tea",
+    "writing",
+    "art house cinema",
+    "poetry"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 30,
+   "createdMinuteOfDay": 707,
+   "profession": "Chef",
+   "idea": "We need more places to sit that don't require buying coffee"
+  },
+  {
+   "id": "s278",
+   "firstName": "Sofia",
+   "age": 26,
+   "province": "Trabzon",
+   "district": "Çarşıbaşı",
+   "intent": "friendship",
+   "interests": [
+    "classical music",
+    "writing",
+    "history",
+    "film",
+    "philosophy",
+    "saas"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "fri_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 42,
+   "createdMinuteOfDay": 985,
+   "book": "Kuyucaklı Yusuf",
+   "profession": "Data Scientist",
+   "school": "Istanbul University"
+  },
+  {
+   "id": "s279",
+   "firstName": "Omar",
+   "age": 39,
+   "province": "Trabzon",
+   "district": "Sürmene",
+   "intent": "friendship",
+   "interests": [
+    "cycling",
+    "live music",
+    "language exchange",
+    "podcasts"
+   ],
+   "availability": [
+    "mon_evening",
+    "thu_evening",
+    "fri_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 27,
+   "createdMinuteOfDay": 144,
+   "book": "Project Hail Mary"
+  },
+  {
+   "id": "s280",
+   "firstName": "Anna",
+   "age": 43,
+   "province": "Trabzon",
+   "district": "Tonya",
+   "intent": "friendship",
+   "interests": [
+    "productivity",
+    "saas",
+    "growth marketing",
+    "public speaking"
+   ],
+   "availability": [
+    "tue_morning",
+    "wed_evening",
+    "thu_afternoon",
     "thu_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 11,
-   "createdMinuteOfDay": 596,
-   "book": "The Alchemist",
-   "profession": "Banker",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s274",
-   "firstName": "Cem",
-   "age": 30,
-   "province": "Eskişehir",
-   "district": "İnönü",
-   "intent": "networking",
-   "interests": [
-    "chess",
-    "film",
-    "writing",
-    "history",
-    "photography"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_morning",
-    "wed_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 51,
-   "createdMinuteOfDay": 1297,
-   "profession": "Product Manager"
-  },
-  {
-   "id": "s275",
-   "firstName": "Pelin",
-   "age": 27,
-   "province": "Eskişehir",
-   "district": "Han",
-   "intent": "friendship",
-   "interests": [
-    "football",
-    "dancing",
-    "cooking",
-    "language exchange",
-    "cycling",
-    "investing"
-   ],
-   "availability": [
-    "sat_morning",
-    "sun_morning",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 13,
-   "createdMinuteOfDay": 1318,
-   "book": "Huzur",
-   "school": "Koç University"
-  },
-  {
-   "id": "s276",
-   "firstName": "Maya",
-   "age": 21,
-   "province": "Eskişehir",
-   "district": "İnönü",
-   "intent": "friendship",
-   "interests": [
-    "coffee",
-    "writing",
-    "classical music",
-    "venture capital"
-   ],
-   "availability": [
-    "tue_evening",
-    "sat_afternoon",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 21,
-   "createdMinuteOfDay": 660,
-   "profession": "Marketing Specialist",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s277",
-   "firstName": "Leo",
-   "age": 26,
-   "province": "Eskişehir",
-   "district": "Seyitgazi",
-   "intent": "networking",
-   "interests": [
-    "journaling",
-    "coffee",
-    "literary fiction",
-    "tea",
-    "running"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 12,
-   "createdMinuteOfDay": 679,
-   "book": "Crime and Punishment"
-  },
-  {
-   "id": "s278",
-   "firstName": "Sofia",
-   "age": 23,
-   "province": "Trabzon",
-   "district": "Araklı",
-   "intent": "friendship",
-   "interests": [
-    "history",
-    "classical music",
-    "philosophy",
-    "tea",
-    "chess"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_morning",
-    "tue_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 35,
-   "createdMinuteOfDay": 1052,
-   "book": "Memed, My Hawk",
-   "profession": "Product Designer"
-  },
-  {
-   "id": "s279",
-   "firstName": "Omar",
-   "age": 21,
-   "province": "Trabzon",
-   "district": "Beşikdüzü",
-   "intent": "networking",
-   "interests": [
-    "running",
-    "startups",
-    "podcasts",
-    "public speaking"
-   ],
-   "availability": [
-    "mon_evening",
-    "fri_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 51,
-   "createdMinuteOfDay": 1213,
-   "school": "Koç University"
-  },
-  {
-   "id": "s280",
-   "firstName": "Anna",
-   "age": 30,
-   "province": "Trabzon",
-   "district": "Arsin",
-   "intent": "friendship",
-   "interests": [
-    "product management",
-    "public speaking",
-    "growth marketing"
-   ],
-   "availability": [
-    "thu_evening",
-    "sat_evening",
-    "sun_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 14,
-   "createdMinuteOfDay": 1325,
-   "profession": "Doctor"
+   "createdDaysAgo": 44,
+   "createdMinuteOfDay": 1217,
+   "profession": "Software Engineer",
+   "school": "Robert College",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
   },
   {
    "id": "s281",
    "firstName": "Lukas",
-   "age": 30,
+   "age": 39,
    "province": "Trabzon",
-   "district": "Ortahisar",
-   "intent": "hobby_partner",
+   "district": "Dernekpazarı",
+   "intent": "friendship",
    "interests": [
-    "cooking",
-    "language exchange",
-    "live music",
-    "board games",
-    "saas"
+    "literary fiction",
+    "poetry",
+    "chess",
+    "journaling",
+    "coffee",
+    "live music"
    ],
    "availability": [
-    "wed_evening",
-    "sat_morning",
-    "sun_evening"
+    "fri_evening",
+    "sun_morning"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 2,
-   "createdMinuteOfDay": 1334,
-   "profession": "Product Designer",
-   "school": "Sabancı University"
+   "createdDaysAgo": 60,
+   "createdMinuteOfDay": 951,
+   "book": "Thinking, Fast and Slow"
   },
   {
    "id": "s282",
    "firstName": "Nadia",
-   "age": 21,
+   "age": 44,
    "province": "Trabzon",
-   "district": "Şalpazarı",
-   "intent": "hobby_partner",
+   "district": "Dernekpazarı",
+   "intent": "networking",
    "interests": [
-    "chess",
-    "museums",
-    "philosophy",
-    "dancing"
+    "investing",
+    "fintech",
+    "running",
+    "coffee"
    ],
    "availability": [
-    "mon_afternoon",
-    "mon_evening",
-    "fri_evening",
-    "sat_morning"
+    "sat_afternoon",
+    "sun_morning",
+    "sun_evening"
    ],
    "languages": [
-    "Turkish",
-    "English"
+    "Turkish"
    ],
-   "tableSize": "medium",
-   "createdDaysAgo": 29,
-   "createdMinuteOfDay": 1002,
-   "book": "The Time Regulation Institute",
-   "profession": "Journalist"
+   "tableSize": "small",
+   "createdDaysAgo": 16,
+   "createdMinuteOfDay": 1269,
+   "book": "One Hundred Years of Solitude",
+   "profession": "Investment Analyst",
+   "school": "METU"
   },
   {
    "id": "s283",
    "firstName": "Elif",
-   "age": 25,
+   "age": 38,
    "province": "Trabzon",
-   "district": "Maçka",
+   "district": "Köprübaşı",
    "intent": "friendship",
    "interests": [
-    "literary fiction",
-    "film",
-    "poetry",
-    "philosophy"
+    "public speaking",
+    "podcasts",
+    "ai",
+    "investing",
+    "fintech"
    ],
    "availability": [
-    "wed_evening",
-    "sat_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 25,
-   "createdMinuteOfDay": 801,
-   "profession": "Investment Analyst",
-   "school": "Boğaziçi University"
-  },
-  {
-   "id": "s284",
-   "firstName": "Deniz",
-   "age": 22,
-   "province": "Gaziantep",
-   "district": "Şahinbey",
-   "intent": "networking",
-   "interests": [
-    "dancing",
-    "street food",
-    "board games",
-    "cooking"
-   ],
-   "availability": [
-    "mon_afternoon",
     "mon_evening",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 45,
-   "createdMinuteOfDay": 1181,
-   "book": "Zero to One",
-   "school": "Galatasaray High School"
-  },
-  {
-   "id": "s285",
-   "firstName": "Can",
-   "age": 23,
-   "province": "Gaziantep",
-   "district": "Şehitkâmil",
-   "intent": "networking",
-   "interests": [
-    "travel",
-    "hiking",
-    "photography",
-    "bosphorus walks",
-    "climbing",
-    "tea"
-   ],
-   "availability": [
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish",
-    "English"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 16,
-   "createdMinuteOfDay": 812,
-   "book": "Huzur",
-   "profession": "Architect",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s286",
-   "firstName": "Zeynep",
-   "age": 31,
-   "province": "Gaziantep",
-   "district": "Nurdağı",
-   "intent": "friendship",
-   "interests": [
-    "tea",
-    "film",
-    "journaling",
-    "writing"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_afternoon",
-    "thu_evening",
     "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 1313,
-   "profession": "Software Engineer"
-  },
-  {
-   "id": "s287",
-   "firstName": "Mert",
-   "age": 23,
-   "province": "Gaziantep",
-   "district": "Yavuzeli",
-   "intent": "friendship",
-   "interests": [
-    "language exchange",
-    "dancing",
-    "bosphorus walks",
-    "productivity"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 47,
-   "createdMinuteOfDay": 1348,
-   "book": "Shoe Dog"
-  },
-  {
-   "id": "s288",
-   "firstName": "Ece",
-   "age": 28,
-   "province": "Gaziantep",
-   "district": "Yavuzeli",
-   "intent": "hobby_partner",
-   "interests": [
-    "productivity",
-    "design",
-    "investing",
-    "startups",
-    "product management"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "sun_afternoon",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 6,
-   "createdMinuteOfDay": 794,
-   "book": "The Bastard of Istanbul",
-   "profession": "Editor"
-  },
-  {
-   "id": "s289",
-   "firstName": "Emre",
-   "age": 25,
-   "province": "Konya",
-   "district": "Sarayönü",
-   "intent": "networking",
-   "interests": [
-    "coffee",
-    "literary fiction",
-    "poetry"
-   ],
-   "availability": [
-    "fri_morning",
-    "fri_evening",
-    "sat_afternoon",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 42,
-   "createdMinuteOfDay": 1300,
-   "book": "The Alchemist",
-   "profession": "Architect",
-   "school": "Bilkent University"
-  },
-  {
-   "id": "s290",
-   "firstName": "Selin",
-   "age": 31,
-   "province": "Konya",
-   "district": "Doğanhisar",
-   "intent": "networking",
-   "interests": [
-    "board games",
-    "language exchange",
-    "climbing",
-    "cycling",
-    "street food",
-    "writing"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 55,
-   "createdMinuteOfDay": 1332,
-   "book": "Tutunamayanlar"
-  },
-  {
-   "id": "s291",
-   "firstName": "Burak",
-   "age": 31,
-   "province": "Konya",
-   "district": "Kadınhanı",
-   "intent": "friendship",
-   "interests": [
-    "design",
-    "public speaking",
-    "saas"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_morning",
-    "thu_evening",
-    "sat_morning"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 58,
-   "createdMinuteOfDay": 1310,
-   "book": "The Alchemist",
-   "profession": "Teacher",
-   "school": "Koç University"
-  },
-  {
-   "id": "s292",
-   "firstName": "Defne",
-   "age": 40,
-   "province": "Konya",
-   "district": "Seydişehir",
-   "intent": "hobby_partner",
-   "interests": [
-    "journaling",
-    "writing",
-    "classical music",
-    "football"
-   ],
-   "availability": [
-    "wed_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 1219,
-   "book": "The Bastard of Istanbul",
-   "profession": "Journalist",
-   "school": "Istanbul University"
-  },
-  {
-   "id": "s293",
-   "firstName": "Kerem",
-   "age": 23,
-   "province": "Samsun",
-   "district": "Havza",
-   "intent": "friendship",
-   "interests": [
-    "live music",
-    "hiking",
-    "bosphorus walks",
-    "board games"
-   ],
-   "availability": [
-    "mon_evening",
-    "tue_evening",
-    "wed_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 37,
-   "createdMinuteOfDay": 620,
-   "book": "Istanbul: Memories and the City",
-   "profession": "Chef"
-  },
-  {
-   "id": "s294",
-   "firstName": "İpek",
-   "age": 41,
-   "province": "Samsun",
-   "district": "Çarşamba",
-   "intent": "networking",
-   "interests": [
-    "literary fiction",
-    "museums",
-    "film",
-    "philosophy"
-   ],
-   "availability": [
-    "thu_evening",
-    "sun_afternoon"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 56,
-   "createdMinuteOfDay": 1115
-  },
-  {
-   "id": "s295",
-   "firstName": "Ozan",
-   "age": 29,
-   "province": "Samsun",
-   "district": "Vezirköprü",
-   "intent": "friendship",
-   "interests": [
-    "investing",
-    "design",
-    "public speaking",
-    "product management",
-    "saas",
-    "chess"
-   ],
-   "availability": [
-    "wed_afternoon",
-    "wed_evening",
-    "sat_morning",
-    "sun_afternoon"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "medium",
    "createdDaysAgo": 43,
-   "createdMinuteOfDay": 1036,
-   "profession": "Software Engineer",
-   "school": "Kabataş Erkek Lisesi"
+   "createdMinuteOfDay": 923,
+   "profession": "Journalist",
+   "school": "Istanbul Technical University",
+   "idea": "Boredom is where ideas come from"
   },
   {
-   "id": "s296",
-   "firstName": "Ayşe",
-   "age": 35,
-   "province": "Samsun",
-   "district": "Yakakent",
-   "intent": "networking",
-   "interests": [
-    "design",
-    "product management",
-    "productivity",
-    "growth marketing",
-    "board games"
-   ],
-   "availability": [
-    "mon_evening",
-    "thu_evening",
-    "sun_morning",
-    "sun_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "small",
-   "createdDaysAgo": 53,
-   "createdMinuteOfDay": 1266,
-   "book": "The Lean Startup",
-   "profession": "Data Scientist"
-  },
-  {
-   "id": "s297",
-   "firstName": "Baran",
+   "id": "s284",
+   "firstName": "Deniz",
    "age": 39,
-   "province": "Muğla",
-   "district": "Datça",
-   "intent": "friendship",
+   "province": "Gaziantep",
+   "district": "Nizip",
+   "intent": "hobby_partner",
    "interests": [
-    "journaling",
-    "tea",
-    "film",
-    "art house cinema",
-    "chess"
-   ],
-   "availability": [
-    "tue_evening",
-    "wed_evening",
-    "thu_evening",
-    "fri_evening"
-   ],
-   "languages": [
-    "Turkish"
-   ],
-   "tableSize": "medium",
-   "createdDaysAgo": 13,
-   "createdMinuteOfDay": 1286,
-   "profession": "Banker"
-  },
-  {
-   "id": "s298",
-   "firstName": "Naz",
-   "age": 26,
-   "province": "Muğla",
-   "district": "Ortaca",
-   "intent": "networking",
-   "interests": [
-    "startups",
-    "productivity",
+    "investing",
+    "yoga",
     "running",
-    "museums"
+    "fintech",
+    "growth marketing",
+    "poetry"
    ],
    "availability": [
-    "tue_morning",
-    "thu_evening",
+    "fri_afternoon",
+    "fri_evening",
+    "sat_evening",
     "sun_evening"
    ],
    "languages": [
@@ -8200,26 +7911,111 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "medium",
-   "createdDaysAgo": 44,
-   "createdMinuteOfDay": 1304,
-   "profession": "Lawyer"
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 430,
+   "profession": "Doctor"
   },
   {
-   "id": "s299",
-   "firstName": "Kaan",
-   "age": 25,
-   "province": "Van",
-   "district": "Gevaş",
-   "intent": "networking",
+   "id": "s285",
+   "firstName": "Can",
+   "age": 40,
+   "province": "Gaziantep",
+   "district": "Şahinbey",
+   "intent": "friendship",
    "interests": [
-    "ai",
-    "investing",
-    "yoga",
-    "podcasts"
+    "climbing",
+    "travel",
+    "dancing"
+   ],
+   "availability": [
+    "tue_evening",
+    "wed_evening",
+    "fri_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 1318,
+   "profession": "Data Scientist",
+   "school": "Bilkent University",
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s286",
+   "firstName": "Zeynep",
+   "age": 29,
+   "province": "Gaziantep",
+   "district": "Nurdağı",
+   "intent": "hobby_partner",
+   "interests": [
+    "climbing",
+    "board games",
+    "hiking",
+    "cooking",
+    "photography"
    ],
    "availability": [
     "mon_evening",
+    "tue_evening",
+    "wed_evening",
+    "sat_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 5,
+   "createdMinuteOfDay": 903,
+   "book": "The Mom Test",
+   "profession": "Editor",
+   "school": "Sabancı University",
+   "idea": "Second-hand bookshops are the real social networks"
+  },
+  {
+   "id": "s287",
+   "firstName": "Mert",
+   "age": 21,
+   "province": "Gaziantep",
+   "district": "Yavuzeli",
+   "intent": "friendship",
+   "interests": [
+    "product management",
+    "yoga",
+    "saas",
+    "philosophy"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_morning",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 33,
+   "createdMinuteOfDay": 1131,
+   "school": "Istanbul Technical University"
+  },
+  {
+   "id": "s288",
+   "firstName": "Ece",
+   "age": 30,
+   "province": "Gaziantep",
+   "district": "Oğuzeli",
+   "intent": "networking",
+   "interests": [
+    "live music",
+    "cycling",
+    "photography",
+    "street food"
+   ],
+   "availability": [
     "tue_afternoon",
+    "fri_evening",
     "sun_afternoon"
    ],
    "languages": [
@@ -8227,301 +8023,358 @@ export const SEED: SeedData = {
     "English"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 42,
-   "createdMinuteOfDay": 886,
-   "profession": "Product Manager"
+   "createdDaysAgo": 48,
+   "createdMinuteOfDay": 1099,
+   "book": "Stoner",
+   "profession": "Teacher"
   },
   {
-   "id": "s300",
-   "firstName": "Duru",
-   "age": 44,
-   "province": "Van",
-   "district": "Başkale",
-   "intent": "networking",
+   "id": "s289",
+   "firstName": "Emre",
+   "age": 30,
+   "province": "Konya",
+   "district": "Hadim",
+   "intent": "friendship",
    "interests": [
-    "dancing",
     "travel",
-    "bosphorus walks",
-    "climbing",
+    "dancing",
     "live music",
-    "running"
+    "street food"
    ],
    "availability": [
     "thu_evening",
-    "fri_morning",
-    "fri_afternoon",
-    "sat_evening"
+    "fri_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 4,
+   "createdMinuteOfDay": 384,
+   "profession": "Academic"
+  },
+  {
+   "id": "s290",
+   "firstName": "Selin",
+   "age": 23,
+   "province": "Konya",
+   "district": "Bozkır",
+   "intent": "friendship",
+   "interests": [
+    "dancing",
+    "hiking",
+    "climbing",
+    "language exchange",
+    "football",
+    "public speaking"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_evening",
+    "wed_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 44,
+   "createdMinuteOfDay": 1292,
+   "profession": "Chef",
+   "school": "METU"
+  },
+  {
+   "id": "s291",
+   "firstName": "Burak",
+   "age": 24,
+   "province": "Konya",
+   "district": "Çeltik",
+   "intent": "friendship",
+   "interests": [
+    "museums",
+    "journaling",
+    "writing"
+   ],
+   "availability": [
+    "tue_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 31,
+   "createdMinuteOfDay": 563,
+   "profession": "Lawyer",
+   "idea": "AI will make handwriting fashionable again"
+  },
+  {
+   "id": "s292",
+   "firstName": "Defne",
+   "age": 42,
+   "province": "Konya",
+   "district": "Bozkır",
+   "intent": "friendship",
+   "interests": [
+    "cycling",
+    "travel",
+    "live music"
+   ],
+   "availability": [
+    "wed_evening",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 1194,
+   "profession": "Product Designer",
+   "school": "Sabancı University",
+   "idea": "Everyone should learn to cook one dish from their grandmother"
+  },
+  {
+   "id": "s293",
+   "firstName": "Kerem",
+   "age": 43,
+   "province": "Samsun",
+   "district": "Havza",
+   "intent": "friendship",
+   "interests": [
+    "live music",
+    "hiking",
+    "photography"
+   ],
+   "availability": [
+    "sat_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 15,
+   "createdMinuteOfDay": 959,
+   "profession": "Data Scientist",
+   "school": "Ankara Fen Lisesi"
+  },
+  {
+   "id": "s294",
+   "firstName": "İpek",
+   "age": 37,
+   "province": "Samsun",
+   "district": "Tekkeköy",
+   "intent": "friendship",
+   "interests": [
+    "venture capital",
+    "investing",
+    "product management",
+    "running",
+    "photography"
+   ],
+   "availability": [
+    "sat_evening",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 38,
+   "createdMinuteOfDay": 680,
+   "school": "Boğaziçi University"
+  },
+  {
+   "id": "s295",
+   "firstName": "Ozan",
+   "age": 38,
+   "province": "Samsun",
+   "district": "Merkez",
+   "intent": "networking",
+   "interests": [
+    "cycling",
+    "cooking",
+    "hiking",
+    "photography",
+    "bosphorus walks"
+   ],
+   "availability": [
+    "mon_evening",
+    "wed_morning",
+    "fri_evening",
+    "sun_morning"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 46,
+   "createdMinuteOfDay": 949,
+   "profession": "Data Scientist"
+  },
+  {
+   "id": "s296",
+   "firstName": "Ayşe",
+   "age": 21,
+   "province": "Samsun",
+   "district": "Merkez",
+   "intent": "friendship",
+   "interests": [
+    "saas",
+    "ai",
+    "design",
+    "startups"
+   ],
+   "availability": [
+    "tue_evening",
+    "fri_evening"
    ],
    "languages": [
     "Turkish"
    ],
    "tableSize": "small",
-   "createdDaysAgo": 27,
-   "createdMinuteOfDay": 607,
-   "book": "The Bastard of Istanbul",
-   "school": "Galatasaray High School"
+   "createdDaysAgo": 2,
+   "createdMinuteOfDay": 495,
+   "book": "The Stranger",
+   "profession": "Doctor",
+   "school": "Ankara Fen Lisesi"
+  },
+  {
+   "id": "s297",
+   "firstName": "Baran",
+   "age": 23,
+   "province": "Muğla",
+   "district": "Datça",
+   "intent": "hobby_partner",
+   "interests": [
+    "literary fiction",
+    "writing",
+    "journaling",
+    "classical music",
+    "art house cinema"
+   ],
+   "availability": [
+    "mon_evening",
+    "tue_afternoon",
+    "sun_evening"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 57,
+   "createdMinuteOfDay": 775,
+   "profession": "Lawyer",
+   "idea": "Small talk is underrated"
+  },
+  {
+   "id": "s298",
+   "firstName": "Naz",
+   "age": 33,
+   "province": "Muğla",
+   "district": "Köyceğiz",
+   "intent": "friendship",
+   "interests": [
+    "coffee",
+    "art house cinema",
+    "poetry",
+    "journaling",
+    "travel"
+   ],
+   "availability": [
+    "mon_evening",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 52,
+   "createdMinuteOfDay": 1170,
+   "book": "Crime and Punishment",
+   "profession": "Doctor"
+  },
+  {
+   "id": "s299",
+   "firstName": "Kaan",
+   "age": 31,
+   "province": "Van",
+   "district": "Merkez",
+   "intent": "networking",
+   "interests": [
+    "museums",
+    "tea",
+    "journaling",
+    "art house cinema",
+    "running"
+   ],
+   "availability": [
+    "sat_morning",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish",
+    "English"
+   ],
+   "tableSize": "small",
+   "createdDaysAgo": 55,
+   "createdMinuteOfDay": 1153,
+   "profession": "Investment Analyst",
+   "school": "Koç University",
+   "idea": "Most meetings could be walks"
+  },
+  {
+   "id": "s300",
+   "firstName": "Duru",
+   "age": 29,
+   "province": "Van",
+   "district": "Gürpınar",
+   "intent": "friendship",
+   "interests": [
+    "growth marketing",
+    "fintech",
+    "ai",
+    "public speaking",
+    "live music"
+   ],
+   "availability": [
+    "wed_evening",
+    "sat_morning",
+    "sat_afternoon",
+    "sun_afternoon"
+   ],
+   "languages": [
+    "Turkish"
+   ],
+   "tableSize": "medium",
+   "createdDaysAgo": 49,
+   "createdMinuteOfDay": 1326,
+   "profession": "Banker",
+   "school": "Boğaziçi University",
+   "idea": "Small talk is underrated"
   }
  ],
  "events": [
   {
    "id": "e001",
    "province": "İstanbul",
-   "district": "Beyoğlu",
-   "venue": {
-    "name": "Cihangir Reading Room",
-    "type": "bookshop",
-    "district": "Beyoğlu"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s034",
-    "s134",
-    "s073",
-    "s046"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into philosophy"
-    },
-    {
-     "signal": "books",
-     "text": "2 of 4 read Dune"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.09305555555555557,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s034": "came",
-    "s134": "came",
-    "s073": "no_show",
-    "s046": "came"
-   },
-   "startsOffsetMin": -63630
-  },
-  {
-   "id": "e002",
-   "province": "İstanbul",
-   "district": "Şişli",
-   "venue": {
-    "name": "Maçka Park, upper lawn",
-    "type": "park",
-    "district": "Şişli"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s063",
-    "s102",
-    "s005",
-    "s036"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into bosphorus walks"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.04062500000000001,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s063": "came",
-    "s102": "came",
-    "s005": "came",
-    "s036": "came"
-   },
-   "startsOffsetMin": -61080
-  },
-  {
-   "id": "e003",
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "venue": {
-    "name": "Beşiktaş Listening Bar",
-    "type": "bar",
-    "district": "Beşiktaş"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s044",
-    "s124",
-    "s041",
-    "s045",
-    "s005"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 5 are into dancing"
-    },
-    {
-     "signal": "profession",
-     "text": "3 of 5 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into board games"
-    }
-   ],
-   "cohesion": 0.12375000000000003,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s044": "came",
-    "s124": "came",
-    "s041": "came",
-    "s045": "came",
-    "s005": "no_show"
-   },
-   "startsOffsetMin": -57870
-  },
-  {
-   "id": "e004",
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "venue": {
-    "name": "Karaköy Design Studio",
-    "type": "studio",
-    "district": "Beyoğlu"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s058",
-    "s093",
-    "s047",
-    "s130"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into design"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into street food"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.05034722222222224,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s058": "came",
-    "s093": "came",
-    "s047": "came",
-    "s130": "came"
-   },
-   "startsOffsetMin": -54990
-  },
-  {
-   "id": "e005",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s148",
-    "s202",
-    "s203",
-    "s143"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into film"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.05729166666666668,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s148": "unknown",
-    "s202": "came",
-    "s203": "came",
-    "s143": "came"
-   },
-   "startsOffsetMin": -52680
-  },
-  {
-   "id": "e006",
-   "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
     "name": "Kadıköy Corner Café",
     "type": "cafe",
     "district": "Kadıköy"
    },
-   "capacity": 6,
+   "capacity": 4,
    "memberIds": [
-    "s004",
-    "s083",
-    "s125",
-    "s137",
-    "s046",
-    "s080"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "4 of 6 are into yoga"
-    },
-    {
-     "signal": "profession",
-     "text": "4 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "3 of 6 are into venture capital"
-    }
-   ],
-   "cohesion": 0.1465462962962963,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s004": "came",
-    "s083": "no_show",
-    "s125": "came",
-    "s137": "came",
-    "s046": "came",
-    "s080": "came"
-   },
-   "startsOffsetMin": -49230
-  },
-  {
-   "id": "e007",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s093",
-    "s103",
-    "s032",
-    "s052"
+    "s131",
+    "s139",
+    "s062",
+    "s061"
    ],
    "reasons": [
     {
@@ -8529,107 +8382,27 @@ export const SEED: SeedData = {
      "text": "2 of 4 are into football"
     },
     {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.04500000000000001,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s093": "came",
-    "s103": "no_show",
-    "s032": "no_show",
-    "s052": "no_show"
-   },
-   "startsOffsetMin": -46350
-  },
-  {
-   "id": "e008",
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "venue": {
-    "name": "Beşiktaş Listening Bar",
-    "type": "bar",
-    "district": "Beşiktaş"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s041",
-    "s044",
-    "s045",
-    "s105",
-    "s005"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 5 are into hiking"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into bosphorus walks"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into cooking"
-    }
-   ],
-   "cohesion": 0.07562500000000001,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s041": "came",
-    "s044": "came",
-    "s045": "came",
-    "s105": "came",
-    "s005": "unknown"
-   },
-   "startsOffsetMin": -47790
-  },
-  {
-   "id": "e009",
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "venue": {
-    "name": "Beşiktaş Listening Bar",
-    "type": "bar",
-    "district": "Beşiktaş"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s060",
-    "s129",
-    "s035",
-    "s107"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into dancing"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into live music"
+     "signal": "books",
+     "text": "2 of 4 read Selected Poems"
     },
     {
      "signal": "profession",
-     "text": "2 of 4 work as "
+     "text": "2 of 4 work as Product Designer"
     }
    ],
-   "cohesion": 0.046458333333333345,
+   "cohesion": 0.12500000000000003,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s060": "unknown",
-    "s129": "unknown",
-    "s035": "came",
-    "s107": "came"
+    "s131": "came",
+    "s139": "came",
+    "s062": "came",
+    "s061": "no_show"
    },
-   "startsOffsetMin": -46350
+   "startsOffsetMin": -67950
   },
   {
-   "id": "e010",
+   "id": "e002",
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
@@ -8639,38 +8412,206 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s154",
-    "s201",
-    "s187",
-    "s203"
+    "s191",
+    "s202",
+    "s146",
+    "s175"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 4 are into journaling"
-    },
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as "
+     "text": "2 of 4 are into cooking"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into coffee"
+     "text": "2 of 4 are into fintech"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 4 read Zero to One"
     }
    ],
-   "cohesion": 0.14951599326599327,
+   "cohesion": 0.07673611111111112,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s154": "came",
-    "s201": "came",
-    "s187": "came",
-    "s203": "no_show"
+    "s191": "unknown",
+    "s202": "came",
+    "s146": "came",
+    "s175": "came"
    },
-   "startsOffsetMin": -40590
+   "startsOffsetMin": -69390
   },
   {
-   "id": "e011",
+   "id": "e003",
+   "province": "İstanbul",
+   "district": "Şişli",
+   "venue": {
+    "name": "Nişantaşı Coffee House",
+    "type": "cafe",
+    "district": "Şişli"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s131",
+    "s139",
+    "s061",
+    "s005"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into football"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into startups"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 4 read Selected Poems"
+    }
+   ],
+   "cohesion": 0.1366666666666667,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s131": "came",
+    "s139": "came",
+    "s061": "came",
+    "s005": "no_show"
+   },
+   "startsOffsetMin": -57870
+  },
+  {
+   "id": "e004",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s077",
+    "s135",
+    "s102",
+    "s006"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into public speaking"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into venture capital"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as Banker"
+    }
+   ],
+   "cohesion": 0.06458333333333334,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s077": "came",
+    "s135": "no_show",
+    "s102": "unknown",
+    "s006": "unknown"
+   },
+   "startsOffsetMin": -50670
+  },
+  {
+   "id": "e005",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s001",
+    "s026",
+    "s094",
+    "s034",
+    "s116",
+    "s053"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into dancing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into hiking"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into street food"
+    }
+   ],
+   "cohesion": 0.03666666666666667,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s001": "came",
+    "s026": "came",
+    "s094": "came",
+    "s034": "came",
+    "s116": "came",
+    "s053": "came"
+   },
+   "startsOffsetMin": -54990
+  },
+  {
+   "id": "e006",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s142",
+    "s179",
+    "s172",
+    "s152"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into growth marketing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into public speaking"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
+    }
+   ],
+   "cohesion": 0.08287037037037039,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s142": "unknown",
+    "s179": "came",
+    "s172": "came",
+    "s152": "came"
+   },
+   "startsOffsetMin": -53550
+  },
+  {
+   "id": "e007",
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
@@ -8680,10 +8621,47 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s163",
-    "s167",
-    "s173",
-    "s177"
+    "s165",
+    "s193",
+    "s191",
+    "s175"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into photography"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into language exchange"
+    }
+   ],
+   "cohesion": 0.051666666666666666,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s165": "came",
+    "s193": "came",
+    "s191": "came",
+    "s175": "no_show"
+   },
+   "startsOffsetMin": -51000
+  },
+  {
+   "id": "e008",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Fenerbahçe Park, north gate",
+    "type": "park",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s027",
+    "s103",
+    "s004",
+    "s135"
    ],
    "reasons": [
     {
@@ -8692,19 +8670,146 @@ export const SEED: SeedData = {
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into history"
+     "text": "2 of 4 are into travel"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 4 read The Bastard of Istanbul"
     }
    ],
-   "cohesion": 0.11458333333333336,
+   "cohesion": 0.162962962962963,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s163": "no_show",
-    "s167": "unknown",
-    "s173": "came",
-    "s177": "came"
+    "s027": "came",
+    "s103": "unknown",
+    "s004": "came",
+    "s135": "came"
    },
-   "startsOffsetMin": -47790
+   "startsOffsetMin": -40590
+  },
+  {
+   "id": "e009",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s007",
+    "s037",
+    "s026",
+    "s114",
+    "s040",
+    "s137"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "5 of 6 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into literary fiction"
+    }
+   ],
+   "cohesion": 0.16597222222222227,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s007": "came",
+    "s037": "came",
+    "s026": "came",
+    "s114": "came",
+    "s040": "no_show",
+    "s137": "no_show"
+   },
+   "startsOffsetMin": -46350
+  },
+  {
+   "id": "e010",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s034",
+    "s065",
+    "s139",
+    "s001"
+   ],
+   "reasons": [
+    {
+     "signal": "books",
+     "text": "2 of 4 read Nazım Hikmet"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as Teacher"
+    }
+   ],
+   "cohesion": 0.05000000000000001,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s034": "unknown",
+    "s065": "no_show",
+    "s139": "came",
+    "s001": "no_show"
+   },
+   "startsOffsetMin": -44910
+  },
+  {
+   "id": "e011",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s025",
+    "s102",
+    "s023",
+    "s033"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into literary fiction"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into tea"
+    }
+   ],
+   "cohesion": 0.05250000000000001,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s025": "came",
+    "s102": "came",
+    "s023": "came",
+    "s033": "came"
+   },
+   "startsOffsetMin": -43470
   },
   {
    "id": "e012",
@@ -8717,130 +8822,25 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s018",
-    "s030",
-    "s105",
-    "s049",
-    "s041",
-    "s107"
+    "s071",
+    "s123",
+    "s002",
+    "s092"
    ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 6 are into podcasts"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into ai"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into cooking"
-    }
-   ],
-   "cohesion": 0.08787037037037036,
+   "reasons": [],
+   "cohesion": 0.01666666666666667,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s018": "no_show",
-    "s030": "came",
-    "s105": "came",
-    "s049": "came",
-    "s041": "came",
-    "s107": "came"
+    "s071": "came",
+    "s123": "came",
+    "s002": "came",
+    "s092": "came"
    },
-   "startsOffsetMin": -36270
+   "startsOffsetMin": -46350
   },
   {
    "id": "e013",
-   "province": "İstanbul",
-   "district": "Şişli",
-   "venue": {
-    "name": "Nişantaşı Coffee House",
-    "type": "cafe",
-    "district": "Şişli"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s019",
-    "s063",
-    "s073",
-    "s100",
-    "s033",
-    "s034"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "4 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into football"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into yoga"
-    }
-   ],
-   "cohesion": 0.10592592592592594,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s019": "came",
-    "s063": "came",
-    "s073": "no_show",
-    "s100": "came",
-    "s033": "no_show",
-    "s034": "no_show"
-   },
-   "startsOffsetMin": -30840
-  },
-  {
-   "id": "e014",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Fenerbahçe Park, north gate",
-    "type": "park",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s004",
-    "s102",
-    "s013",
-    "s070",
-    "s046"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into design"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into language exchange"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into venture capital"
-    }
-   ],
-   "cohesion": 0.05862500000000002,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s004": "no_show",
-    "s102": "came",
-    "s013": "no_show",
-    "s070": "came",
-    "s046": "no_show"
-   },
-   "startsOffsetMin": -30840
-  },
-  {
-   "id": "e015",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -8850,40 +8850,159 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s081",
-    "s134",
-    "s006",
-    "s085",
-    "s115"
+    "s116",
+    "s122",
+    "s118",
+    "s053"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 5 are into classical music"
+     "text": "2 of 4 are into chess"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into saas"
+     "text": "2 of 4 are into literary fiction"
     },
     {
-     "signal": "profession",
-     "text": "2 of 5 work as "
+     "signal": "interests",
+     "text": "2 of 4 are into writing"
     }
    ],
-   "cohesion": 0.02707070707070707,
+   "cohesion": 0.02291666666666667,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s081": "no_show",
-    "s134": "came",
-    "s006": "unknown",
-    "s085": "came",
-    "s115": "came"
+    "s116": "came",
+    "s122": "no_show",
+    "s118": "came",
+    "s053": "came"
    },
-   "startsOffsetMin": -33390
+   "startsOffsetMin": -44910
+  },
+  {
+   "id": "e014",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s204",
+    "s208",
+    "s177",
+    "s146",
+    "s187"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "3 of 5 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into ai"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into football"
+    }
+   ],
+   "cohesion": 0.09683333333333335,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s204": "came",
+    "s208": "came",
+    "s177": "came",
+    "s146": "came",
+    "s187": "came"
+   },
+   "startsOffsetMin": -47790
+  },
+  {
+   "id": "e015",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s147",
+    "s158",
+    "s182",
+    "s199"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as Academic"
+    }
+   ],
+   "cohesion": 0.06666666666666668,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s147": "came",
+    "s158": "came",
+    "s182": "came",
+    "s199": "came"
+   },
+   "startsOffsetMin": -40920
   },
   {
    "id": "e016",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s027",
+    "s103",
+    "s004",
+    "s006",
+    "s135",
+    "s035"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "4 of 6 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into chess"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into travel"
+    }
+   ],
+   "cohesion": 0.11750000000000001,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s027": "no_show",
+    "s103": "came",
+    "s004": "no_show",
+    "s006": "came",
+    "s135": "no_show",
+    "s035": "came"
+   },
+   "startsOffsetMin": -30510
+  },
+  {
+   "id": "e017",
    "province": "İstanbul",
    "district": "Beyoğlu",
    "venue": {
@@ -8893,116 +9012,42 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s087",
-    "s111",
-    "s050",
-    "s009"
+    "s007",
+    "s037",
+    "s026",
+    "s114",
+    "s040",
+    "s042"
    ],
    "reasons": [
     {
-     "signal": "interests",
-     "text": "2 of 4 are into art house cinema"
+     "signal": "profession",
+     "text": "6 of 6 work as "
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into startups"
+     "text": "2 of 6 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into podcasts"
     }
    ],
-   "cohesion": 0.0425925925925926,
+   "cohesion": 0.23013888888888895,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s087": "came",
-    "s111": "came",
-    "s050": "came",
-    "s009": "came"
+    "s007": "no_show",
+    "s037": "no_show",
+    "s026": "came",
+    "s114": "came",
+    "s040": "came",
+    "s042": "came"
    },
-   "startsOffsetMin": -33390
-  },
-  {
-   "id": "e017",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s184",
-    "s203",
-    "s160",
-    "s176"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into film"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into journaling"
-    },
-    {
-     "signal": "books",
-     "text": "2 of 4 read Project Hail Mary"
-    }
-   ],
-   "cohesion": 0.09645833333333335,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s184": "came",
-    "s203": "no_show",
-    "s160": "came",
-    "s176": "came"
-   },
-   "startsOffsetMin": -39150
+   "startsOffsetMin": -36270
   },
   {
    "id": "e018",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s143",
-    "s182",
-    "s145",
-    "s201"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 4 are into design"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into film"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into product management"
-    }
-   ],
-   "cohesion": 0.07407407407407408,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s143": "came",
-    "s182": "came",
-    "s145": "no_show",
-    "s201": "came"
-   },
-   "startsOffsetMin": -37710
-  },
-  {
-   "id": "e019",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -9012,37 +9057,82 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s001",
-    "s082",
-    "s073",
-    "s122",
-    "s097"
+    "s048",
+    "s105",
+    "s061",
+    "s062",
+    "s131"
    ],
    "reasons": [
     {
-     "signal": "profession",
-     "text": "4 of 5 work as "
+     "signal": "interests",
+     "text": "2 of 5 are into classical music"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into history"
+     "text": "2 of 5 are into climbing"
     },
     {
-     "signal": "books",
-     "text": "2 of 5 read Memed, My Hawk"
+     "signal": "interests",
+     "text": "2 of 5 are into football"
     }
    ],
-   "cohesion": 0.17083333333333334,
+   "cohesion": 0.061041666666666675,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s001": "came",
-    "s082": "came",
-    "s073": "came",
-    "s122": "came",
-    "s097": "came"
+    "s048": "came",
+    "s105": "no_show",
+    "s061": "no_show",
+    "s062": "came",
+    "s131": "no_show"
    },
-   "startsOffsetMin": -24750
+   "startsOffsetMin": -37710
+  },
+  {
+   "id": "e019",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Cihangir Reading Room",
+    "type": "bookshop",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s073",
+    "s084",
+    "s125",
+    "s122",
+    "s033",
+    "s046"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 6 are into writing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into art house cinema"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into chess"
+    }
+   ],
+   "cohesion": 0.05458333333333334,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s073": "unknown",
+    "s084": "came",
+    "s125": "unknown",
+    "s122": "no_show",
+    "s033": "came",
+    "s046": "came"
+   },
+   "startsOffsetMin": -36270
   },
   {
    "id": "e020",
@@ -9055,247 +9145,118 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s018",
-    "s030",
-    "s105",
-    "s049",
-    "s137",
-    "s107"
+    "s003",
+    "s076",
+    "s053",
+    "s104",
+    "s034"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "4 of 6 are into podcasts"
+     "text": "3 of 5 are into travel"
     },
     {
      "signal": "interests",
-     "text": "3 of 6 are into ai"
+     "text": "2 of 5 are into climbing"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into design"
+     "text": "2 of 5 are into productivity"
     }
    ],
-   "cohesion": 0.10148148148148148,
+   "cohesion": 0.04687500000000001,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s018": "came",
-    "s030": "no_show",
-    "s105": "no_show",
-    "s049": "came",
-    "s137": "came",
-    "s107": "came"
+    "s003": "came",
+    "s076": "no_show",
+    "s053": "came",
+    "s104": "came",
+    "s034": "came"
    },
-   "startsOffsetMin": -26190
+   "startsOffsetMin": -32280
   },
   {
    "id": "e021",
    "province": "İstanbul",
-   "district": "Beyoğlu",
+   "district": "Kadıköy",
    "venue": {
-    "name": "Karaköy Design Studio",
-    "type": "studio",
-    "district": "Beyoğlu"
+    "name": "Fenerbahçe Park, north gate",
+    "type": "park",
+    "district": "Kadıköy"
    },
    "capacity": 6,
    "memberIds": [
-    "s002",
-    "s019",
-    "s112",
-    "s006"
+    "s015",
+    "s071",
+    "s029",
+    "s058"
    ],
    "reasons": [
     {
-     "signal": "profession",
-     "text": "3 of 4 work as "
+     "signal": "interests",
+     "text": "2 of 4 are into bosphorus walks"
     },
     {
-     "signal": "interests",
-     "text": "2 of 4 are into design"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into venture capital"
+     "signal": "books",
+     "text": "2 of 4 read Ahmet Hamdi Tanpınar"
     }
    ],
-   "cohesion": 0.12500000000000003,
+   "cohesion": 0.04166666666666668,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s002": "came",
-    "s019": "no_show",
-    "s112": "came",
-    "s006": "came"
+    "s015": "came",
+    "s071": "came",
+    "s029": "came",
+    "s058": "came"
    },
-   "startsOffsetMin": -29070
+   "startsOffsetMin": -39150
   },
   {
    "id": "e022",
-   "province": "İstanbul",
-   "district": "Kadıköy",
+   "province": "Ankara",
+   "district": "Çankaya",
    "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s093",
-    "s103",
-    "s131",
-    "s052",
-    "s010",
-    "s032"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into football"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into language exchange"
-    }
-   ],
-   "cohesion": 0.055222222222222235,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s093": "came",
-    "s103": "came",
-    "s131": "came",
-    "s052": "came",
-    "s010": "no_show",
-    "s032": "came"
-   },
-   "startsOffsetMin": -26190
-  },
-  {
-   "id": "e023",
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "venue": {
-    "name": "Cihangir Reading Room",
+    "name": "Kızılay Bookshop Café",
     "type": "bookshop",
-    "district": "Beyoğlu"
+    "district": "Çankaya"
    },
    "capacity": 6,
    "memberIds": [
-    "s009",
-    "s022",
-    "s017",
-    "s106"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into poetry"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into street food"
-    }
-   ],
-   "cohesion": 0.11377314814814816,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s009": "no_show",
-    "s022": "came",
-    "s017": "came",
-    "s106": "came"
-   },
-   "startsOffsetMin": -22200
-  },
-  {
-   "id": "e024",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s034",
-    "s056",
-    "s138",
-    "s046"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as Data Scientist"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into venture capital"
-    }
-   ],
-   "cohesion": 0.10583333333333335,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s034": "no_show",
-    "s056": "came",
-    "s138": "unknown",
-    "s046": "no_show"
-   },
-   "startsOffsetMin": -29070
-  },
-  {
-   "id": "e025",
-   "province": "İstanbul",
-   "district": "Beşiktaş",
-   "venue": {
-    "name": "Beşiktaş Listening Bar",
-    "type": "bar",
-    "district": "Beşiktaş"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s060",
-    "s129",
-    "s123",
-    "s013"
+    "s200",
+    "s208",
+    "s146",
+    "s174"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into dancing"
+     "text": "3 of 4 are into literary fiction"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into writing"
+     "text": "2 of 4 are into tea"
     },
     {
      "signal": "profession",
      "text": "2 of 4 work as "
     }
    ],
-   "cohesion": 0.07125000000000002,
+   "cohesion": 0.09583333333333334,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s060": "came",
-    "s129": "came",
-    "s123": "no_show",
-    "s013": "unknown"
+    "s200": "no_show",
+    "s208": "unknown",
+    "s146": "no_show",
+    "s174": "came"
    },
-   "startsOffsetMin": -22200
+   "startsOffsetMin": -37710
   },
   {
-   "id": "e026",
+   "id": "e023",
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
@@ -9305,170 +9266,279 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s189",
-    "s201",
-    "s148",
-    "s173",
-    "s195",
-    "s210"
+    "s142",
+    "s149",
+    "s172",
+    "s152"
    ],
    "reasons": [
     {
-     "signal": "profession",
-     "text": "6 of 6 work as "
-    },
-    {
-     "signal": "schools",
-     "text": "3 of 6 went to Robert College"
+     "signal": "interests",
+     "text": "2 of 4 are into cycling"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into dancing"
+     "text": "2 of 4 are into public speaking"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
     }
    ],
-   "cohesion": 0.24191666666666672,
+   "cohesion": 0.07314814814814816,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s189": "came",
-    "s201": "came",
-    "s148": "came",
-    "s173": "no_show",
-    "s195": "came",
-    "s210": "came"
+    "s142": "came",
+    "s149": "came",
+    "s172": "came",
+    "s152": "came"
    },
-   "startsOffsetMin": -26190
+   "startsOffsetMin": -33390
   },
   {
-   "id": "e027",
+   "id": "e024",
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
     "district": "Çankaya"
    },
    "capacity": 6,
    "memberIds": [
-    "s184",
-    "s203",
-    "s191",
-    "s160",
-    "s176",
-    "s142"
+    "s147",
+    "s158",
+    "s182",
+    "s199",
+    "s187"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 6 are into art house cinema"
+     "text": "2 of 5 are into investing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into podcasts"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 5 work as Academic"
+    }
+   ],
+   "cohesion": 0.053500000000000006,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s147": "came",
+    "s158": "came",
+    "s182": "unknown",
+    "s199": "unknown",
+    "s187": "came"
+   },
+   "startsOffsetMin": -30840
+  },
+  {
+   "id": "e025",
+   "province": "İzmir",
+   "district": "Konak",
+   "venue": {
+    "name": "Kordon Coffee House",
+    "type": "cafe",
+    "district": "Konak"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s225",
+    "s235",
+    "s215",
+    "s227"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into tea"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as Academic"
+    }
+   ],
+   "cohesion": 0.04062500000000001,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s225": "came",
+    "s235": "came",
+    "s215": "unknown",
+    "s227": "came"
+   },
+   "startsOffsetMin": -32280
+  },
+  {
+   "id": "e026",
+   "province": "İzmir",
+   "district": "Konak",
+   "venue": {
+    "name": "Alsancak Jazz Bar",
+    "type": "bar",
+    "district": "Konak"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s236",
+    "s237",
+    "s221",
+    "s228"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into travel"
+    }
+   ],
+   "cohesion": 0.012962962962962963,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s236": "came",
+    "s237": "came",
+    "s221": "came",
+    "s228": "unknown"
+   },
+   "startsOffsetMin": -34830
+  },
+  {
+   "id": "e027",
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "venue": {
+    "name": "Beşiktaş Listening Bar",
+    "type": "bar",
+    "district": "Beşiktaş"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s030",
+    "s070",
+    "s044",
+    "s104",
+    "s116",
+    "s027"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 6 are into dancing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into cycling"
     },
     {
      "signal": "interests",
      "text": "2 of 6 are into film"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into growth marketing"
     }
    ],
-   "cohesion": 0.05521380471380473,
+   "cohesion": 0.09208333333333334,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s184": "came",
-    "s203": "came",
-    "s191": "came",
-    "s160": "came",
-    "s176": "came",
-    "s142": "came"
+    "s030": "came",
+    "s070": "came",
+    "s044": "came",
+    "s104": "came",
+    "s116": "came",
+    "s027": "came"
    },
    "startsOffsetMin": -29070
   },
   {
    "id": "e028",
-   "province": "Ankara",
-   "district": "Çankaya",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
    "venue": {
-    "name": "Kavaklıdere Art Studio",
+    "name": "Karaköy Design Studio",
     "type": "studio",
-    "district": "Çankaya"
+    "district": "Beyoğlu"
    },
    "capacity": 6,
    "memberIds": [
-    "s143",
-    "s182",
-    "s162",
-    "s145"
+    "s010",
+    "s084",
+    "s073",
+    "s108",
+    "s005",
+    "s131"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 4 are into design"
+     "text": "2 of 6 are into tea"
     },
     {
-     "signal": "interests",
-     "text": "2 of 4 are into product management"
+     "signal": "books",
+     "text": "2 of 6 read Tutunamayanlar"
     },
     {
-     "signal": "schools",
-     "text": "2 of 4 went to METU"
+     "signal": "profession",
+     "text": "2 of 6 work as "
     }
    ],
-   "cohesion": 0.07777777777777779,
+   "cohesion": 0.06333333333333334,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s143": "came",
-    "s182": "unknown",
-    "s162": "came",
-    "s145": "came"
+    "s010": "no_show",
+    "s084": "no_show",
+    "s073": "came",
+    "s108": "came",
+    "s005": "no_show",
+    "s131": "unknown"
    },
-   "startsOffsetMin": -27630
+   "startsOffsetMin": -26190
   },
   {
    "id": "e029",
    "province": "İstanbul",
-   "district": "Kadıköy",
+   "district": "Beyoğlu",
    "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
+    "name": "Cihangir Reading Room",
+    "type": "bookshop",
+    "district": "Beyoğlu"
    },
    "capacity": 6,
    "memberIds": [
-    "s004",
-    "s083",
-    "s002",
-    "s112",
-    "s137",
-    "s125"
+    "s121",
+    "s122",
+    "s051",
+    "s033"
    ],
    "reasons": [
     {
-     "signal": "profession",
-     "text": "6 of 6 work as "
+     "signal": "interests",
+     "text": "3 of 4 are into writing"
     },
     {
      "signal": "interests",
-     "text": "3 of 6 are into yoga"
+     "text": "2 of 4 are into chess"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into design"
+     "text": "2 of 4 are into classical music"
     }
    ],
-   "cohesion": 0.2516666666666667,
+   "cohesion": 0.09710648148148149,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s004": "no_show",
-    "s083": "came",
-    "s002": "no_show",
-    "s112": "came",
-    "s137": "came",
-    "s125": "unknown"
+    "s121": "came",
+    "s122": "no_show",
+    "s051": "no_show",
+    "s033": "came"
    },
-   "startsOffsetMin": -18990
+   "startsOffsetMin": -21000
   },
   {
    "id": "e030",
@@ -9481,11 +9551,11 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s001",
-    "s082",
-    "s122",
-    "s128",
-    "s055"
+    "s007",
+    "s040",
+    "s114",
+    "s094",
+    "s130"
    ],
    "reasons": [
     {
@@ -9498,60 +9568,23 @@ export const SEED: SeedData = {
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into history"
+     "text": "2 of 5 are into literary fiction"
     }
    ],
-   "cohesion": 0.10666666666666669,
+   "cohesion": 0.07283333333333336,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s001": "no_show",
-    "s082": "came",
-    "s122": "came",
-    "s128": "came",
-    "s055": "came"
+    "s007": "no_show",
+    "s040": "came",
+    "s114": "came",
+    "s094": "unknown",
+    "s130": "came"
    },
-   "startsOffsetMin": -14670
+   "startsOffsetMin": -26190
   },
   {
    "id": "e031",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Fenerbahçe Park, north gate",
-    "type": "park",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s100",
-    "s102",
-    "s013",
-    "s036"
-   ],
-   "reasons": [
-    {
-     "signal": "schools",
-     "text": "3 of 4 went to METU"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.10833333333333334,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s100": "came",
-    "s102": "came",
-    "s013": "no_show",
-    "s036": "no_show"
-   },
-   "startsOffsetMin": -10680
-  },
-  {
-   "id": "e032",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -9561,39 +9594,70 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s136",
-    "s138",
-    "s026",
-    "s121",
-    "s035",
-    "s006"
+    "s001",
+    "s117",
+    "s034",
+    "s077",
+    "s061"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 6 are into classical music"
+     "text": "2 of 5 are into board games"
     },
     {
-     "signal": "interests",
-     "text": "2 of 6 are into dancing"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into film"
+     "signal": "profession",
+     "text": "2 of 5 work as "
     }
    ],
-   "cohesion": 0.058592592592592606,
+   "cohesion": 0.025833333333333337,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s136": "no_show",
-    "s138": "no_show",
-    "s026": "came",
-    "s121": "came",
-    "s035": "no_show",
-    "s006": "no_show"
+    "s001": "no_show",
+    "s117": "came",
+    "s034": "came",
+    "s077": "came",
+    "s061": "came"
    },
-   "startsOffsetMin": -18990
+   "startsOffsetMin": -24750
+  },
+  {
+   "id": "e032",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s009",
+    "s022",
+    "s045",
+    "s099"
+   ],
+   "reasons": [
+    {
+     "signal": "schools",
+     "text": "2 of 4 went to Kabataş Erkek Lisesi"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
+    }
+   ],
+   "cohesion": 0.05833333333333335,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s009": "no_show",
+    "s022": "no_show",
+    "s045": "came",
+    "s099": "came"
+   },
+   "startsOffsetMin": -22200
   },
   {
    "id": "e033",
@@ -9606,10 +9670,92 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s093",
-    "s103",
-    "s131",
-    "s032"
+    "s036",
+    "s092",
+    "s032",
+    "s085"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into chess"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
+    }
+   ],
+   "cohesion": 0.039814814814814824,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s036": "came",
+    "s092": "unknown",
+    "s032": "came",
+    "s085": "came"
+   },
+   "startsOffsetMin": -24750
+  },
+  {
+   "id": "e034",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s191",
+    "s202",
+    "s167",
+    "s174",
+    "s175",
+    "s200"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into fintech"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into literary fiction"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into photography"
+    }
+   ],
+   "cohesion": 0.04953703703703704,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s191": "came",
+    "s202": "came",
+    "s167": "unknown",
+    "s174": "came",
+    "s175": "no_show",
+    "s200": "came"
+   },
+   "startsOffsetMin": -29070
+  },
+  {
+   "id": "e035",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s169",
+    "s199",
+    "s188",
+    "s180"
    ],
    "reasons": [
     {
@@ -9618,26 +9764,67 @@ export const SEED: SeedData = {
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into football"
+     "text": "2 of 4 are into ai"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into venture capital"
+     "text": "2 of 4 are into chess"
     }
    ],
-   "cohesion": 0.12833333333333335,
+   "cohesion": 0.12041666666666669,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s093": "came",
-    "s103": "came",
-    "s131": "came",
-    "s032": "unknown"
+    "s169": "no_show",
+    "s199": "no_show",
+    "s188": "came",
+    "s180": "no_show"
    },
-   "startsOffsetMin": -16110
+   "startsOffsetMin": -22200
   },
   {
-   "id": "e034",
+   "id": "e036",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s204",
+    "s208",
+    "s187",
+    "s198"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into street food"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into ai"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into photography"
+    }
+   ],
+   "cohesion": 0.10189814814814817,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s204": "came",
+    "s208": "came",
+    "s187": "came",
+    "s198": "came"
+   },
+   "startsOffsetMin": -27630
+  },
+  {
+   "id": "e037",
    "province": "İstanbul",
    "district": "Beyoğlu",
    "venue": {
@@ -9647,162 +9834,39 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s005",
-    "s049",
-    "s117",
-    "s105",
-    "s018",
-    "s091"
+    "s007",
+    "s037",
+    "s040",
+    "s042",
+    "s094",
+    "s130"
    ],
    "reasons": [
     {
-     "signal": "interests",
-     "text": "3 of 6 are into design"
+     "signal": "profession",
+     "text": "4 of 6 work as "
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into dancing"
+     "text": "2 of 6 are into film"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into fintech"
+     "text": "2 of 6 are into literary fiction"
     }
    ],
-   "cohesion": 0.11416666666666668,
+   "cohesion": 0.13147222222222224,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s005": "no_show",
-    "s049": "unknown",
-    "s117": "came",
-    "s105": "no_show",
-    "s018": "no_show",
-    "s091": "came"
+    "s007": "no_show",
+    "s037": "no_show",
+    "s040": "no_show",
+    "s042": "no_show",
+    "s094": "came",
+    "s130": "no_show"
    },
    "startsOffsetMin": -16110
-  },
-  {
-   "id": "e035",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s063",
-    "s124",
-    "s041",
-    "s033",
-    "s114",
-    "s045"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 6 are into board games"
-    },
-    {
-     "signal": "profession",
-     "text": "3 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into bosphorus walks"
-    }
-   ],
-   "cohesion": 0.06939814814814817,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s063": "came",
-    "s124": "unknown",
-    "s041": "no_show",
-    "s033": "came",
-    "s114": "no_show",
-    "s045": "came"
-   },
-   "startsOffsetMin": -17550
-  },
-  {
-   "id": "e036",
-   "province": "İstanbul",
-   "district": "Şişli",
-   "venue": {
-    "name": "Nişantaşı Coffee House",
-    "type": "cafe",
-    "district": "Şişli"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s039",
-    "s127",
-    "s058",
-    "s012"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into football"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into growth marketing"
-    }
-   ],
-   "cohesion": 0.11562500000000002,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s039": "came",
-    "s127": "came",
-    "s058": "came",
-    "s012": "no_show"
-   },
-   "startsOffsetMin": -17550
-  },
-  {
-   "id": "e037",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Fenerbahçe Park, north gate",
-    "type": "park",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s015",
-    "s046",
-    "s068",
-    "s126"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into photography"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into venture capital"
-    }
-   ],
-   "cohesion": 0.02916666666666667,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s015": "came",
-    "s046": "no_show",
-    "s068": "came",
-    "s126": "no_show"
-   },
-   "startsOffsetMin": -11790
   },
   {
    "id": "e038",
@@ -9815,235 +9879,42 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s050",
-    "s076",
-    "s009",
-    "s087"
+    "s024",
+    "s027",
+    "s004",
+    "s104",
+    "s121",
+    "s030"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into running"
-    }
-   ],
-   "cohesion": 0.02314814814814815,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s050": "came",
-    "s076": "came",
-    "s009": "no_show",
-    "s087": "no_show"
-   },
-   "startsOffsetMin": -13230
-  },
-  {
-   "id": "e039",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Seğmenler Park, east entrance",
-    "type": "park",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s148",
-    "s201",
-    "s173",
-    "s210",
-    "s181",
-    "s162"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "4 of 6 work as "
+     "text": "3 of 6 are into dancing"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into cooking"
+     "text": "3 of 6 are into film"
     },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into dancing"
-    }
-   ],
-   "cohesion": 0.10700000000000001,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s148": "came",
-    "s201": "no_show",
-    "s173": "came",
-    "s210": "came",
-    "s181": "came",
-    "s162": "no_show"
-   },
-   "startsOffsetMin": -16110
-  },
-  {
-   "id": "e040",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s184",
-    "s203",
-    "s160",
-    "s176",
-    "s202",
-    "s142"
-   ],
-   "reasons": [
     {
      "signal": "profession",
      "text": "3 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into art house cinema"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into film"
     }
    ],
-   "cohesion": 0.07464814814814816,
+   "cohesion": 0.0801388888888889,
    "status": "past",
    "rsvps": {},
    "attendance": {
-    "s184": "came",
-    "s203": "came",
-    "s160": "unknown",
-    "s176": "came",
-    "s202": "no_show",
-    "s142": "came"
+    "s024": "unknown",
+    "s027": "came",
+    "s004": "no_show",
+    "s104": "came",
+    "s121": "no_show",
+    "s030": "no_show"
    },
    "startsOffsetMin": -18990
   },
   {
-   "id": "e041",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Seğmenler Park, east entrance",
-    "type": "park",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s182",
-    "s199",
-    "s171",
-    "s145"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 4 are into cycling"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into design"
-    },
-    {
-     "signal": "schools",
-     "text": "2 of 4 went to METU"
-    }
-   ],
-   "cohesion": 0.08796296296296297,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s182": "unknown",
-    "s199": "came",
-    "s171": "came",
-    "s145": "came"
-   },
-   "startsOffsetMin": -17550
-  },
-  {
-   "id": "e042",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s156",
-    "s205",
-    "s157",
-    "s188"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into photography"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
-    }
-   ],
-   "cohesion": 0.04305555555555556,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s156": "came",
-    "s205": "came",
-    "s157": "came",
-    "s188": "came"
-   },
-   "startsOffsetMin": -13230
-  },
-  {
-   "id": "e043",
-   "province": "İzmir",
-   "district": "Karşıyaka",
-   "venue": {
-    "name": "Bostanlı Seaside Park",
-    "type": "park",
-    "district": "Karşıyaka"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s224",
-    "s227",
-    "s230",
-    "s212"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into climbing"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into film"
-    }
-   ],
-   "cohesion": 0.014814814814814815,
-   "status": "past",
-   "rsvps": {},
-   "attendance": {
-    "s224": "no_show",
-    "s227": "no_show",
-    "s230": "came",
-    "s212": "came"
-   },
-   "startsOffsetMin": -18990
-  },
-  {
-   "id": "e044",
+   "id": "e039",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -10053,160 +9924,15 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s004",
-    "s053",
-    "s083",
-    "s079",
-    "s112"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "5 of 5 work as "
-    },
-    {
-     "signal": "books",
-     "text": "3 of 5 read Kafka on the Shore"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into language exchange"
-    }
-   ],
-   "cohesion": 0.303888888888889,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 11250
-  },
-  {
-   "id": "e045",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s008",
-    "s114",
-    "s080",
-    "s011",
-    "s031"
+    "s029",
+    "s096",
+    "s107",
+    "s060"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 5 are into film"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into museums"
-    },
-    {
-     "signal": "books",
-     "text": "2 of 5 read The Time Regulation Institute"
-    }
-   ],
-   "cohesion": 0.13388888888888892,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 11250
-  },
-  {
-   "id": "e046",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s001",
-    "s134",
-    "s077",
-    "s097",
-    "s056"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "4 of 5 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into poetry"
-    }
-   ],
-   "cohesion": 0.14100000000000001,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 7800
-  },
-  {
-   "id": "e047",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s018",
-    "s066",
-    "s041",
-    "s045",
-    "s125",
-    "s044"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "4 of 6 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "3 of 6 are into venture capital"
-    },
-    {
-     "signal": "interests",
-     "text": "3 of 6 are into yoga"
-    }
-   ],
-   "cohesion": 0.13791666666666666,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 12690
-  },
-  {
-   "id": "e048",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s043",
-    "s084",
-    "s022",
-    "s109"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as "
+     "text": "4 of 4 are into podcasts"
     },
     {
      "signal": "interests",
@@ -10214,55 +9940,22 @@ export const SEED: SeedData = {
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into literary fiction"
+     "text": "2 of 4 are into yoga"
     }
    ],
-   "cohesion": 0.13796296296296298,
-   "status": "upcoming",
+   "cohesion": 0.09750000000000002,
+   "status": "past",
    "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 12690
-  },
-  {
-   "id": "e049",
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "venue": {
-    "name": "Karaköy Design Studio",
-    "type": "studio",
-    "district": "Beyoğlu"
+   "attendance": {
+    "s029": "came",
+    "s096": "came",
+    "s107": "came",
+    "s060": "no_show"
    },
-   "capacity": 6,
-   "memberIds": [
-    "s049",
-    "s085",
-    "s099",
-    "s081",
-    "s075",
-    "s086"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into design"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into product management"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 6 are into public speaking"
-    }
-   ],
-   "cohesion": 0.061111111111111116,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 8040
+   "startsOffsetMin": -12120
   },
   {
-   "id": "e050",
+   "id": "e040",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -10272,29 +9965,85 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s098",
-    "s110",
-    "s016",
-    "s076"
+    "s048",
+    "s105",
+    "s005",
+    "s061",
+    "s133",
+    "s062"
    ],
    "reasons": [
     {
-     "signal": "schools",
-     "text": "2 of 4 went to Boğaziçi University"
+     "signal": "interests",
+     "text": "2 of 6 are into classical music"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 6 read Mrs Dalloway"
     },
     {
      "signal": "profession",
-     "text": "2 of 4 work as "
+     "text": "2 of 6 work as Data Scientist"
     }
    ],
-   "cohesion": 0.05833333333333334,
-   "status": "upcoming",
+   "cohesion": 0.06958333333333333,
+   "status": "past",
    "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 4050
+   "attendance": {
+    "s048": "came",
+    "s105": "no_show",
+    "s005": "came",
+    "s061": "no_show",
+    "s133": "came",
+    "s062": "came"
+   },
+   "startsOffsetMin": -17550
   },
   {
-   "id": "e051",
+   "id": "e041",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s059",
+    "s140",
+    "s021",
+    "s111",
+    "s083"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into investing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into live music"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 5 read Selected Poems"
+    }
+   ],
+   "cohesion": 0.08500000000000002,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s059": "came",
+    "s140": "came",
+    "s021": "came",
+    "s111": "unknown",
+    "s083": "no_show"
+   },
+   "startsOffsetMin": -10680
+  },
+  {
+   "id": "e042",
    "province": "İstanbul",
    "district": "Şişli",
    "venue": {
@@ -10304,12 +10053,100 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s020",
-    "s038",
-    "s108",
-    "s127",
-    "s071",
-    "s021"
+    "s003",
+    "s076",
+    "s069",
+    "s118",
+    "s110"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 5 are into travel"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into climbing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into street food"
+    }
+   ],
+   "cohesion": 0.045277777777777785,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s003": "no_show",
+    "s076": "came",
+    "s069": "no_show",
+    "s118": "came",
+    "s110": "no_show"
+   },
+   "startsOffsetMin": -12120
+  },
+  {
+   "id": "e043",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s010",
+    "s033",
+    "s057",
+    "s122",
+    "s131",
+    "s012"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 6 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into writing"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 6 work as "
+    }
+   ],
+   "cohesion": 0.03633333333333334,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s010": "came",
+    "s033": "unknown",
+    "s057": "came",
+    "s122": "came",
+    "s131": "no_show",
+    "s012": "no_show"
+   },
+   "startsOffsetMin": -16110
+  },
+  {
+   "id": "e044",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s169",
+    "s177",
+    "s208",
+    "s204",
+    "s174",
+    "s146"
    ],
    "reasons": [
     {
@@ -10318,56 +10155,342 @@ export const SEED: SeedData = {
     },
     {
      "signal": "interests",
-     "text": "3 of 6 are into tea"
+     "text": "2 of 6 are into ai"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into art house cinema"
+     "text": "2 of 6 are into football"
     }
    ],
-   "cohesion": 0.11166666666666665,
+   "cohesion": 0.11413888888888889,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s169": "came",
+    "s177": "came",
+    "s208": "came",
+    "s204": "no_show",
+    "s174": "came",
+    "s146": "came"
+   },
+   "startsOffsetMin": -17550
+  },
+  {
+   "id": "e045",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Kavaklıdere Art Studio",
+    "type": "studio",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s160",
+    "s202",
+    "s182",
+    "s195"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into art house cinema"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into fintech"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into philosophy"
+    }
+   ],
+   "cohesion": 0.06734006734006734,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s160": "came",
+    "s202": "came",
+    "s182": "unknown",
+    "s195": "unknown"
+   },
+   "startsOffsetMin": -14670
+  },
+  {
+   "id": "e046",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s165",
+    "s193",
+    "s162",
+    "s178"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into language exchange"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into travel"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
+    }
+   ],
+   "cohesion": 0.09229166666666667,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s165": "came",
+    "s193": "unknown",
+    "s162": "came",
+    "s178": "came"
+   },
+   "startsOffsetMin": -10680
+  },
+  {
+   "id": "e047",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Seğmenler Park, east entrance",
+    "type": "park",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s142",
+    "s149",
+    "s181",
+    "s172",
+    "s152"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "3 of 5 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into cycling"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into language exchange"
+    }
+   ],
+   "cohesion": 0.08972222222222223,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s142": "no_show",
+    "s149": "came",
+    "s181": "no_show",
+    "s172": "came",
+    "s152": "came"
+   },
+   "startsOffsetMin": -13230
+  },
+  {
+   "id": "e048",
+   "province": "Bursa",
+   "district": "Gürsu",
+   "venue": {
+    "name": "A café in Gürsu",
+    "type": "cafe",
+    "district": "Gürsu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s241",
+    "s253",
+    "s247",
+    "s254",
+    "s255"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into literary fiction"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into venture capital"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 5 read Norwegian Wood"
+    }
+   ],
+   "cohesion": 0.05166666666666667,
+   "status": "past",
+   "rsvps": {},
+   "attendance": {
+    "s241": "no_show",
+    "s253": "came",
+    "s247": "no_show",
+    "s254": "no_show",
+    "s255": "came"
+   },
+   "startsOffsetMin": -17550
+  },
+  {
+   "id": "e049",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Fenerbahçe Park, north gate",
+    "type": "park",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s027",
+    "s103",
+    "s004",
+    "s006",
+    "s070"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "4 of 5 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into travel"
+    }
+   ],
+   "cohesion": 0.1627777777777778,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 6930
+   "startsOffsetMin": 9810
+  },
+  {
+   "id": "e050",
+   "province": "İstanbul",
+   "district": "Şişli",
+   "venue": {
+    "name": "Maçka Park, upper lawn",
+    "type": "park",
+    "district": "Şişli"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s028",
+    "s105",
+    "s065",
+    "s005",
+    "s095"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into climbing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into film"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 5 read Mrs Dalloway"
+    }
+   ],
+   "cohesion": 0.0908888888888889,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 9480
+  },
+  {
+   "id": "e051",
+   "province": "İstanbul",
+   "district": "Beyoğlu",
+   "venue": {
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s007",
+    "s037",
+    "s114",
+    "s040",
+    "s042"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "5 of 5 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into film"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into podcasts"
+    }
+   ],
+   "cohesion": 0.2452083333333334,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 4050
   },
   {
    "id": "e052",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
+    "name": "Moda Bookshop Café",
+    "type": "bookshop",
     "district": "Kadıköy"
    },
    "capacity": 6,
    "memberIds": [
-    "s005",
+    "s057",
+    "s109",
     "s061",
-    "s030",
-    "s036",
-    "s128",
-    "s137"
+    "s137",
+    "s012",
+    "s046"
    ],
    "reasons": [
     {
-     "signal": "schools",
-     "text": "3 of 6 went to Koç University"
+     "signal": "interests",
+     "text": "3 of 6 are into writing"
     },
     {
-     "signal": "profession",
-     "text": "3 of 6 work as "
+     "signal": "schools",
+     "text": "3 of 6 went to Istanbul University"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into chess"
+     "text": "2 of 6 are into football"
     }
    ],
-   "cohesion": 0.10666666666666667,
+   "cohesion": 0.11525000000000003,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 9480
+   "startsOffsetMin": 4050
   },
   {
    "id": "e053",
@@ -10380,67 +10503,68 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s027",
-    "s054",
-    "s101",
-    "s133"
+    "s020",
+    "s123",
+    "s092",
+    "s032"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into product management"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into street food"
+     "text": "2 of 4 are into writing"
     },
     {
      "signal": "books",
-     "text": "2 of 4 read Norwegian Wood"
+     "text": "2 of 4 read Memed, My Hawk"
+    },
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as "
     }
    ],
-   "cohesion": 0.1462962962962963,
+   "cohesion": 0.10277777777777779,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 9240
+   "startsOffsetMin": 6930
   },
   {
    "id": "e054",
    "province": "İstanbul",
-   "district": "Kadıköy",
+   "district": "Beyoğlu",
    "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
+    "name": "Karaköy Design Studio",
+    "type": "studio",
+    "district": "Beyoğlu"
    },
    "capacity": 6,
    "memberIds": [
-    "s136",
-    "s138",
-    "s035",
-    "s121",
-    "s046"
+    "s039",
+    "s073",
+    "s084",
+    "s125",
+    "s131",
+    "s033"
    ],
    "reasons": [
     {
-     "signal": "interests",
-     "text": "2 of 5 are into film"
+     "signal": "books",
+     "text": "3 of 6 read Tutunamayanlar"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into photography"
+     "text": "2 of 6 are into film"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into venture capital"
+     "text": "2 of 6 are into football"
     }
    ],
-   "cohesion": 0.057070707070707084,
+   "cohesion": 0.09833333333333337,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 11250
+   "startsOffsetMin": 4050
   },
   {
    "id": "e055",
@@ -10453,67 +10577,35 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s093",
-    "s103",
-    "s131",
-    "s028",
-    "s010",
-    "s052"
+    "s050",
+    "s113",
+    "s115",
+    "s024",
+    "s139",
+    "s121"
    ],
    "reasons": [
     {
      "signal": "profession",
-     "text": "3 of 6 work as "
+     "text": "4 of 6 work as "
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into football"
+     "text": "2 of 6 are into board games"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into language exchange"
+     "text": "2 of 6 are into dancing"
     }
    ],
-   "cohesion": 0.07480555555555557,
+   "cohesion": 0.1056851851851852,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 4050
+   "startsOffsetMin": 7800
   },
   {
    "id": "e056",
-   "province": "İstanbul",
-   "district": "Beyoğlu",
-   "venue": {
-    "name": "Karaköy Design Studio",
-    "type": "studio",
-    "district": "Beyoğlu"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s025",
-    "s072",
-    "s122",
-    "s116"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "3 of 4 work as "
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into film"
-    }
-   ],
-   "cohesion": 0.10729166666666669,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 5490
-  },
-  {
-   "id": "e057",
    "province": "İstanbul",
    "district": "Kadıköy",
    "venue": {
@@ -10523,26 +10615,68 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s029",
-    "s139",
-    "s047",
-    "s062"
+    "s086",
+    "s088",
+    "s021",
+    "s013",
+    "s138",
+    "s120"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into chess"
+     "text": "3 of 6 are into ai"
     },
     {
      "signal": "profession",
-     "text": "2 of 4 work as Data Scientist"
+     "text": "3 of 6 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into history"
     }
    ],
-   "cohesion": 0.12395833333333334,
+   "cohesion": 0.09063973063973065,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 9480
+   "startsOffsetMin": 9240
+  },
+  {
+   "id": "e057",
+   "province": "İstanbul",
+   "district": "Şişli",
+   "venue": {
+    "name": "Maçka Park, upper lawn",
+    "type": "park",
+    "district": "Şişli"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s031",
+    "s079",
+    "s009",
+    "s083"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "3 of 4 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into bosphorus walks"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into live music"
+    }
+   ],
+   "cohesion": 0.13611111111111115,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 6930
   },
   {
    "id": "e058",
@@ -10555,60 +10689,68 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s050",
-    "s078",
-    "s069",
+    "s022",
+    "s063",
+    "s047",
     "s064",
-    "s067",
-    "s113"
+    "s098",
+    "s099"
    ],
    "reasons": [
     {
-     "signal": "interests",
-     "text": "2 of 6 are into coffee"
+     "signal": "profession",
+     "text": "3 of 6 work as "
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into cycling"
+     "text": "2 of 6 are into hiking"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into dancing"
+     "text": "2 of 6 are into poetry"
     }
    ],
-   "cohesion": 0.045777777777777785,
+   "cohesion": 0.09733333333333334,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 5490
+   "startsOffsetMin": 8040
   },
   {
    "id": "e059",
    "province": "İstanbul",
-   "district": "Beşiktaş",
+   "district": "Kadıköy",
    "venue": {
-    "name": "Beşiktaş Listening Bar",
-    "type": "bar",
-    "district": "Beşiktaş"
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
    },
    "capacity": 6,
    "memberIds": [
-    "s051",
-    "s132",
-    "s055",
-    "s082"
+    "s059",
+    "s140",
+    "s017",
+    "s111"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into hiking"
+     "text": "3 of 4 are into investing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into literary fiction"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into product management"
     }
    ],
-   "cohesion": 0.035,
+   "cohesion": 0.11671296296296298,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 5490
+   "startsOffsetMin": 9480
   },
   {
    "id": "e060",
@@ -10621,30 +10763,147 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s089",
-    "s126",
-    "s105",
-    "s013",
-    "s070"
+    "s001",
+    "s043",
+    "s117",
+    "s091",
+    "s116",
+    "s053"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 5 are into saas"
+     "text": "3 of 6 are into writing"
     },
     {
-     "signal": "schools",
-     "text": "2 of 5 went to Robert College"
+     "signal": "interests",
+     "text": "2 of 6 are into chess"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into literary fiction"
     }
    ],
-   "cohesion": 0.04020833333333333,
+   "cohesion": 0.07372222222222223,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 12690
+   "startsOffsetMin": 5490
   },
   {
    "id": "e061",
+   "province": "İstanbul",
+   "district": "Şişli",
+   "venue": {
+    "name": "Maçka Park, upper lawn",
+    "type": "park",
+    "district": "Şişli"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s018",
+    "s082",
+    "s101",
+    "s096",
+    "s071",
+    "s015"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 6 are into bosphorus walks"
+    },
+    {
+     "signal": "interests",
+     "text": "3 of 6 are into podcasts"
+    },
+    {
+     "signal": "profession",
+     "text": "3 of 6 work as "
+    }
+   ],
+   "cohesion": 0.08780555555555557,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 4050
+  },
+  {
+   "id": "e062",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Fenerbahçe Park, north gate",
+    "type": "park",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s075",
+    "s089",
+    "s048",
+    "s077"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "3 of 4 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into cycling"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into public speaking"
+    }
+   ],
+   "cohesion": 0.1263888888888889,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 5490
+  },
+  {
+   "id": "e063",
+   "province": "İstanbul",
+   "district": "Beşiktaş",
+   "venue": {
+    "name": "Beşiktaş Listening Bar",
+    "type": "bar",
+    "district": "Beşiktaş"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s068",
+    "s081",
+    "s002",
+    "s058",
+    "s112",
+    "s019"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into dancing"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into design"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 6 are into hiking"
+    }
+   ],
+   "cohesion": 0.03839814814814815,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 11250
+  },
+  {
+   "id": "e064",
    "province": "İstanbul",
    "district": "Beyoğlu",
    "venue": {
@@ -10654,246 +10913,127 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s009",
-    "s118",
-    "s087",
-    "s111"
+    "s035",
+    "s127",
+    "s049",
+    "s025",
+    "s128"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into museums"
+     "text": "2 of 5 are into film"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into startups"
+     "text": "2 of 5 are into startups"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into yoga"
+     "text": "2 of 5 are into writing"
     }
    ],
-   "cohesion": 0.08175925925925927,
+   "cohesion": 0.05166666666666668,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
    "startsOffsetMin": 6930
   },
   {
-   "id": "e062",
+   "id": "e065",
    "province": "İstanbul",
-   "district": "Kadıköy",
+   "district": "Şişli",
    "venue": {
-    "name": "Kadıköy Corner Café",
+    "name": "Nişantaşı Coffee House",
     "type": "cafe",
-    "district": "Kadıköy"
+    "district": "Şişli"
    },
    "capacity": 6,
    "memberIds": [
-    "s014",
+    "s030",
+    "s044",
     "s104",
-    "s034",
-    "s065",
-    "s033"
+    "s041"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 5 are into growth marketing"
+     "text": "2 of 4 are into cycling"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into chess"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into running"
-    }
-   ],
-   "cohesion": 0.07395833333333335,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 9480
-  },
-  {
-   "id": "e063",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s039",
-    "s058",
-    "s012",
-    "s094"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into ai"
+     "text": "2 of 4 are into fintech"
     },
     {
      "signal": "interests",
      "text": "2 of 4 are into football"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 4 work as "
     }
    ],
-   "cohesion": 0.05833333333333335,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 12690
-  },
-  {
-   "id": "e064",
-   "province": "İstanbul",
-   "district": "Kadıköy",
-   "venue": {
-    "name": "Kadıköy Corner Café",
-    "type": "cafe",
-    "district": "Kadıköy"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s060",
-    "s129",
-    "s123",
-    "s003"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "3 of 4 are into travel"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into dancing"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into photography"
-    }
-   ],
-   "cohesion": 0.07384259259259258,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 8040
-  },
-  {
-   "id": "e065",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Kızılay Bookshop Café",
-    "type": "bookshop",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s189",
-    "s201",
-    "s148",
-    "s173",
-    "s195"
-   ],
-   "reasons": [
-    {
-     "signal": "profession",
-     "text": "5 of 5 work as "
-    },
-    {
-     "signal": "schools",
-     "text": "3 of 5 went to Robert College"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into film"
-    }
-   ],
-   "cohesion": 0.25287500000000007,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 4050
-  },
-  {
-   "id": "e066",
-   "province": "Ankara",
-   "district": "Çankaya",
-   "venue": {
-    "name": "Tunalı Coffee House",
-    "type": "cafe",
-    "district": "Çankaya"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s184",
-    "s203",
-    "s191",
-    "s160",
-    "s210"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 5 are into journaling"
-    },
-    {
-     "signal": "books",
-     "text": "2 of 5 read Project Hail Mary"
-    },
-    {
-     "signal": "profession",
-     "text": "2 of 5 work as "
-    }
-   ],
-   "cohesion": 0.06437500000000002,
+   "cohesion": 0.09645833333333335,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
    "startsOffsetMin": 11250
   },
   {
-   "id": "e067",
-   "province": "Ankara",
-   "district": "Çankaya",
+   "id": "e066",
+   "province": "İstanbul",
+   "district": "Kadıköy",
    "venue": {
-    "name": "Seğmenler Park, east entrance",
-    "type": "park",
-    "district": "Çankaya"
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
    },
-   "capacity": 6,
+   "capacity": 4,
    "memberIds": [
-    "s143",
-    "s182",
-    "s171",
-    "s199",
-    "s175"
+    "s062",
+    "s133",
+    "s067",
+    "s129"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "3 of 5 are into cycling"
+     "text": "2 of 4 are into journaling"
     },
     {
-     "signal": "schools",
-     "text": "3 of 5 went to METU"
+     "signal": "profession",
+     "text": "2 of 4 work as Data Scientist"
+    }
+   ],
+   "cohesion": 0.07962962962962965,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 12690
+  },
+  {
+   "id": "e067",
+   "province": "İstanbul",
+   "district": "Kadıköy",
+   "venue": {
+    "name": "Kadıköy Corner Café",
+    "type": "cafe",
+    "district": "Kadıköy"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s029",
+    "s090",
+    "s085",
+    "s038"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into fintech"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into product management"
+     "text": "2 of 4 are into growth marketing"
     }
    ],
-   "cohesion": 0.08944444444444445,
+   "cohesion": 0.02138888888888889,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
@@ -10904,72 +11044,68 @@ export const SEED: SeedData = {
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
     "district": "Çankaya"
    },
    "capacity": 6,
    "memberIds": [
-    "s144",
-    "s205",
-    "s156",
-    "s165",
-    "s157",
-    "s188"
+    "s168",
+    "s188",
+    "s193",
+    "s173"
    ],
    "reasons": [
     {
-     "signal": "profession",
-     "text": "4 of 6 work as "
+     "signal": "interests",
+     "text": "2 of 4 are into board games"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into film"
+     "text": "2 of 4 are into poetry"
     },
     {
-     "signal": "interests",
-     "text": "2 of 6 are into photography"
+     "signal": "books",
+     "text": "2 of 4 read The Brothers Karamazov"
     }
    ],
-   "cohesion": 0.09069444444444445,
+   "cohesion": 0.09895833333333336,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 6930
+   "startsOffsetMin": 8040
   },
   {
    "id": "e069",
    "province": "Ankara",
    "district": "Çankaya",
    "venue": {
-    "name": "Kavaklıdere Art Studio",
-    "type": "studio",
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
     "district": "Çankaya"
    },
    "capacity": 6,
    "memberIds": [
     "s159",
-    "s176",
-    "s180",
-    "s183",
-    "s142",
-    "s181"
+    "s208",
+    "s169",
+    "s204"
    ],
    "reasons": [
     {
-     "signal": "interests",
-     "text": "2 of 6 are into film"
+     "signal": "profession",
+     "text": "3 of 4 work as "
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into growth marketing"
+     "text": "2 of 4 are into ai"
     },
     {
      "signal": "interests",
-     "text": "2 of 6 are into tea"
+     "text": "2 of 4 are into literary fiction"
     }
    ],
-   "cohesion": 0.024768518518518523,
+   "cohesion": 0.1706481481481482,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
@@ -10978,39 +11114,38 @@ export const SEED: SeedData = {
   {
    "id": "e070",
    "province": "Ankara",
-   "district": "Etimesgut",
+   "district": "Çankaya",
    "venue": {
-    "name": "Göksu Park, lakeside",
+    "name": "Seğmenler Park, east entrance",
     "type": "park",
-    "district": "Etimesgut"
+    "district": "Çankaya"
    },
    "capacity": 6,
    "memberIds": [
-    "s149",
-    "s198",
-    "s190",
-    "s206",
-    "s209"
+    "s144",
+    "s196",
+    "s194",
+    "s189"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 5 are into bosphorus walks"
+     "text": "2 of 4 are into bosphorus walks"
     },
     {
      "signal": "interests",
-     "text": "2 of 5 are into writing"
+     "text": "2 of 4 are into climbing"
     },
     {
-     "signal": "profession",
-     "text": "2 of 5 work as Chef"
+     "signal": "interests",
+     "text": "2 of 4 are into dancing"
     }
    ],
-   "cohesion": 0.034375,
+   "cohesion": 0.085,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 8040
+   "startsOffsetMin": 7800
   },
   {
    "id": "e071",
@@ -11023,26 +11158,26 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s146",
-    "s172",
-    "s185",
-    "s174"
+    "s143",
+    "s164",
+    "s184",
+    "s192"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into art house cinema"
+     "text": "2 of 4 are into investing"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into board games"
+     "text": "2 of 4 are into saas"
     },
     {
-     "signal": "interests",
-     "text": "2 of 4 are into history"
+     "signal": "books",
+     "text": "2 of 4 read Selected Poems"
     }
    ],
-   "cohesion": 0.06106481481481482,
+   "cohesion": 0.07916666666666668,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
@@ -11050,6 +11185,139 @@ export const SEED: SeedData = {
   },
   {
    "id": "e072",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s166",
+    "s202",
+    "s146",
+    "s174",
+    "s175"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into cooking"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into tea"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 5 read Zero to One"
+    }
+   ],
+   "cohesion": 0.0782638888888889,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 11250
+  },
+  {
+   "id": "e073",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s142",
+    "s179",
+    "s181",
+    "s152"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into growth marketing"
+    },
+    {
+     "signal": "profession",
+     "text": "3 of 4 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into public speaking"
+    }
+   ],
+   "cohesion": 0.1328703703703704,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 6930
+  },
+  {
+   "id": "e074",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s147",
+    "s180",
+    "s141",
+    "s199"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "2 of 4 work as Academic"
+    }
+   ],
+   "cohesion": 0.03333333333333334,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 9480
+  },
+  {
+   "id": "e075",
+   "province": "Ankara",
+   "district": "Çankaya",
+   "venue": {
+    "name": "Tunalı Coffee House",
+    "type": "cafe",
+    "district": "Çankaya"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s162",
+    "s165",
+    "s200",
+    "s178"
+   ],
+   "reasons": [
+    {
+     "signal": "profession",
+     "text": "3 of 4 work as "
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into journaling"
+    }
+   ],
+   "cohesion": 0.11666666666666668,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 9480
+  },
+  {
+   "id": "e076",
    "province": "İzmir",
    "district": "Konak",
    "venue": {
@@ -11059,29 +11327,65 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s218",
-    "s238",
+    "s230",
+    "s237",
+    "s213",
+    "s236"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "3 of 4 are into board games"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into football"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 4 are into travel"
+    }
+   ],
+   "cohesion": 0.0725462962962963,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 4050
+  },
+  {
+   "id": "e077",
+   "province": "İzmir",
+   "district": "Konak",
+   "venue": {
+    "name": "Kordon Coffee House",
+    "type": "cafe",
+    "district": "Konak"
+   },
+   "capacity": 6,
+   "memberIds": [
     "s225",
+    "s235",
+    "s215",
     "s227"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into travel"
+     "text": "2 of 4 are into tea"
     },
     {
      "signal": "profession",
-     "text": "2 of 4 work as "
+     "text": "2 of 4 work as Academic"
     }
    ],
-   "cohesion": 0.052777777777777785,
+   "cohesion": 0.04062500000000001,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
-   "startsOffsetMin": 8370
+   "startsOffsetMin": 8040
   },
   {
-   "id": "e073",
+   "id": "e078",
    "province": "İzmir",
    "district": "Konak",
    "venue": {
@@ -11091,725 +11395,707 @@ export const SEED: SeedData = {
    },
    "capacity": 6,
    "memberIds": [
-    "s221",
-    "s228",
-    "s226",
-    "s215"
+    "s232",
+    "s234",
+    "s218",
+    "s231"
    ],
    "reasons": [
     {
      "signal": "interests",
-     "text": "2 of 4 are into growth marketing"
+     "text": "2 of 4 are into journaling"
     },
     {
      "signal": "interests",
-     "text": "2 of 4 are into history"
-    },
-    {
-     "signal": "schools",
-     "text": "2 of 4 went to Galatasaray High School"
+     "text": "2 of 4 are into philosophy"
     }
    ],
-   "cohesion": 0.10166666666666668,
-   "status": "upcoming",
-   "rsvps": {},
-   "attendance": {},
-   "startsOffsetMin": 5490
-  },
-  {
-   "id": "e074",
-   "province": "İzmir",
-   "district": "Bornova",
-   "venue": {
-    "name": "Bornova Craft Studio",
-    "type": "studio",
-    "district": "Bornova"
-   },
-   "capacity": 6,
-   "memberIds": [
-    "s212",
-    "s214",
-    "s224",
-    "s237"
-   ],
-   "reasons": [
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into art house cinema"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into climbing"
-    },
-    {
-     "signal": "interests",
-     "text": "2 of 4 are into travel"
-    }
-   ],
-   "cohesion": 0.02962962962962963,
+   "cohesion": 0.041666666666666664,
    "status": "upcoming",
    "rsvps": {},
    "attendance": {},
    "startsOffsetMin": 11250
+  },
+  {
+   "id": "e079",
+   "province": "Bursa",
+   "district": "Gürsu",
+   "venue": {
+    "name": "A café in Gürsu",
+    "type": "cafe",
+    "district": "Gürsu"
+   },
+   "capacity": 6,
+   "memberIds": [
+    "s241",
+    "s253",
+    "s247",
+    "s254",
+    "s255"
+   ],
+   "reasons": [
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into literary fiction"
+    },
+    {
+     "signal": "interests",
+     "text": "2 of 5 are into venture capital"
+    },
+    {
+     "signal": "books",
+     "text": "2 of 5 read Norwegian Wood"
+    }
+   ],
+   "cohesion": 0.05166666666666667,
+   "status": "upcoming",
+   "rsvps": {},
+   "attendance": {},
+   "startsOffsetMin": 12690
   }
  ],
  "feedback": [
   {
-   "eventId": "e002",
-   "memberId": "s063",
-   "rating": 4,
+   "eventId": "e001",
+   "memberId": "s131",
+   "rating": 3,
    "meetAgain": [
-    "s005",
-    "s036"
+    "s062",
+    "s139"
    ]
   },
   {
-   "eventId": "e002",
-   "memberId": "s102",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e002",
-   "memberId": "s036",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e003",
-   "memberId": "s044",
+   "eventId": "e001",
+   "memberId": "s139",
    "rating": 5,
    "meetAgain": [
-    "s124"
-   ]
-  },
-  {
-   "eventId": "e003",
-   "memberId": "s041",
-   "rating": 4,
-   "meetAgain": [
-    "s045"
-   ]
-  },
-  {
-   "eventId": "e003",
-   "memberId": "s045",
-   "rating": 4,
-   "meetAgain": [
-    "s041",
-    "s044"
-   ]
-  },
-  {
-   "eventId": "e004",
-   "memberId": "s058",
-   "rating": 3,
-   "meetAgain": [
-    "s093",
-    "s130"
-   ]
-  },
-  {
-   "eventId": "e004",
-   "memberId": "s093",
-   "rating": 4,
-   "meetAgain": [
-    "s130"
-   ]
-  },
-  {
-   "eventId": "e004",
-   "memberId": "s047",
-   "rating": 3,
-   "meetAgain": [
-    "s093",
-    "s130"
-   ]
-  },
-  {
-   "eventId": "e005",
-   "memberId": "s202",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e005",
-   "memberId": "s203",
-   "rating": 3,
-   "meetAgain": [
-    "s143",
-    "s202"
-   ]
-  },
-  {
-   "eventId": "e005",
-   "memberId": "s143",
-   "rating": 4,
-   "meetAgain": [
-    "s202",
-    "s203"
-   ]
-  },
-  {
-   "eventId": "e006",
-   "memberId": "s004",
-   "rating": 3,
-   "meetAgain": [
-    "s080",
-    "s125"
-   ]
-  },
-  {
-   "eventId": "e006",
-   "memberId": "s137",
-   "rating": 3,
-   "meetAgain": [
-    "s004",
-    "s046"
-   ]
-  },
-  {
-   "eventId": "e007",
-   "memberId": "s093",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e008",
-   "memberId": "s041",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e008",
-   "memberId": "s044",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e008",
-   "memberId": "s045",
-   "rating": 3,
-   "meetAgain": [
-    "s105"
-   ]
-  },
-  {
-   "eventId": "e008",
-   "memberId": "s105",
-   "rating": 3,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e009",
-   "memberId": "s107",
-   "rating": 3,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e010",
-   "memberId": "s187",
-   "rating": 3,
-   "meetAgain": [
-    "s154",
-    "s201"
-   ]
-  },
-  {
-   "eventId": "e012",
-   "memberId": "s107",
-   "rating": 3,
-   "meetAgain": [
-    "s049",
-    "s105"
-   ]
-  },
-  {
-   "eventId": "e013",
-   "memberId": "s019",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e013",
-   "memberId": "s063",
-   "rating": 5,
-   "meetAgain": [
-    "s100"
-   ]
-  },
-  {
-   "eventId": "e013",
-   "memberId": "s100",
-   "rating": 5,
-   "meetAgain": [
-    "s063"
-   ]
-  },
-  {
-   "eventId": "e014",
-   "memberId": "s102",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e014",
-   "memberId": "s070",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e015",
-   "memberId": "s134",
-   "rating": 4,
-   "meetAgain": [
-    "s115"
-   ]
-  },
-  {
-   "eventId": "e015",
-   "memberId": "s115",
-   "rating": 4,
-   "meetAgain": [
-    "s085"
-   ]
-  },
-  {
-   "eventId": "e016",
-   "memberId": "s087",
-   "rating": 3,
-   "meetAgain": [
-    "s111"
-   ]
-  },
-  {
-   "eventId": "e016",
-   "memberId": "s050",
-   "rating": 3,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e017",
-   "memberId": "s184",
-   "rating": 3,
-   "meetAgain": [
-    "s160"
-   ]
-  },
-  {
-   "eventId": "e017",
-   "memberId": "s160",
-   "rating": 3,
-   "meetAgain": [
-    "s176",
-    "s184"
-   ]
-  },
-  {
-   "eventId": "e018",
-   "memberId": "s143",
-   "rating": 3,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e018",
-   "memberId": "s201",
-   "rating": 5,
-   "meetAgain": [
-    "s182"
-   ]
-  },
-  {
-   "eventId": "e019",
-   "memberId": "s001",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e019",
-   "memberId": "s082",
-   "rating": 5,
-   "meetAgain": [
-    "s073"
-   ]
-  },
-  {
-   "eventId": "e019",
-   "memberId": "s122",
-   "rating": 4,
-   "meetAgain": [
-    "s001",
-    "s097"
-   ]
-  },
-  {
-   "eventId": "e019",
-   "memberId": "s097",
-   "rating": 5,
-   "meetAgain": [
-    "s073",
-    "s082"
-   ]
-  },
-  {
-   "eventId": "e020",
-   "memberId": "s137",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e020",
-   "memberId": "s107",
-   "rating": 3,
-   "meetAgain": [
-    "s018"
-   ]
-  },
-  {
-   "eventId": "e022",
-   "memberId": "s093",
-   "rating": 5,
-   "meetAgain": [
-    "s032",
-    "s103"
-   ]
-  },
-  {
-   "eventId": "e022",
-   "memberId": "s052",
-   "rating": 5,
-   "meetAgain": [
-    "s032"
-   ]
-  },
-  {
-   "eventId": "e023",
-   "memberId": "s022",
-   "rating": 4,
-   "meetAgain": [
-    "s106"
-   ]
-  },
-  {
-   "eventId": "e023",
-   "memberId": "s017",
-   "rating": 5,
-   "meetAgain": [
-    "s106"
-   ]
-  },
-  {
-   "eventId": "e024",
-   "memberId": "s056",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e026",
-   "memberId": "s210",
-   "rating": 5,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e027",
-   "memberId": "s203",
-   "rating": 3,
-   "meetAgain": [
-    "s142",
-    "s160"
-   ]
-  },
-  {
-   "eventId": "e027",
-   "memberId": "s191",
-   "rating": 3,
-   "meetAgain": [
-    "s160",
-    "s184"
-   ]
-  },
-  {
-   "eventId": "e027",
-   "memberId": "s160",
-   "rating": 3,
-   "meetAgain": [
-    "s142",
-    "s203"
-   ]
-  },
-  {
-   "eventId": "e027",
-   "memberId": "s142",
-   "rating": 3,
-   "meetAgain": [
-    "s176",
-    "s184"
-   ]
-  },
-  {
-   "eventId": "e028",
-   "memberId": "s143",
-   "rating": 4,
-   "meetAgain": [
-    "s145",
-    "s162"
-   ]
-  },
-  {
-   "eventId": "e028",
-   "memberId": "s145",
-   "rating": 4,
-   "meetAgain": [
-    "s143",
-    "s162"
-   ]
-  },
-  {
-   "eventId": "e029",
-   "memberId": "s083",
-   "rating": 4,
-   "meetAgain": [
-    "s112",
-    "s137"
-   ]
-  },
-  {
-   "eventId": "e029",
-   "memberId": "s112",
-   "rating": 3,
-   "meetAgain": [
-    "s137"
-   ]
-  },
-  {
-   "eventId": "e030",
-   "memberId": "s122",
-   "rating": 5,
-   "meetAgain": [
-    "s082",
-    "s128"
-   ]
-  },
-  {
-   "eventId": "e030",
-   "memberId": "s128",
-   "rating": 5,
-   "meetAgain": [
-    "s122"
-   ]
-  },
-  {
-   "eventId": "e031",
-   "memberId": "s100",
-   "rating": 5,
-   "meetAgain": [
-    "s102"
-   ]
-  },
-  {
-   "eventId": "e031",
-   "memberId": "s102",
-   "rating": 4,
-   "meetAgain": [
-    "s100"
-   ]
-  },
-  {
-   "eventId": "e032",
-   "memberId": "s026",
-   "rating": 4,
-   "meetAgain": [
-    "s121"
-   ]
-  },
-  {
-   "eventId": "e032",
-   "memberId": "s121",
-   "rating": 5,
-   "meetAgain": [
-    "s026"
-   ]
-  },
-  {
-   "eventId": "e033",
-   "memberId": "s093",
-   "rating": 3,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e033",
-   "memberId": "s103",
-   "rating": 3,
-   "meetAgain": [
-    "s093",
+    "s062",
     "s131"
    ]
   },
   {
-   "eventId": "e033",
+   "eventId": "e002",
+   "memberId": "s202",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e002",
+   "memberId": "s146",
+   "rating": 3,
+   "meetAgain": [
+    "s175",
+    "s202"
+   ]
+  },
+  {
+   "eventId": "e003",
    "memberId": "s131",
    "rating": 5,
    "meetAgain": [
-    "s093",
-    "s103"
+    "s061",
+    "s139"
    ]
   },
   {
-   "eventId": "e034",
-   "memberId": "s091",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e035",
-   "memberId": "s063",
-   "rating": 3,
+   "eventId": "e003",
+   "memberId": "s139",
+   "rating": 5,
    "meetAgain": [
-    "s045"
+    "s131"
    ]
   },
   {
-   "eventId": "e035",
-   "memberId": "s033",
-   "rating": 4,
-   "meetAgain": [
-    "s045",
-    "s063"
-   ]
-  },
-  {
-   "eventId": "e035",
-   "memberId": "s045",
+   "eventId": "e003",
+   "memberId": "s061",
    "rating": 3,
    "meetAgain": []
   },
   {
-   "eventId": "e036",
-   "memberId": "s039",
+   "eventId": "e005",
+   "memberId": "s001",
    "rating": 3,
    "meetAgain": [
-    "s058",
-    "s127"
+    "s026",
+    "s034"
    ]
   },
   {
-   "eventId": "e036",
-   "memberId": "s127",
+   "eventId": "e005",
+   "memberId": "s026",
    "rating": 3,
    "meetAgain": [
-    "s039",
-    "s058"
+    "s001",
+    "s116"
    ]
   },
   {
-   "eventId": "e036",
-   "memberId": "s058",
-   "rating": 3,
+   "eventId": "e005",
+   "memberId": "s094",
+   "rating": 5,
    "meetAgain": [
-    "s039"
+    "s026",
+    "s034"
    ]
   },
   {
-   "eventId": "e037",
-   "memberId": "s015",
+   "eventId": "e005",
+   "memberId": "s034",
+   "rating": 5,
+   "meetAgain": [
+    "s053",
+    "s116"
+   ]
+  },
+  {
+   "eventId": "e005",
+   "memberId": "s053",
+   "rating": 4,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e006",
+   "memberId": "s179",
+   "rating": 3,
+   "meetAgain": [
+    "s152"
+   ]
+  },
+  {
+   "eventId": "e006",
+   "memberId": "s172",
    "rating": 5,
    "meetAgain": []
   },
   {
-   "eventId": "e037",
-   "memberId": "s068",
+   "eventId": "e007",
+   "memberId": "s165",
+   "rating": 4,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e007",
+   "memberId": "s193",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e007",
+   "memberId": "s191",
+   "rating": 3,
+   "meetAgain": [
+    "s165",
+    "s193"
+   ]
+  },
+  {
+   "eventId": "e008",
+   "memberId": "s135",
+   "rating": 4,
+   "meetAgain": [
+    "s004",
+    "s027"
+   ]
+  },
+  {
+   "eventId": "e009",
+   "memberId": "s037",
+   "rating": 4,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e009",
+   "memberId": "s026",
+   "rating": 3,
+   "meetAgain": [
+    "s007",
+    "s114"
+   ]
+  },
+  {
+   "eventId": "e009",
+   "memberId": "s114",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e011",
+   "memberId": "s025",
+   "rating": 3,
+   "meetAgain": [
+    "s033"
+   ]
+  },
+  {
+   "eventId": "e011",
+   "memberId": "s102",
+   "rating": 4,
+   "meetAgain": [
+    "s033"
+   ]
+  },
+  {
+   "eventId": "e011",
+   "memberId": "s023",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e012",
+   "memberId": "s071",
    "rating": 5,
    "meetAgain": [
-    "s015"
+    "s092",
+    "s123"
    ]
   },
   {
-   "eventId": "e038",
-   "memberId": "s050",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e038",
-   "memberId": "s076",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e039",
-   "memberId": "s148",
-   "rating": 4,
-   "meetAgain": []
-  },
-  {
-   "eventId": "e039",
-   "memberId": "s210",
+   "eventId": "e012",
+   "memberId": "s123",
    "rating": 3,
    "meetAgain": []
   },
   {
-   "eventId": "e040",
-   "memberId": "s184",
-   "rating": 3,
+   "eventId": "e012",
+   "memberId": "s002",
+   "rating": 4,
    "meetAgain": []
   },
   {
-   "eventId": "e040",
-   "memberId": "s176",
+   "eventId": "e012",
+   "memberId": "s092",
    "rating": 3,
    "meetAgain": [
-    "s184",
-    "s203"
+    "s002",
+    "s123"
    ]
   },
   {
-   "eventId": "e041",
+   "eventId": "e014",
+   "memberId": "s204",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e014",
+   "memberId": "s208",
+   "rating": 4,
+   "meetAgain": [
+    "s177",
+    "s204"
+   ]
+  },
+  {
+   "eventId": "e014",
+   "memberId": "s146",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e014",
+   "memberId": "s187",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e015",
+   "memberId": "s158",
+   "rating": 5,
+   "meetAgain": [
+    "s147"
+   ]
+  },
+  {
+   "eventId": "e015",
+   "memberId": "s182",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e015",
    "memberId": "s199",
    "rating": 5,
    "meetAgain": []
   },
   {
-   "eventId": "e041",
-   "memberId": "s171",
+   "eventId": "e017",
+   "memberId": "s114",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e017",
+   "memberId": "s040",
    "rating": 4,
    "meetAgain": [
-    "s145",
-    "s199"
+    "s026",
+    "s114"
    ]
   },
   {
-   "eventId": "e041",
-   "memberId": "s145",
+   "eventId": "e018",
+   "memberId": "s048",
    "rating": 3,
    "meetAgain": [
-    "s171"
+    "s062"
    ]
   },
   {
-   "eventId": "e042",
-   "memberId": "s205",
-   "rating": 4,
-   "meetAgain": [
-    "s156",
-    "s188"
-   ]
-  },
-  {
-   "eventId": "e042",
-   "memberId": "s157",
-   "rating": 3,
-   "meetAgain": [
-    "s156",
-    "s205"
-   ]
-  },
-  {
-   "eventId": "e042",
-   "memberId": "s188",
+   "eventId": "e019",
+   "memberId": "s084",
    "rating": 5,
    "meetAgain": [
-    "s156",
-    "s205"
+    "s033",
+    "s046"
+   ]
+  },
+  {
+   "eventId": "e019",
+   "memberId": "s046",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e020",
+   "memberId": "s003",
+   "rating": 3,
+   "meetAgain": [
+    "s034",
+    "s053"
+   ]
+  },
+  {
+   "eventId": "e020",
+   "memberId": "s034",
+   "rating": 4,
+   "meetAgain": [
+    "s053",
+    "s104"
+   ]
+  },
+  {
+   "eventId": "e021",
+   "memberId": "s071",
+   "rating": 4,
+   "meetAgain": [
+    "s058"
+   ]
+  },
+  {
+   "eventId": "e021",
+   "memberId": "s058",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e023",
+   "memberId": "s142",
+   "rating": 3,
+   "meetAgain": [
+    "s149",
+    "s152"
+   ]
+  },
+  {
+   "eventId": "e023",
+   "memberId": "s172",
+   "rating": 5,
+   "meetAgain": [
+    "s152"
+   ]
+  },
+  {
+   "eventId": "e023",
+   "memberId": "s152",
+   "rating": 5,
+   "meetAgain": [
+    "s142"
+   ]
+  },
+  {
+   "eventId": "e024",
+   "memberId": "s187",
+   "rating": 5,
+   "meetAgain": [
+    "s147",
+    "s158"
+   ]
+  },
+  {
+   "eventId": "e025",
+   "memberId": "s225",
+   "rating": 4,
+   "meetAgain": [
+    "s235"
+   ]
+  },
+  {
+   "eventId": "e025",
+   "memberId": "s227",
+   "rating": 4,
+   "meetAgain": [
+    "s225",
+    "s235"
+   ]
+  },
+  {
+   "eventId": "e026",
+   "memberId": "s236",
+   "rating": 3,
+   "meetAgain": [
+    "s221",
+    "s237"
+   ]
+  },
+  {
+   "eventId": "e026",
+   "memberId": "s221",
+   "rating": 5,
+   "meetAgain": [
+    "s237"
+   ]
+  },
+  {
+   "eventId": "e027",
+   "memberId": "s044",
+   "rating": 4,
+   "meetAgain": [
+    "s030"
+   ]
+  },
+  {
+   "eventId": "e027",
+   "memberId": "s027",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e028",
+   "memberId": "s108",
+   "rating": 3,
+   "meetAgain": [
+    "s073"
+   ]
+  },
+  {
+   "eventId": "e029",
+   "memberId": "s121",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e029",
+   "memberId": "s033",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e030",
+   "memberId": "s040",
+   "rating": 4,
+   "meetAgain": [
+    "s114"
+   ]
+  },
+  {
+   "eventId": "e031",
+   "memberId": "s117",
+   "rating": 4,
+   "meetAgain": [
+    "s034"
+   ]
+  },
+  {
+   "eventId": "e031",
+   "memberId": "s034",
+   "rating": 3,
+   "meetAgain": [
+    "s061",
+    "s117"
+   ]
+  },
+  {
+   "eventId": "e031",
+   "memberId": "s077",
+   "rating": 5,
+   "meetAgain": [
+    "s061"
+   ]
+  },
+  {
+   "eventId": "e032",
+   "memberId": "s099",
+   "rating": 5,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e033",
+   "memberId": "s036",
+   "rating": 4,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e034",
+   "memberId": "s202",
+   "rating": 3,
+   "meetAgain": [
+    "s191",
+    "s200"
+   ]
+  },
+  {
+   "eventId": "e034",
+   "memberId": "s174",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e034",
+   "memberId": "s200",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e035",
+   "memberId": "s188",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e036",
+   "memberId": "s208",
+   "rating": 4,
+   "meetAgain": [
+    "s187",
+    "s198"
+   ]
+  },
+  {
+   "eventId": "e036",
+   "memberId": "s187",
+   "rating": 5,
+   "meetAgain": [
+    "s208"
+   ]
+  },
+  {
+   "eventId": "e038",
+   "memberId": "s027",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e039",
+   "memberId": "s029",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e039",
+   "memberId": "s096",
+   "rating": 4,
+   "meetAgain": [
+    "s029",
+    "s107"
+   ]
+  },
+  {
+   "eventId": "e040",
+   "memberId": "s048",
+   "rating": 5,
+   "meetAgain": [
+    "s005",
+    "s133"
+   ]
+  },
+  {
+   "eventId": "e040",
+   "memberId": "s005",
+   "rating": 5,
+   "meetAgain": [
+    "s048",
+    "s133"
+   ]
+  },
+  {
+   "eventId": "e040",
+   "memberId": "s133",
+   "rating": 4,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e043",
+   "memberId": "s010",
+   "rating": 3,
+   "meetAgain": []
+  },
+  {
+   "eventId": "e043",
+   "memberId": "s122",
+   "rating": 5,
+   "meetAgain": [
+    "s057"
+   ]
+  },
+  {
+   "eventId": "e044",
+   "memberId": "s169",
+   "rating": 3,
+   "meetAgain": [
+    "s174",
+    "s208"
+   ]
+  },
+  {
+   "eventId": "e044",
+   "memberId": "s177",
+   "rating": 3,
+   "meetAgain": [
+    "s146",
+    "s208"
+   ]
+  },
+  {
+   "eventId": "e044",
+   "memberId": "s174",
+   "rating": 5,
+   "meetAgain": [
+    "s146"
+   ]
+  },
+  {
+   "eventId": "e046",
+   "memberId": "s162",
+   "rating": 4,
+   "meetAgain": [
+    "s165",
+    "s178"
+   ]
+  },
+  {
+   "eventId": "e046",
+   "memberId": "s178",
+   "rating": 3,
+   "meetAgain": [
+    "s162",
+    "s165"
+   ]
+  },
+  {
+   "eventId": "e047",
+   "memberId": "s152",
+   "rating": 3,
+   "meetAgain": [
+    "s149",
+    "s172"
+   ]
+  },
+  {
+   "eventId": "e048",
+   "memberId": "s255",
+   "rating": 3,
+   "meetAgain": [
+    "s253"
    ]
   }
  ]

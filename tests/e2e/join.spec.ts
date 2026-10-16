@@ -60,12 +60,17 @@ test("after a past meetup the member can rate it", async ({ page }) => {
     const upcomingIds = new Set(events.filter((e: { status: string }) => e.status === "upcoming").flatMap((e: { memberIds: string[] }) => e.memberIds));
     if (upcomingIds.has(me)) for (const e of events) e.memberIds = e.memberIds.filter((id: string) => e.status !== "upcoming" || id !== me);
     for (const e of events) if (e.status === "past" && e.memberIds.includes(me) && e.id !== past.id) e.memberIds = e.memberIds.filter((id: string) => id !== me);
+    const members = JSON.parse(localStorage.getItem("likeminded:v1:members")!);
+    const mate = members.find((m: { id: string }) => m.id === past.memberIds[1]);
+    mate.idea = "Cities should have more benches";
+    localStorage.setItem("likeminded:v1:members", JSON.stringify(members));
     localStorage.setItem("likeminded:v1:events", JSON.stringify(events));
     localStorage.setItem("likeminded:v1:feedback", JSON.stringify(feedback.filter((f: { memberId: string }) => f.memberId !== me)));
     localStorage.setItem("likeminded:v1:currentMember", JSON.stringify(me));
   });
   await page.reload();
   await expect(page.getByRole("heading", { name: "How was it?" })).toBeVisible();
+  await expect(page.getByText("Cities should have more benches")).toBeVisible();
   await page.getByRole("radio", { name: "5 out of 5" }).locator("..").click();
   await expect(page.getByRole("radio", { name: "5 out of 5" })).toBeChecked();
   await page.getByRole("button", { name: "Send" }).click();
