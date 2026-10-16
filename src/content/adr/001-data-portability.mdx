@@ -25,8 +25,8 @@ Sources checked on 16 October 2026.
 2. **Scraping public profiles.** Breaks the platforms' terms of service, is fragile, and processes personal data without the user's real consent. Not acceptable for a product whose whole promise is trust between strangers.
 3. **Declared data, plus data portability and open APIs.**
    - Users pick interests, books, schools and profession during onboarding.
-   - Optionally, they upload the data archive that GDPR and KVKK entitle them to download from Instagram, X or LinkedIn. We extract only the fields we need and delete the archive.
-   - Sign in with LinkedIn verifies identity; Open Library and Google Books supply book metadata and covers.
+   - Optionally, they upload their own data archive from Instagram, X or LinkedIn: an export that GDPR (Art. 20) entitles them to and that the platforms offer to all users. We extract only the fields we need and delete the archive.
+   - Sign in with LinkedIn offers a quick login (LinkedIn notes it does not verify identity, so we don't present it as verification); Open Library and Google Books supply book metadata and covers.
 
 ## Decision
 
@@ -38,4 +38,4 @@ Option 3. Declared data is the primary source. The archive import is an optional
 - **Data quality is better.** What users choose to declare reflects how they want to be matched, not what an algorithm guessed from their likes.
 - **No platform dependency.** A policy change at Meta, X or LinkedIn cannot break matching.
 - **Archive parsing is real engineering work.** Each platform's export format differs and changes without notice. Parsers need versioned fixtures and must fail softly, falling back to manual entry.
-- **Clear privacy story.** We never hold a platform token or a raw archive, which ADR-006 makes explicit.
+- **Clear privacy story.** We never hold a platform token or a raw archive; the planned ADR-006 makes this a hard rule.

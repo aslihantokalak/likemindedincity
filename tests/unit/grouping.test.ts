@@ -76,3 +76,9 @@ test("users with compatible partners are not labelled 'No compatible users'", ()
     else expect(reason).toMatch(/^No compatible users/);
   });
 });
+
+test("rewriting every user's persona leaves the whole grouping unchanged", () => {
+  const relabelled = USERS.map(u => ({ ...u, persona: u.persona === "founder" ? "newcomer" as const : "founder" as const }));
+  const strip = (res: ReturnType<typeof buildGroups>) => JSON.stringify(res);
+  expect(strip(buildGroups(relabelled, DEFAULT_WEIGHTS))).toBe(strip(r));
+});
