@@ -10,8 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "vitest run",
-    "e2e": "playwright test",
+    "test": "TZ=Europe/Istanbul vitest run",
+    "e2e": "TZ=Europe/Istanbul playwright test",
     "gen:users": "tsx scripts/generate-users.ts",
     "typecheck": "tsc --noEmit"
   },

@@ -49,3 +49,33 @@ export type BacklogItem = {
   sprint?: number;
   prdRef?: string; // e.g. "FR-3"
 };
+
+// ---- Live app ----
+
+export type Rsvp = "coming" | "declined";
+export type AttendanceStatus = "came" | "no_show" | "unknown";
+
+export type Member = {
+  id: string; createdAt: string; // ISO
+  firstName: string; age: number;
+  province: string; district: string;
+  intent: Intent; interests: string[];
+  book?: string; idea?: string;
+  availability: Slot[]; languages: string[];
+  tableSize: GroupSize; // "small" = 4, "medium" = up to 6
+  school?: string; profession?: string; // profession from the vocabulary or free text
+};
+
+export type NewMember = Omit<Member, "id" | "createdAt">;
+
+export type Venue = { name: string; type: "cafe" | "bookshop" | "park" | "studio" | "bar"; district: string };
+
+export type MeetupEvent = {
+  id: string; province: string; district: string; venue: Venue;
+  startsAt: string; capacity: 4 | 6;
+  memberIds: string[]; reasons: Reason[]; cohesion: number;
+  status: "upcoming" | "past" | "cancelled";
+  rsvps: Record<string, Rsvp>; attendance: Record<string, AttendanceStatus>;
+};
+
+export type Feedback = { eventId: string; memberId: string; rating: 1 | 2 | 3 | 4 | 5; meetAgain: string[] };
