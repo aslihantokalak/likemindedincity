@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --ink: #1d1b18;
+  --muted: #5f5a52;
+  --line: #e6e1d8;
+  --accent: #b4442c;
+  --accent-soft: #f6e4de;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161513;
+    --surface: #1f1d1a;
+    --ink: #f1ede6;
+    --muted: #b0a99e;
+    --line: #34312c;
+    --accent: #ec8a72;
+    --accent-soft: #3a2621;
+    color-scheme: dark;
+  }
+}
+
+html { background: var(--bg); color: var(--ink); }
+body { background: var(--bg); }
+
+.prose-case h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; }
+.prose-case h3 { font-size: 1.05rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.prose-case p, .prose-case li { line-height: 1.7; color: var(--ink); }
+.prose-case p { margin: 0 0 1rem; }
+.prose-case ul { list-style: disc; padding-left: 1.25rem; margin: 0 0 1rem; }
+.prose-case ol { list-style: decimal; padding-left: 1.25rem; margin: 0 0 1rem; }
+.prose-case a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.prose-case code { font-size: 0.9em; background: var(--accent-soft); padding: 0.1em 0.3em; border-radius: 4px; }
+.prose-case table { width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: 0.95rem; display: block; overflow-x: auto; }
+.prose-case th, .prose-case td { border-bottom: 1px solid var(--line); padding: 0.5rem; text-align: left; vertical-align: top; }

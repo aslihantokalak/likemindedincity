@@ -1,0 +1,46 @@
+---
+import "../styles/global.css";
+import { MODULES, moduleHref } from "../lib/modules";
+
+interface Props { title: string; current: string; description?: string }
+const { title, current, description = "A product management case study: Likeminded, a social app that groups like-minded people in Istanbul." } = Astro.props;
+const pageTitle = title === "Overview" ? "Likeminded · PM Case Study" : `${title} · Likeminded`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen font-sans antialiased">
+    <div class="mx-auto flex max-w-6xl flex-col md:flex-row">
+      <nav aria-label="Case study modules" class="border-b border-line px-4 py-3 md:sticky md:top-0 md:h-screen md:w-60 md:shrink-0 md:border-b-0 md:border-r md:py-8">
+        <a href="/" class="block text-lg font-semibold tracking-tight">Likeminded</a>
+        <p class="text-sm text-muted">PM case study</p>
+        <details class="mt-3 md:hidden">
+          <summary class="cursor-pointer text-sm font-medium">Menu</summary>
+          <ol class="mt-2 space-y-1">
+            {MODULES.map((m, i) => (
+              <li><a href={moduleHref(m.slug)} aria-current={m.slug === current ? "page" : undefined}
+                class:list={["block rounded px-2 py-1 text-sm", m.slug === current ? "bg-accent-soft font-medium text-accent" : "text-muted hover:text-ink"]}>
+                {i + 1}. {m.title}</a></li>
+            ))}
+          </ol>
+        </details>
+        <ol class="mt-6 hidden space-y-1 md:block">
+          {MODULES.map((m, i) => (
+            <li><a href={moduleHref(m.slug)} aria-current={m.slug === current ? "page" : undefined}
+              class:list={["block rounded px-2 py-1 text-sm", m.slug === current ? "bg-accent-soft font-medium text-accent" : "text-muted hover:text-ink"]}>
+              <span class="tabular-nums">{i + 1}.</span> {m.title}</a></li>
+          ))}
+        </ol>
+      </nav>
+      <main class="min-w-0 flex-1 px-4 py-8 md:px-10 md:py-12">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

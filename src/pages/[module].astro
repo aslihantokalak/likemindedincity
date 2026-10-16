@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { MODULES } from "../lib/modules";
+
+export function getStaticPaths() {
+  return MODULES.filter(m => m.milestone !== "M1").map(m => ({
+    params: { module: m.slug },
+    props: { title: m.title, milestone: m.milestone },
+  }));
+}
+const { title, milestone } = Astro.props;
+const { module } = Astro.params;
+---
+<BaseLayout title={title} current={module}>
+  <h1 class="text-3xl font-semibold tracking-tight">{title}</h1>
+  <p class="mt-4 text-muted">This section is coming in milestone {milestone}.</p>
+</BaseLayout>
