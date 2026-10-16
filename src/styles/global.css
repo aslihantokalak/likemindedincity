@@ -9,6 +9,7 @@
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
 }
 
 :root {

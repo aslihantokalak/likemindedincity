@@ -1,0 +1,26 @@
+---
+import "../styles/global.css";
+import JoinApp from "../components/join/JoinApp.tsx";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Join Likeminded: tell us what you love and we'll seat you at a table of like-minded strangers in your city." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Join · Likeminded</title>
+  </head>
+  <body class="min-h-screen bg-bg font-sans text-ink antialiased">
+    <div class="mx-auto max-w-2xl px-4 pb-16 pt-6 md:pt-10">
+      <nav class="mb-10 flex items-baseline justify-between" aria-label="Site">
+        <a href="/join" class="font-serif text-xl font-semibold tracking-tight">Likeminded</a>
+        <a href="/" class="text-sm text-muted underline-offset-2 hover:text-ink hover:underline">Read the case study</a>
+      </nav>
+      <main>
+        <JoinApp client:only="react" />
+        <noscript><p>Likeminded needs JavaScript to seat you at a table.</p></noscript>
+      </main>
+    </div>
+  </body>
+</html>
