@@ -112,7 +112,24 @@ test("decline backfills from the unplaced pool", () => {
   expect(updated.memberIds).toHaveLength(4);
   expect(updated.memberIds).toContain("spare");
   expect(updated.memberIds).not.toContain(table[0]!.id);
-  expect(updated.rsvps).toEqual({});
+  expect(updated.rsvps).toEqual({ [table[0]!.id]: "declined" });
+});
+
+test("someone who declined a table is never put back at it", () => {
+  const table = four();
+  const event = mkEvent(table.map(m => m.id));
+  const state = { members: table, events: [event] };
+  const afterFirst = declineSeat(event.id, table[0]!.id, state, now, W); // table[0] is now unplaced
+  const afterSecond = declineSeat(event.id, table[1]!.id, { members: table, events: afterFirst }, now, W);
+  expect(afterSecond[0]!.memberIds).not.toContain(table[0]!.id);
+});
+
+test("someone who declined a table is not offered its open seat again", () => {
+  const table = four();
+  const me = mkMember({ id: "me" });
+  const event = mkEvent(table.map(m => m.id), { rsvps: { me: "declined" } });
+  const { result } = seatMember("me", { members: [...table, me], events: [event] }, now, W, newId);
+  expect(result.kind).not.toBe("seated");
 });
 
 test("the decliner is never used to backfill their own seat", () => {

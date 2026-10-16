@@ -40,9 +40,9 @@ test("sign up in İstanbul, get a table, RSVP, reload, decline, start over", asy
   await expect(page.getByLabel("First name")).toBeVisible();
 });
 
-test("alone in Van means the waitlist", async ({ page }) => {
-  await signUp(page, { name: "Gül", age: "40", city: "Van", slots: ["Sat morning"] });
-  await expect(page.getByText("We need 3 more people in Van")).toBeVisible();
+test("alone in a city with no members means the waitlist", async ({ page }) => {
+  await signUp(page, { name: "Gül", age: "40", city: "Hakkari", slots: ["Sat morning"] });
+  await expect(page.getByText("We need 3 more people in Hakkari")).toBeVisible();
 });
 
 test("empty submit focuses the first field and explains why", async ({ page }) => {

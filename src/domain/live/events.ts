@@ -137,7 +137,7 @@ export function seatMember(
 
   const open = state.events
     .filter(e => isUpcoming(e, now) && new Date(e.startsAt).getTime() - now.getTime() >= MIN_LEAD_MS)
-    .filter(e => e.province === member.province && e.memberIds.length < e.capacity)
+    .filter(e => e.province === member.province && e.memberIds.length < e.capacity && e.rsvps[memberId] !== "declined")
     .map(e => ({ e, table: e.memberIds.map(get).map(toMatchUser) }))
     .filter(({ e, table }) => canJoin(me, table, slotAt(new Date(e.startsAt))))
     .map(({ e, table }) => ({ e, score: fit(me, table, w) }))
@@ -157,21 +157,27 @@ export function seatMember(
   return { result: { kind: "waitlist", needed: waitlistNeeded(memberId, state, now) }, events: state.events };
 }
 
-/** Releases a member's seat and tries to bring the table back to 4 from the province's unplaced pool. */
+/**
+ * Releases a member's seat (remembering the decline so they aren't seated there again) and tries to bring the
+ * table back to 4 from the province's unplaced pool.
+ */
 export function declineSeat(eventId: string, memberId: string, state: LiveState, now: Date, w: MatchWeights): MeetupEvent[] {
   const get = lookup(state);
   const event = state.events.find(e => e.id === eventId);
   if (!event || !event.memberIds.includes(memberId)) return state.events;
 
-  const { [memberId]: _dropped, ...rsvps } = event.rsvps;
-  let updated: MeetupEvent = { ...event, memberIds: event.memberIds.filter(id => id !== memberId), rsvps };
+  let updated: MeetupEvent = {
+    ...event,
+    memberIds: event.memberIds.filter(id => id !== memberId),
+    rsvps: { ...event.rsvps, [memberId]: "declined" },
+  };
   const slot = slotAt(new Date(event.startsAt));
 
   while (updated.memberIds.length < MIN_TABLE) {
     const current = { ...state, events: state.events.map(e => (e.id === eventId ? updated : e)) };
     const table = updated.memberIds.map(get).map(toMatchUser);
     const candidate = unplacedMembers(event.province, current, now)
-      .filter(m => m.id !== memberId)
+      .filter(m => updated.rsvps[m.id] !== "declined")
       .map(toMatchUser)
       .filter(c => canJoin(c, table, slot))
       .map(c => ({ c, score: fit(c, table, w) }))

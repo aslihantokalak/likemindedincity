@@ -10376,7 +10376,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.1627777777777778,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s135": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 9810
   },
@@ -10413,7 +10415,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.0908888888888889,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s087": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 9480
   },
@@ -10450,7 +10454,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.2452083333333334,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s130": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 4050
   },
@@ -11107,7 +11113,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.1706481481481482,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s198": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 4050
   },
@@ -11216,7 +11224,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.0782638888888889,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s182": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 11250
   },
@@ -11280,7 +11290,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.03333333333333334,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s187": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 9480
   },
@@ -11348,7 +11360,9 @@ export const SEED: SeedData = {
    ],
    "cohesion": 0.0725462962962963,
    "status": "upcoming",
-   "rsvps": {},
+   "rsvps": {
+    "s226": "declined"
+   },
    "attendance": {},
    "startsOffsetMin": 4050
   },
