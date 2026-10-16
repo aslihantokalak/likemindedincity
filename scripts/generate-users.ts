@@ -7,7 +7,7 @@ import {
   BOOKS, DISTRICTS, FAR_DISTRICT, FIRST_NAMES, INTEREST_GROUPS, PROFESSIONS, SCHOOLS, SLOTS,
 } from "../src/data/vocab";
 
-type Persona = User["persona"];
+type Persona = NonNullable<User["persona"]>;
 
 /** Small deterministic PRNG; never use Math.random here. */
 function mulberry32(seed: number) {

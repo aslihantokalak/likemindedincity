@@ -82,3 +82,11 @@ test("rewriting every user's persona leaves the whole grouping unchanged", () =>
   const strip = (res: ReturnType<typeof buildGroups>) => JSON.stringify(res);
   expect(strip(buildGroups(relabelled, DEFAULT_WEIGHTS))).toBe(strip(r));
 });
+
+test("buildGroups with province rule never mixes provinces", () => {
+  const us = [...Array(4)].map(() => mkUser({ province: "Ankara", interests: ["chess"] }))
+    .concat([...Array(4)].map(() => mkUser({ province: "İzmir", interests: ["chess"] })));
+  const res = buildGroups(us, DEFAULT_WEIGHTS, "province");
+  expect(res.groups).toHaveLength(2);
+  res.groups.forEach(g => expect(new Set(g.members.map(id => us.find(u => u.id === id)!.province)).size).toBe(1));
+});

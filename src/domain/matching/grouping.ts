@@ -1,4 +1,4 @@
-import type { Group, MatchResult, MatchWeights, Reason, Signal, User } from "../types";
+import type { Group, LocationRule, MatchResult, MatchWeights, Reason, Signal, User } from "../types";
 import { byString } from "../compare";
 import { checkPair, sharedSlots, topBlockingFilterFor } from "./filters";
 import { pairScore } from "./score";
@@ -53,14 +53,14 @@ export function explainGroup(members: User[]): Reason[] {
     .map(({ signal, text }) => ({ signal, text }));
 }
 
-export function buildGroups(users: User[], w: MatchWeights): MatchResult {
+export function buildGroups(users: User[], w: MatchWeights, rule: LocationRule = "distance"): MatchResult {
   const sorted = [...users].sort((a, b) => byString(a.id, b.id));
 
   const pairs: { a: User; b: User; score: number; key: string }[] = [];
   for (let i = 0; i < sorted.length; i++)
     for (let j = i + 1; j < sorted.length; j++) {
       const a = sorted[i], b = sorted[j];
-      if (checkPair(a, b).ok) pairs.push({ a, b, score: pairScore(a, b, w).score, key: `${a.id}|${b.id}` });
+      if (checkPair(a, b, rule).ok) pairs.push({ a, b, score: pairScore(a, b, w).score, key: `${a.id}|${b.id}` });
     }
   pairs.sort((p, q) => q.score - p.score || byString(p.key, q.key));
 
@@ -76,7 +76,7 @@ export function buildGroups(users: User[], w: MatchWeights): MatchResult {
       let best: { user: User; fitness: number } | null = null;
       for (const c of sorted) {
         if (assigned.has(c.id) || group.includes(c)) continue;
-        if (!group.every(m => checkPair(c, m).ok)) continue;
+        if (!group.every(m => checkPair(c, m, rule).ok)) continue;
         if (sharedSlots([...group, c]).length === 0) continue;
         const fitness = (1 - w.diversity) * mean(group.map(m => pairScore(c, m, w).score)) + w.diversity * novelty(c, group);
         if (best === null || fitness > best.fitness) best = { user: c, fitness }; // sorted by id, so ties keep the smallest id
@@ -100,8 +100,8 @@ export function buildGroups(users: User[], w: MatchWeights): MatchResult {
   const unmatched = sorted
     .filter(u => !assigned.has(u.id))
     .map(u => {
-      const blocker = topBlockingFilterFor(u, sorted);
-      const hasPartner = sorted.some(o => o.id !== u.id && checkPair(u, o).ok);
+      const blocker = topBlockingFilterFor(u, sorted, rule);
+      const hasPartner = sorted.some(o => o.id !== u.id && checkPair(u, o, rule).ok);
       const notEnough = "Not enough compatible users for a group of 4";
       let reason: string;
       if (blocker === null) reason = notEnough;

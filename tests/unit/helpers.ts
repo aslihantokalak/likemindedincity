@@ -7,7 +7,7 @@ export function mkUser(overrides: Partial<User> = {}): User {
   counter += 1;
   return {
     id: `t${counter}`, name: `Test ${counter}`, age: 28,
-    district: "Kadıköy", coords: [40.9909, 29.0303],
+    district: "Kadıköy", province: "İstanbul", coords: [40.9909, 29.0303],
     languages: ["tr"], intent: "friendship", availability: ["thu_evening"],
     interests: [], books: [], authors: [],
     profession: "Teacher", industry: "education", schools: [],

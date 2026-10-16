@@ -38,3 +38,15 @@ test("topBlockingFilterFor uses only the user's own pairs", () => {
 
 test("topBlockingFilter is null when nothing blocks", () =>
   expect(topBlockingFilter([mkUser({ id: "a" }), mkUser({ id: "b" })])).toBeNull());
+
+test("province rule: same province passes even when far apart", () =>
+  expect(checkPair(mkUser({ coords: [41.07, 28.24] }), mkUser({}), "province")).toEqual({ ok: true }));
+
+test("province rule: different province fails with 'province'", () =>
+  expect(checkPair(mkUser({ province: "Ankara" }), mkUser({}), "province")).toEqual({ ok: false, failed: "province" }));
+
+test("default rule is still distance", () =>
+  expect(checkPair(mkUser({ coords: [41.0739, 28.2465] }), mkUser({}))).toEqual({ ok: false, failed: "distance" }));
+
+test("topBlockingFilterFor honours the province rule", () =>
+  expect(topBlockingFilterFor(mkUser({ id: "x", province: "Van" }), [mkUser({ id: "a" }), mkUser({ id: "b" })], "province")).toBe("province"));

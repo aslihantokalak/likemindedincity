@@ -4,7 +4,7 @@ export type Slot = string; // e.g. "thu_evening", "sat_morning"
 
 export type User = {
   id: string; name: string; age: number;
-  district: string; coords: [number, number];
+  district: string; province?: string; coords: [number, number];
   languages: string[];
   intent: Intent;
   availability: Slot[];
@@ -13,11 +13,14 @@ export type User = {
   profession: string; industry: string;
   schools: string[];
   groupSizePref: GroupSize;
-  persona: "newcomer" | "introvert_reader" | "founder"; // analytics only, never read by matching
+  persona?: "newcomer" | "introvert_reader" | "founder"; // analytics only, never read by matching
 };
 
 export type Signal = "interests" | "books" | "profession" | "schools";
-export type FilterName = "distance" | "availability" | "language" | "age" | "intent";
+export type FilterName = "distance" | "province" | "availability" | "language" | "age" | "intent";
+
+/** "distance": within MAX_DISTANCE_KM (Match Simulator). "province": same province (live app). */
+export type LocationRule = "distance" | "province";
 
 export type MatchWeights = {
   interests: number; books: number; profession: number; schools: number;

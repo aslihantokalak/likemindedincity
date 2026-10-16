@@ -12,7 +12,8 @@
     "astro": "astro",
     "test": "vitest run",
     "e2e": "playwright test",
-    "gen:users": "tsx scripts/generate-users.ts"
+    "gen:users": "tsx scripts/generate-users.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "^0.4.4",
@@ -28,8 +29,10 @@
     "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
     "vitest": "^5.0.5"
   }
 }
