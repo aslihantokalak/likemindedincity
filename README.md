@@ -1,6 +1,6 @@
 # Likeminded: a PM case study
 
-Likeminded is a fictional social app that puts people in Istanbul into groups of 4–6 based on what they read, love and do. This site walks through how its second-meetup problem was found, specified, prioritised, designed, built and measured. It is a product management portfolio piece aimed at Technical PM roles.
+Likeminded is a fictional social app that puts people in Istanbul into groups of 4–6 based on what they read, love and do. This site walks through how its second-meetup problem was found, specified, prioritised, designed, built and measured. It is a helpful study to improve product skills.
 
 **Live site:** https://likemindedincity.vercel.app
 
